@@ -88,7 +88,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Support
 
-If you encounter any issues or have questions, feel free to open an issue on the [GitHub repository](https://github.com/RustLangLatam/peertube_api_sdk).
+If you encounter any issues or have questions, feel free to open an issue on the [GitHub repository](https://github.com/RustLangLatam/peertube_api_sdk_dart).
 
 ---
 
