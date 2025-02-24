@@ -4,30 +4,29 @@ import 'package:dio/dio.dart';
 import 'package:peer_tube_api_sdk/peer_tube_api_sdk.dart';
 
 /// 📌 **PeerTube API Base URL**
-const baseUrl = 'https://peertube.tv';
+const baseUrl = 'https://peertube.orderi.co';
 
 /// 📌 **Initialize PeerTube API Client**
 PeerTubeApiSdk getApiClient(
   String baseUrl,
 ) {
   return PeerTubeApiSdk(basePathOverride: baseUrl, debugMode: true)
-    ..setOAuthToken('OAuth2', '86613c6784126704cb1d1db4e3bce28b7388afdf');
+    ..setOAuthToken('OAuth2', '32ad3dca3eab3029291bcfd0516babe1477143d3');
 }
 
 Future<void> main() async {
   final api = getApiClient(baseUrl).getVideoApi();
 
   // 📌 **Video Data**
-  final String name = 'Flutter PeerTube Upload Example';
+  final String name = 'PeerTube Dart SDK Upload Video 1.0.8';
   final int channelId = 1; // Channel ID where the video will be uploaded
   final File file = File('resources/video_2025.mp4'); // Video file path
-  // final File thumbnailFile = File('resources/BigBuckBunny.jpg'); // Thumbnail file path (optional)
+  final File thumbnailFile = File('resources/dart_logo_dart_192px.png'); // Thumbnail file path (optional)
 
   // 📌 **Convert files to MultipartFile**
-  final MultipartFile videoFile = await MultipartFile.fromFile(file.path,
-      contentType: DioMediaType('video', 'mp4'));
+  final MultipartFile videoFile = await MultipartFile.fromFile(file.path,  contentType: DioMediaType('video', 'mp4'));
 
-  // final MultipartFile thumbnail = await MultipartFile.fromFile(thumbnailFile.path, contentType: DioMediaType('image', 'jpeg'));
+  final MultipartFile thumbnail = await MultipartFile.fromFile(thumbnailFile.path, contentType: DioMediaType('image', 'png'));
 
   // 📌 **Configuration Options**
   const bool nsfw = false;
@@ -36,11 +35,10 @@ Future<void> main() async {
   const int category = 1; // Category ID 1 = Music
   const int licence = 6; // License ID 6 = 'CC BY-NC-ND 4.0'
   const String language = "en";
-  const String description =
-      "This is a test video uploaded using Flutter and PeerTube API.";
+  const String description = "This is a test video uploaded using Flutter and PeerTube API.";
 
   // 📌 **Tags (max 5, between 2-30 characters)**
-  final BuiltSet<String> tags = BuiltSet(["flutter", "peertube", "upload"]);
+  final BuiltSet<String> tags = BuiltSet(["dart", "peertube", "upload"]);
 
   try {
     print("🚀 Uploading video to PeerTube...");
@@ -58,7 +56,7 @@ Future<void> main() async {
       waitTranscoding: waitTranscoding,
       nsfw: nsfw,
       tags: tags,
-      // thumbnailfile: thumbnail,
+      thumbnailfile: thumbnail,
       onSendProgress: (int sent, int total) {
         double progress = (sent / total) * 100;
         print("📤 Upload Progress: ${progress.toStringAsFixed(2)}%");

@@ -1,5 +1,5 @@
 name: peer_tube_api_sdk
-version: 1.0.8
+version: 1.0.9
 description: A Dart/Flutter SDK for interacting with PeerTube instances. Easily connect to PeerTube nodes, fetch video data, manage accounts, and more.
 homepage: https://github.com/RustLangLatam
 repository: https://github.com/RustLangLatam/peertube_api_sdk_dart

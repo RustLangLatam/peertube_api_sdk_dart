@@ -9,7 +9,7 @@ const baseUrl = 'https://peertube.tv';
 
 Future<void> main() async {
   // Create a PeerTube API client with the base URL
-  final api = getApiClient(baseUrl).getSessionApi();
+  final api = getApiClient(baseUrl,).getSessionApi();
 
   try {
     // Use the API to retrieve the video

@@ -8,7 +8,7 @@ PeerTubeApiSdk getApiClient(String urlApi) {
   final node = PeerTubeApiSdk(
     basePathOverride:
         urlApi, // Override the base path with the specified API URL.
-    debugMode: false, // Enable debug mode for the API client.
+    debugMode: true, // Enable debug mode for the API client.
   );
 
   // Return the created API client instance.
