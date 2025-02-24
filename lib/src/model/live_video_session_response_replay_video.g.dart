@@ -69,15 +69,21 @@ class LiveVideoSessionResponseReplayVideoBuilder
   _$LiveVideoSessionResponseReplayVideo? _$v;
 
   num? _id;
+
   num? get id => _$this._id;
+
   set id(num? id) => _$this._id = id;
 
   String? _uuid;
+
   String? get uuid => _$this._uuid;
+
   set uuid(String? uuid) => _$this._uuid = uuid;
 
   String? _shortUUID;
+
   String? get shortUUID => _$this._shortUUID;
+
   set shortUUID(String? shortUUID) => _$this._shortUUID = shortUUID;
 
   LiveVideoSessionResponseReplayVideoBuilder() {

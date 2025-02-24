@@ -66,15 +66,21 @@ class ServerConfigCustomSignupBuilder
   _$ServerConfigCustomSignup? _$v;
 
   bool? _enabled;
+
   bool? get enabled => _$this._enabled;
+
   set enabled(bool? enabled) => _$this._enabled = enabled;
 
   int? _limit;
+
   int? get limit => _$this._limit;
+
   set limit(int? limit) => _$this._limit = limit;
 
   bool? _requiresEmailVerification;
+
   bool? get requiresEmailVerification => _$this._requiresEmailVerification;
+
   set requiresEmailVerification(bool? requiresEmailVerification) =>
       _$this._requiresEmailVerification = requiresEmailVerification;
 

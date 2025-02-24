@@ -130,62 +130,90 @@ class VideoCommentBuilder
   _$VideoComment? _$v;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(int? id) => _$this._id = id;
 
   String? _url;
+
   String? get url => _$this._url;
+
   set url(String? url) => _$this._url = url;
 
   String? _text;
+
   String? get text => _$this._text;
+
   set text(String? text) => _$this._text = text;
 
   int? _threadId;
+
   int? get threadId => _$this._threadId;
+
   set threadId(int? threadId) => _$this._threadId = threadId;
 
   int? _inReplyToCommentId;
+
   int? get inReplyToCommentId => _$this._inReplyToCommentId;
+
   set inReplyToCommentId(int? inReplyToCommentId) =>
       _$this._inReplyToCommentId = inReplyToCommentId;
 
   int? _videoId;
+
   int? get videoId => _$this._videoId;
+
   set videoId(int? videoId) => _$this._videoId = videoId;
 
   DateTime? _createdAt;
+
   DateTime? get createdAt => _$this._createdAt;
+
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _updatedAt;
+
   DateTime? get updatedAt => _$this._updatedAt;
+
   set updatedAt(DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   DateTime? _deletedAt;
+
   DateTime? get deletedAt => _$this._deletedAt;
+
   set deletedAt(DateTime? deletedAt) => _$this._deletedAt = deletedAt;
 
   bool? _isDeleted;
+
   bool? get isDeleted => _$this._isDeleted;
+
   set isDeleted(bool? isDeleted) => _$this._isDeleted = isDeleted;
 
   bool? _heldForReview;
+
   bool? get heldForReview => _$this._heldForReview;
+
   set heldForReview(bool? heldForReview) =>
       _$this._heldForReview = heldForReview;
 
   int? _totalRepliesFromVideoAuthor;
+
   int? get totalRepliesFromVideoAuthor => _$this._totalRepliesFromVideoAuthor;
+
   set totalRepliesFromVideoAuthor(int? totalRepliesFromVideoAuthor) =>
       _$this._totalRepliesFromVideoAuthor = totalRepliesFromVideoAuthor;
 
   int? _totalReplies;
+
   int? get totalReplies => _$this._totalReplies;
+
   set totalReplies(int? totalReplies) => _$this._totalReplies = totalReplies;
 
   AccountBuilder? _account;
+
   AccountBuilder get account => _$this._account ??= new AccountBuilder();
+
   set account(AccountBuilder? account) => _$this._account = account;
 
   VideoCommentBuilder() {

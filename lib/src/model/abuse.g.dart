@@ -94,44 +94,60 @@ class AbuseBuilder implements Builder<Abuse, AbuseBuilder> {
   _$Abuse? _$v;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(int? id) => _$this._id = id;
 
   String? _reason;
+
   String? get reason => _$this._reason;
+
   set reason(String? reason) => _$this._reason = reason;
 
   ListBuilder<ApiV1AbusesPostRequestPredefinedReasonsEnum>? _predefinedReasons;
+
   ListBuilder<ApiV1AbusesPostRequestPredefinedReasonsEnum>
       get predefinedReasons => _$this._predefinedReasons ??=
           new ListBuilder<ApiV1AbusesPostRequestPredefinedReasonsEnum>();
+
   set predefinedReasons(
           ListBuilder<ApiV1AbusesPostRequestPredefinedReasonsEnum>?
               predefinedReasons) =>
       _$this._predefinedReasons = predefinedReasons;
 
   AccountBuilder? _reporterAccount;
+
   AccountBuilder get reporterAccount =>
       _$this._reporterAccount ??= new AccountBuilder();
+
   set reporterAccount(AccountBuilder? reporterAccount) =>
       _$this._reporterAccount = reporterAccount;
 
   AbuseStateConstantBuilder? _state;
+
   AbuseStateConstantBuilder get state =>
       _$this._state ??= new AbuseStateConstantBuilder();
+
   set state(AbuseStateConstantBuilder? state) => _$this._state = state;
 
   String? _moderationComment;
+
   String? get moderationComment => _$this._moderationComment;
+
   set moderationComment(String? moderationComment) =>
       _$this._moderationComment = moderationComment;
 
   VideoInfo? _video;
+
   VideoInfo? get video => _$this._video;
+
   set video(VideoInfo? video) => _$this._video = video;
 
   DateTime? _createdAt;
+
   DateTime? get createdAt => _$this._createdAt;
+
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   AbuseBuilder() {

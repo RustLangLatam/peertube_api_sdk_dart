@@ -60,7 +60,9 @@ class GetAccountVideosTagsOneOfParameterBuilder
   _$GetAccountVideosTagsOneOfParameter? _$v;
 
   OneOf? _oneOf;
+
   OneOf? get oneOf => _$this._oneOf;
+
   set oneOf(OneOf? oneOf) => _$this._oneOf = oneOf;
 
   GetAccountVideosTagsOneOfParameterBuilder() {

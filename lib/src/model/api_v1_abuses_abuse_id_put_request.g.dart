@@ -61,11 +61,15 @@ class ApiV1AbusesAbuseIdPutRequestBuilder
   _$ApiV1AbusesAbuseIdPutRequest? _$v;
 
   AbuseStateSet? _state;
+
   AbuseStateSet? get state => _$this._state;
+
   set state(AbuseStateSet? state) => _$this._state = state;
 
   String? _moderationComment;
+
   String? get moderationComment => _$this._moderationComment;
+
   set moderationComment(String? moderationComment) =>
       _$this._moderationComment = moderationComment;
 

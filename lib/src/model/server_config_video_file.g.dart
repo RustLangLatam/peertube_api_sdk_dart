@@ -52,8 +52,10 @@ class ServerConfigVideoFileBuilder
   _$ServerConfigVideoFile? _$v;
 
   ListBuilder<String>? _extensions;
+
   ListBuilder<String> get extensions =>
       _$this._extensions ??= new ListBuilder<String>();
+
   set extensions(ListBuilder<String>? extensions) =>
       _$this._extensions = extensions;
 

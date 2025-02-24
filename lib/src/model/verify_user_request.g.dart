@@ -61,12 +61,16 @@ class VerifyUserRequestBuilder
   _$VerifyUserRequest? _$v;
 
   String? _verificationString;
+
   String? get verificationString => _$this._verificationString;
+
   set verificationString(String? verificationString) =>
       _$this._verificationString = verificationString;
 
   bool? _isPendingEmail;
+
   bool? get isPendingEmail => _$this._isPendingEmail;
+
   set isPendingEmail(bool? isPendingEmail) =>
       _$this._isPendingEmail = isPendingEmail;
 

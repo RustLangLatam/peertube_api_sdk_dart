@@ -78,27 +78,37 @@ class VideoStatsOverallBuilder
   _$VideoStatsOverall? _$v;
 
   num? _averageWatchTime;
+
   num? get averageWatchTime => _$this._averageWatchTime;
+
   set averageWatchTime(num? averageWatchTime) =>
       _$this._averageWatchTime = averageWatchTime;
 
   num? _totalWatchTime;
+
   num? get totalWatchTime => _$this._totalWatchTime;
+
   set totalWatchTime(num? totalWatchTime) =>
       _$this._totalWatchTime = totalWatchTime;
 
   num? _viewersPeak;
+
   num? get viewersPeak => _$this._viewersPeak;
+
   set viewersPeak(num? viewersPeak) => _$this._viewersPeak = viewersPeak;
 
   DateTime? _viewersPeakDate;
+
   DateTime? get viewersPeakDate => _$this._viewersPeakDate;
+
   set viewersPeakDate(DateTime? viewersPeakDate) =>
       _$this._viewersPeakDate = viewersPeakDate;
 
   ListBuilder<VideoStatsOverallCountriesInner>? _countries;
+
   ListBuilder<VideoStatsOverallCountriesInner> get countries =>
       _$this._countries ??= new ListBuilder<VideoStatsOverallCountriesInner>();
+
   set countries(ListBuilder<VideoStatsOverallCountriesInner>? countries) =>
       _$this._countries = countries;
 

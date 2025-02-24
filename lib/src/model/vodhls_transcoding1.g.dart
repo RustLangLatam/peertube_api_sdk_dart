@@ -58,14 +58,18 @@ class VODHLSTranscoding1Builder
   _$VODHLSTranscoding1? _$v;
 
   VODWebVideoTranscoding1InputBuilder? _input;
+
   VODWebVideoTranscoding1InputBuilder get input =>
       _$this._input ??= new VODWebVideoTranscoding1InputBuilder();
+
   set input(VODWebVideoTranscoding1InputBuilder? input) =>
       _$this._input = input;
 
   VODWebVideoTranscoding1OutputBuilder? _output;
+
   VODWebVideoTranscoding1OutputBuilder get output =>
       _$this._output ??= new VODWebVideoTranscoding1OutputBuilder();
+
   set output(VODWebVideoTranscoding1OutputBuilder? output) =>
       _$this._output = output;
 

@@ -53,8 +53,10 @@ class ServerConfigOpenTelemetryBuilder
   _$ServerConfigOpenTelemetry? _$v;
 
   ServerConfigOpenTelemetryMetricsBuilder? _metrics;
+
   ServerConfigOpenTelemetryMetricsBuilder get metrics =>
       _$this._metrics ??= new ServerConfigOpenTelemetryMetricsBuilder();
+
   set metrics(ServerConfigOpenTelemetryMetricsBuilder? metrics) =>
       _$this._metrics = metrics;
 

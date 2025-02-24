@@ -52,9 +52,11 @@ class AutomaticTagAvailableBuilder
   _$AutomaticTagAvailable? _$v;
 
   ListBuilder<AutomaticTagAvailableAvailableInner>? _available;
+
   ListBuilder<AutomaticTagAvailableAvailableInner> get available =>
       _$this._available ??=
           new ListBuilder<AutomaticTagAvailableAvailableInner>();
+
   set available(ListBuilder<AutomaticTagAvailableAvailableInner>? available) =>
       _$this._available = available;
 

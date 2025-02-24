@@ -28,9 +28,13 @@ final BuiltSet<UserAdminFlags> _$values =
 
 class _$UserAdminFlagsMeta {
   const _$UserAdminFlagsMeta();
+
   UserAdminFlags get number0 => _$number0;
+
   UserAdminFlags get number1 => _$number1;
+
   UserAdminFlags valueOf(String name) => _$valueOf(name);
+
   BuiltSet<UserAdminFlags> get values => _$values;
 }
 

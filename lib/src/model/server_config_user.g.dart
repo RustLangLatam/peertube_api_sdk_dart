@@ -57,11 +57,15 @@ class ServerConfigUserBuilder
   _$ServerConfigUser? _$v;
 
   int? _videoQuota;
+
   int? get videoQuota => _$this._videoQuota;
+
   set videoQuota(int? videoQuota) => _$this._videoQuota = videoQuota;
 
   int? _videoQuotaDaily;
+
   int? get videoQuotaDaily => _$this._videoQuotaDaily;
+
   set videoQuotaDaily(int? videoQuotaDaily) =>
       _$this._videoQuotaDaily = videoQuotaDaily;
 

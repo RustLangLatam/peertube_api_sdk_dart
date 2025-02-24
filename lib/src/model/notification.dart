@@ -5,6 +5,7 @@
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
 import 'package:peer_tube_api_sdk/src/model/actor_info.dart';
+
 // ignore_for_file: unused_element
 import 'package:peer_tube_api_sdk/src/model/notification_actor_follow.dart';
 import 'package:peer_tube_api_sdk/src/model/notification_comment.dart';

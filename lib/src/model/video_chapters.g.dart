@@ -49,9 +49,11 @@ class VideoChaptersBuilder
   _$VideoChapters? _$v;
 
   ReplaceVideoChaptersRequestChaptersInnerBuilder? _chapters;
+
   ReplaceVideoChaptersRequestChaptersInnerBuilder get chapters =>
       _$this._chapters ??=
           new ReplaceVideoChaptersRequestChaptersInnerBuilder();
+
   set chapters(ReplaceVideoChaptersRequestChaptersInnerBuilder? chapters) =>
       _$this._chapters = chapters;
 

@@ -117,50 +117,72 @@ class VideoCommentForOwnerOrAdminBuilder
   _$VideoCommentForOwnerOrAdmin? _$v;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(int? id) => _$this._id = id;
 
   String? _url;
+
   String? get url => _$this._url;
+
   set url(String? url) => _$this._url = url;
 
   String? _text;
+
   String? get text => _$this._text;
+
   set text(String? text) => _$this._text = text;
 
   bool? _heldForReview;
+
   bool? get heldForReview => _$this._heldForReview;
+
   set heldForReview(bool? heldForReview) =>
       _$this._heldForReview = heldForReview;
 
   int? _threadId;
+
   int? get threadId => _$this._threadId;
+
   set threadId(int? threadId) => _$this._threadId = threadId;
 
   int? _inReplyToCommentId;
+
   int? get inReplyToCommentId => _$this._inReplyToCommentId;
+
   set inReplyToCommentId(int? inReplyToCommentId) =>
       _$this._inReplyToCommentId = inReplyToCommentId;
 
   DateTime? _createdAt;
+
   DateTime? get createdAt => _$this._createdAt;
+
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _updatedAt;
+
   DateTime? get updatedAt => _$this._updatedAt;
+
   set updatedAt(DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   AccountBuilder? _account;
+
   AccountBuilder get account => _$this._account ??= new AccountBuilder();
+
   set account(AccountBuilder? account) => _$this._account = account;
 
   VideoInfo? _video;
+
   VideoInfo? get video => _$this._video;
+
   set video(VideoInfo? video) => _$this._video = video;
 
   ListBuilder<String>? _automaticTags;
+
   ListBuilder<String> get automaticTags =>
       _$this._automaticTags ??= new ListBuilder<String>();
+
   set automaticTags(ListBuilder<String>? automaticTags) =>
       _$this._automaticTags = automaticTags;
 

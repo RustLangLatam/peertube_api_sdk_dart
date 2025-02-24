@@ -67,12 +67,16 @@ class ApiV1RunnersRegistrationTokensGet200ResponseBuilder
   _$ApiV1RunnersRegistrationTokensGet200Response? _$v;
 
   int? _total;
+
   int? get total => _$this._total;
+
   set total(int? total) => _$this._total = total;
 
   ListBuilder<RunnerRegistrationToken>? _data;
+
   ListBuilder<RunnerRegistrationToken> get data =>
       _$this._data ??= new ListBuilder<RunnerRegistrationToken>();
+
   set data(ListBuilder<RunnerRegistrationToken>? data) => _$this._data = data;
 
   ApiV1RunnersRegistrationTokensGet200ResponseBuilder() {

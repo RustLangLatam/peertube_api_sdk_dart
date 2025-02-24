@@ -8,17 +8,23 @@ part of 'video_streaming_playlists_hls.dart';
 
 abstract mixin class VideoStreamingPlaylistsHLSBuilder {
   void replace(VideoStreamingPlaylistsHLS other);
+
   void update(void Function(VideoStreamingPlaylistsHLSBuilder) updates);
+
   String? get playlistUrl;
+
   set playlistUrl(String? playlistUrl);
 
   String? get segmentsSha256Url;
+
   set segmentsSha256Url(String? segmentsSha256Url);
 
   ListBuilder<VideoFile> get files;
+
   set files(ListBuilder<VideoFile>? files);
 
   ListBuilder<VideoStreamingPlaylistsHLSRedundanciesInner> get redundancies;
+
   set redundancies(
       ListBuilder<VideoStreamingPlaylistsHLSRedundanciesInner>? redundancies);
 }
@@ -90,24 +96,32 @@ class $VideoStreamingPlaylistsHLSBuilder
   _$$VideoStreamingPlaylistsHLS? _$v;
 
   String? _playlistUrl;
+
   String? get playlistUrl => _$this._playlistUrl;
+
   set playlistUrl(covariant String? playlistUrl) =>
       _$this._playlistUrl = playlistUrl;
 
   String? _segmentsSha256Url;
+
   String? get segmentsSha256Url => _$this._segmentsSha256Url;
+
   set segmentsSha256Url(covariant String? segmentsSha256Url) =>
       _$this._segmentsSha256Url = segmentsSha256Url;
 
   ListBuilder<VideoFile>? _files;
+
   ListBuilder<VideoFile> get files =>
       _$this._files ??= new ListBuilder<VideoFile>();
+
   set files(covariant ListBuilder<VideoFile>? files) => _$this._files = files;
 
   ListBuilder<VideoStreamingPlaylistsHLSRedundanciesInner>? _redundancies;
+
   ListBuilder<VideoStreamingPlaylistsHLSRedundanciesInner> get redundancies =>
       _$this._redundancies ??=
           new ListBuilder<VideoStreamingPlaylistsHLSRedundanciesInner>();
+
   set redundancies(
           covariant ListBuilder<VideoStreamingPlaylistsHLSRedundanciesInner>?
               redundancies) =>

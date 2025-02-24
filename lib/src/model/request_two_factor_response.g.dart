@@ -53,8 +53,10 @@ class RequestTwoFactorResponseBuilder
   _$RequestTwoFactorResponse? _$v;
 
   RequestTwoFactorResponseOtpRequestBuilder? _otpRequest;
+
   RequestTwoFactorResponseOtpRequestBuilder get otpRequest =>
       _$this._otpRequest ??= new RequestTwoFactorResponseOtpRequestBuilder();
+
   set otpRequest(RequestTwoFactorResponseOtpRequestBuilder? otpRequest) =>
       _$this._otpRequest = otpRequest;
 

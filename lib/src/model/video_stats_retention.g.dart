@@ -52,8 +52,10 @@ class VideoStatsRetentionBuilder
   _$VideoStatsRetention? _$v;
 
   ListBuilder<VideoStatsRetentionDataInner>? _data;
+
   ListBuilder<VideoStatsRetentionDataInner> get data =>
       _$this._data ??= new ListBuilder<VideoStatsRetentionDataInner>();
+
   set data(ListBuilder<VideoStatsRetentionDataInner>? data) =>
       _$this._data = data;
 

@@ -68,12 +68,16 @@ class ApiV1RunnersJobsRequestPostRequestBuilder
   _$ApiV1RunnersJobsRequestPostRequest? _$v;
 
   String? _runnerToken;
+
   String? get runnerToken => _$this._runnerToken;
+
   set runnerToken(String? runnerToken) => _$this._runnerToken = runnerToken;
 
   ListBuilder<String>? _jobTypes;
+
   ListBuilder<String> get jobTypes =>
       _$this._jobTypes ??= new ListBuilder<String>();
+
   set jobTypes(ListBuilder<String>? jobTypes) => _$this._jobTypes = jobTypes;
 
   ApiV1RunnersJobsRequestPostRequestBuilder() {

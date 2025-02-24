@@ -170,32 +170,46 @@ class FileRedundancyInformationBuilder
   _$FileRedundancyInformation? _$v;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(int? id) => _$this._id = id;
 
   String? _fileUrl;
+
   String? get fileUrl => _$this._fileUrl;
+
   set fileUrl(String? fileUrl) => _$this._fileUrl = fileUrl;
 
   FileRedundancyInformationStrategyEnum? _strategy;
+
   FileRedundancyInformationStrategyEnum? get strategy => _$this._strategy;
+
   set strategy(FileRedundancyInformationStrategyEnum? strategy) =>
       _$this._strategy = strategy;
 
   int? _size;
+
   int? get size => _$this._size;
+
   set size(int? size) => _$this._size = size;
 
   DateTime? _createdAt;
+
   DateTime? get createdAt => _$this._createdAt;
+
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _updatedAt;
+
   DateTime? get updatedAt => _$this._updatedAt;
+
   set updatedAt(DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   DateTime? _expiresOn;
+
   DateTime? get expiresOn => _$this._expiresOn;
+
   set expiresOn(DateTime? expiresOn) => _$this._expiresOn = expiresOn;
 
   FileRedundancyInformationBuilder() {

@@ -66,9 +66,11 @@ class ApiV1WatchedWordsAccountsAccountNameListsPost200ResponseBuilder
   _$ApiV1WatchedWordsAccountsAccountNameListsPost200Response? _$v;
 
   RequestUserExport200ResponseExportBuilder? _watchedWordsList;
+
   RequestUserExport200ResponseExportBuilder get watchedWordsList =>
       _$this._watchedWordsList ??=
           new RequestUserExport200ResponseExportBuilder();
+
   set watchedWordsList(
           RequestUserExport200ResponseExportBuilder? watchedWordsList) =>
       _$this._watchedWordsList = watchedWordsList;

@@ -32,10 +32,15 @@ final BuiltSet<LiveVideoLatencyMode> _$values =
 
 class _$LiveVideoLatencyModeMeta {
   const _$LiveVideoLatencyModeMeta();
+
   LiveVideoLatencyMode get number1 => _$number1;
+
   LiveVideoLatencyMode get number2 => _$number2;
+
   LiveVideoLatencyMode get number3 => _$number3;
+
   LiveVideoLatencyMode valueOf(String name) => _$valueOf(name);
+
   BuiltSet<LiveVideoLatencyMode> get values => _$values;
 }
 

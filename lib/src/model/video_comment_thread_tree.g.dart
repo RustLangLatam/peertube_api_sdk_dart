@@ -58,13 +58,17 @@ class VideoCommentThreadTreeBuilder
   _$VideoCommentThreadTree? _$v;
 
   VideoCommentBuilder? _comment;
+
   VideoCommentBuilder get comment =>
       _$this._comment ??= new VideoCommentBuilder();
+
   set comment(VideoCommentBuilder? comment) => _$this._comment = comment;
 
   ListBuilder<VideoCommentThreadTree>? _children;
+
   ListBuilder<VideoCommentThreadTree> get children =>
       _$this._children ??= new ListBuilder<VideoCommentThreadTree>();
+
   set children(ListBuilder<VideoCommentThreadTree>? children) =>
       _$this._children = children;
 

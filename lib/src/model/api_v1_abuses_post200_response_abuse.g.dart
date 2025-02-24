@@ -55,7 +55,9 @@ class ApiV1AbusesPost200ResponseAbuseBuilder
   _$ApiV1AbusesPost200ResponseAbuse? _$v;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(int? id) => _$this._id = id;
 
   ApiV1AbusesPost200ResponseAbuseBuilder() {

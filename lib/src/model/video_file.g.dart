@@ -135,67 +135,97 @@ class VideoFileBuilder implements Builder<VideoFile, VideoFileBuilder> {
   _$VideoFile? _$v;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(int? id) => _$this._id = id;
 
   String? _magnetUri;
+
   String? get magnetUri => _$this._magnetUri;
+
   set magnetUri(String? magnetUri) => _$this._magnetUri = magnetUri;
 
   VideoResolutionConstantBuilder? _resolution;
+
   VideoResolutionConstantBuilder get resolution =>
       _$this._resolution ??= new VideoResolutionConstantBuilder();
+
   set resolution(VideoResolutionConstantBuilder? resolution) =>
       _$this._resolution = resolution;
 
   int? _size;
+
   int? get size => _$this._size;
+
   set size(int? size) => _$this._size = size;
 
   String? _torrentUrl;
+
   String? get torrentUrl => _$this._torrentUrl;
+
   set torrentUrl(String? torrentUrl) => _$this._torrentUrl = torrentUrl;
 
   String? _torrentDownloadUrl;
+
   String? get torrentDownloadUrl => _$this._torrentDownloadUrl;
+
   set torrentDownloadUrl(String? torrentDownloadUrl) =>
       _$this._torrentDownloadUrl = torrentDownloadUrl;
 
   String? _fileUrl;
+
   String? get fileUrl => _$this._fileUrl;
+
   set fileUrl(String? fileUrl) => _$this._fileUrl = fileUrl;
 
   String? _fileDownloadUrl;
+
   String? get fileDownloadUrl => _$this._fileDownloadUrl;
+
   set fileDownloadUrl(String? fileDownloadUrl) =>
       _$this._fileDownloadUrl = fileDownloadUrl;
 
   num? _fps;
+
   num? get fps => _$this._fps;
+
   set fps(num? fps) => _$this._fps = fps;
 
   num? _width;
+
   num? get width => _$this._width;
+
   set width(num? width) => _$this._width = width;
 
   num? _height;
+
   num? get height => _$this._height;
+
   set height(num? height) => _$this._height = height;
 
   String? _metadataUrl;
+
   String? get metadataUrl => _$this._metadataUrl;
+
   set metadataUrl(String? metadataUrl) => _$this._metadataUrl = metadataUrl;
 
   bool? _hasAudio;
+
   bool? get hasAudio => _$this._hasAudio;
+
   set hasAudio(bool? hasAudio) => _$this._hasAudio = hasAudio;
 
   bool? _hasVideo;
+
   bool? get hasVideo => _$this._hasVideo;
+
   set hasVideo(bool? hasVideo) => _$this._hasVideo = hasVideo;
 
   FileStorage? _storage;
+
   FileStorage? get storage => _$this._storage;
+
   set storage(FileStorage? storage) => _$this._storage = storage;
 
   VideoFileBuilder() {

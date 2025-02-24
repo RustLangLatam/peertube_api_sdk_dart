@@ -54,7 +54,9 @@ class RequestUserExportRequestBuilder
   _$RequestUserExportRequest? _$v;
 
   bool? _withVideoFiles;
+
   bool? get withVideoFiles => _$this._withVideoFiles;
+
   set withVideoFiles(bool? withVideoFiles) =>
       _$this._withVideoFiles = withVideoFiles;
 

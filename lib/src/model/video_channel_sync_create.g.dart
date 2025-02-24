@@ -59,12 +59,16 @@ class VideoChannelSyncCreateBuilder
   _$VideoChannelSyncCreate? _$v;
 
   String? _externalChannelUrl;
+
   String? get externalChannelUrl => _$this._externalChannelUrl;
+
   set externalChannelUrl(String? externalChannelUrl) =>
       _$this._externalChannelUrl = externalChannelUrl;
 
   int? _videoChannelId;
+
   int? get videoChannelId => _$this._videoChannelId;
+
   set videoChannelId(int? videoChannelId) =>
       _$this._videoChannelId = videoChannelId;
 

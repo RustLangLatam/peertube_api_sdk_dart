@@ -117,11 +117,15 @@ class VideoRatingBuilder implements Builder<VideoRating, VideoRatingBuilder> {
   _$VideoRating? _$v;
 
   Video? _video;
+
   Video? get video => _$this._video;
+
   set video(Video? video) => _$this._video = video;
 
   VideoRatingRatingEnum? _rating;
+
   VideoRatingRatingEnum? get rating => _$this._rating;
+
   set rating(VideoRatingRatingEnum? rating) => _$this._rating = rating;
 
   VideoRatingBuilder() {

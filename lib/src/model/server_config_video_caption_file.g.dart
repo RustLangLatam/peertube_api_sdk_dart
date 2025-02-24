@@ -60,13 +60,17 @@ class ServerConfigVideoCaptionFileBuilder
   _$ServerConfigVideoCaptionFile? _$v;
 
   ServerConfigAvatarFileSizeBuilder? _size;
+
   ServerConfigAvatarFileSizeBuilder get size =>
       _$this._size ??= new ServerConfigAvatarFileSizeBuilder();
+
   set size(ServerConfigAvatarFileSizeBuilder? size) => _$this._size = size;
 
   ListBuilder<String>? _extensions;
+
   ListBuilder<String> get extensions =>
       _$this._extensions ??= new ListBuilder<String>();
+
   set extensions(ListBuilder<String>? extensions) =>
       _$this._extensions = extensions;
 

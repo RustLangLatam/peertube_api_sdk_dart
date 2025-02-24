@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.9
+
+- update examples
+- fix repository in README.md
+- minor changes
+
 ## 1.0.8
 
 - formatting changes

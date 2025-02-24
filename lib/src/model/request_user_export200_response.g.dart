@@ -54,8 +54,10 @@ class RequestUserExport200ResponseBuilder
   _$RequestUserExport200Response? _$v;
 
   RequestUserExport200ResponseExportBuilder? _export_;
+
   RequestUserExport200ResponseExportBuilder get export_ =>
       _$this._export_ ??= new RequestUserExport200ResponseExportBuilder();
+
   set export_(RequestUserExport200ResponseExportBuilder? export_) =>
       _$this._export_ = export_;
 

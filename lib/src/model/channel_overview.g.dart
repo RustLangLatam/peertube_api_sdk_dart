@@ -56,12 +56,16 @@ class ChannelOverviewBuilder
   _$ChannelOverview? _$v;
 
   VideoChannelSummaryBuilder? _channel;
+
   VideoChannelSummaryBuilder get channel =>
       _$this._channel ??= new VideoChannelSummaryBuilder();
+
   set channel(VideoChannelSummaryBuilder? channel) => _$this._channel = channel;
 
   ListBuilder<Video>? _videos;
+
   ListBuilder<Video> get videos => _$this._videos ??= new ListBuilder<Video>();
+
   set videos(ListBuilder<Video>? videos) => _$this._videos = videos;
 
   ChannelOverviewBuilder() {

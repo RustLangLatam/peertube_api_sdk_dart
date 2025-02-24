@@ -67,11 +67,15 @@ class ConfirmTwoFactorRequestRequestBuilder
   _$ConfirmTwoFactorRequestRequest? _$v;
 
   String? _requestToken;
+
   String? get requestToken => _$this._requestToken;
+
   set requestToken(String? requestToken) => _$this._requestToken = requestToken;
 
   String? _otpToken;
+
   String? get otpToken => _$this._otpToken;
+
   set otpToken(String? otpToken) => _$this._otpToken = otpToken;
 
   ConfirmTwoFactorRequestRequestBuilder() {

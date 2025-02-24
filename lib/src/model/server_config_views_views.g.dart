@@ -53,9 +53,11 @@ class ServerConfigViewsViewsBuilder
   _$ServerConfigViewsViews? _$v;
 
   ServerConfigViewsViewsWatchingIntervalBuilder? _watchingInterval;
+
   ServerConfigViewsViewsWatchingIntervalBuilder get watchingInterval =>
       _$this._watchingInterval ??=
           new ServerConfigViewsViewsWatchingIntervalBuilder();
+
   set watchingInterval(
           ServerConfigViewsViewsWatchingIntervalBuilder? watchingInterval) =>
       _$this._watchingInterval = watchingInterval;

@@ -76,23 +76,33 @@ class NotificationVideoImportBuilder
   _$NotificationVideoImport? _$v;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(int? id) => _$this._id = id;
 
   VideoInfo? _video;
+
   VideoInfo? get video => _$this._video;
+
   set video(VideoInfo? video) => _$this._video = video;
 
   String? _torrentName;
+
   String? get torrentName => _$this._torrentName;
+
   set torrentName(String? torrentName) => _$this._torrentName = torrentName;
 
   String? _magnetUri;
+
   String? get magnetUri => _$this._magnetUri;
+
   set magnetUri(String? magnetUri) => _$this._magnetUri = magnetUri;
 
   String? _targetUri;
+
   String? get targetUri => _$this._targetUri;
+
   set targetUri(String? targetUri) => _$this._targetUri = targetUri;
 
   NotificationVideoImportBuilder() {

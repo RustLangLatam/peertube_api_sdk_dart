@@ -1,6 +1,4 @@
 import 'package:dio/dio.dart';
-import 'package:one_of/one_of.dart';
-import 'package:peer_tube_api_sdk/peer_tube_api_sdk.dart';
 
 import '../peertube_api_example.dart';
 
@@ -9,7 +7,9 @@ const baseUrl = 'https://peertube.tv';
 
 Future<void> main() async {
   // Create a PeerTube API client with the base URL
-  final api = getApiClient(baseUrl,).getSessionApi();
+  final api = getApiClient(
+    baseUrl,
+  ).getSessionApi();
 
   try {
     // Use the API to retrieve the video

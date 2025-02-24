@@ -74,21 +74,29 @@ class VideoChannelCreateBuilder
   _$VideoChannelCreate? _$v;
 
   String? _name;
+
   String? get name => _$this._name;
+
   set name(covariant String? name) => _$this._name = name;
 
   String? _displayName;
+
   String? get displayName => _$this._displayName;
+
   set displayName(covariant String? displayName) =>
       _$this._displayName = displayName;
 
   String? _description;
+
   String? get description => _$this._description;
+
   set description(covariant String? description) =>
       _$this._description = description;
 
   String? _support;
+
   String? get support => _$this._support;
+
   set support(covariant String? support) => _$this._support = support;
 
   VideoChannelCreateBuilder() {

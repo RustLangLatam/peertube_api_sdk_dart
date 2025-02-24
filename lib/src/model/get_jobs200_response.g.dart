@@ -58,11 +58,15 @@ class GetJobs200ResponseBuilder
   _$GetJobs200Response? _$v;
 
   int? _total;
+
   int? get total => _$this._total;
+
   set total(int? total) => _$this._total = total;
 
   ListBuilder<Job>? _data;
+
   ListBuilder<Job> get data => _$this._data ??= new ListBuilder<Job>();
+
   set data(ListBuilder<Job>? data) => _$this._data = data;
 
   GetJobs200ResponseBuilder() {

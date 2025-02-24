@@ -73,12 +73,16 @@ class ApiV1VideoChannelsChannelHandleVideoPlaylistsGet200ResponseBuilder
   _$ApiV1VideoChannelsChannelHandleVideoPlaylistsGet200Response? _$v;
 
   int? _total;
+
   int? get total => _$this._total;
+
   set total(int? total) => _$this._total = total;
 
   ListBuilder<VideoPlaylist>? _data;
+
   ListBuilder<VideoPlaylist> get data =>
       _$this._data ??= new ListBuilder<VideoPlaylist>();
+
   set data(ListBuilder<VideoPlaylist>? data) => _$this._data = data;
 
   ApiV1VideoChannelsChannelHandleVideoPlaylistsGet200ResponseBuilder() {

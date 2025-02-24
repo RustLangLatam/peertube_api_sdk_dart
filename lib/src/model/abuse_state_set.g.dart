@@ -32,10 +32,15 @@ final BuiltSet<AbuseStateSet> _$values =
 
 class _$AbuseStateSetMeta {
   const _$AbuseStateSetMeta();
+
   AbuseStateSet get number1 => _$number1;
+
   AbuseStateSet get number2 => _$number2;
+
   AbuseStateSet get number3 => _$number3;
+
   AbuseStateSet valueOf(String name) => _$valueOf(name);
+
   BuiltSet<AbuseStateSet> get values => _$values;
 }
 

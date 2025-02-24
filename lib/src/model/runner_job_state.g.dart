@@ -52,15 +52,25 @@ final BuiltSet<RunnerJobState> _$values =
 
 class _$RunnerJobStateMeta {
   const _$RunnerJobStateMeta();
+
   RunnerJobState get number1 => _$number1;
+
   RunnerJobState get number2 => _$number2;
+
   RunnerJobState get number3 => _$number3;
+
   RunnerJobState get number4 => _$number4;
+
   RunnerJobState get number5 => _$number5;
+
   RunnerJobState get number6 => _$number6;
+
   RunnerJobState get number7 => _$number7;
+
   RunnerJobState get number8 => _$number8;
+
   RunnerJobState valueOf(String name) => _$valueOf(name);
+
   BuiltSet<RunnerJobState> get values => _$values;
 }
 

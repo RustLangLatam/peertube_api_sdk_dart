@@ -56,11 +56,15 @@ class PluginResponseBuilder
   _$PluginResponse? _$v;
 
   int? _total;
+
   int? get total => _$this._total;
+
   set total(int? total) => _$this._total = total;
 
   ListBuilder<Plugin>? _data;
+
   ListBuilder<Plugin> get data => _$this._data ??= new ListBuilder<Plugin>();
+
   set data(ListBuilder<Plugin>? data) => _$this._data = data;
 
   PluginResponseBuilder() {

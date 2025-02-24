@@ -112,11 +112,15 @@ class UserRoleBuilder implements Builder<UserRole, UserRoleBuilder> {
   _$UserRole? _$v;
 
   UserRoleBuilder? _id;
+
   UserRoleBuilder get id => _$this._id ??= new UserRoleBuilder();
+
   set id(UserRoleBuilder? id) => _$this._id = id;
 
   UserRoleLabelEnum? _label;
+
   UserRoleLabelEnum? get label => _$this._label;
+
   set label(UserRoleLabelEnum? label) => _$this._label = label;
 
   UserRoleBuilder() {

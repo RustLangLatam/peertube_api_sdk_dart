@@ -81,15 +81,21 @@ class ApiV1RunnersJobsJobUUIDErrorPostRequestBuilder
   _$ApiV1RunnersJobsJobUUIDErrorPostRequest? _$v;
 
   String? _runnerToken;
+
   String? get runnerToken => _$this._runnerToken;
+
   set runnerToken(String? runnerToken) => _$this._runnerToken = runnerToken;
 
   String? _jobToken;
+
   String? get jobToken => _$this._jobToken;
+
   set jobToken(String? jobToken) => _$this._jobToken = jobToken;
 
   String? _message;
+
   String? get message => _$this._message;
+
   set message(String? message) => _$this._message = message;
 
   ApiV1RunnersJobsJobUUIDErrorPostRequestBuilder() {

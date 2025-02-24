@@ -59,12 +59,16 @@ class NotificationListResponseBuilder
   _$NotificationListResponse? _$v;
 
   int? _total;
+
   int? get total => _$this._total;
+
   set total(int? total) => _$this._total = total;
 
   ListBuilder<Notification>? _data;
+
   ListBuilder<Notification> get data =>
       _$this._data ??= new ListBuilder<Notification>();
+
   set data(ListBuilder<Notification>? data) => _$this._data = data;
 
   NotificationListResponseBuilder() {

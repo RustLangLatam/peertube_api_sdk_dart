@@ -163,33 +163,45 @@ class ApiV1RunnersJobsJobUUIDUpdatePostRequestPayloadBuilder
   _$ApiV1RunnersJobsJobUUIDUpdatePostRequestPayload? _$v;
 
   ApiV1RunnersJobsJobUUIDUpdatePostRequestPayloadTypeEnum? _type;
+
   ApiV1RunnersJobsJobUUIDUpdatePostRequestPayloadTypeEnum? get type =>
       _$this._type;
+
   set type(ApiV1RunnersJobsJobUUIDUpdatePostRequestPayloadTypeEnum? type) =>
       _$this._type = type;
 
   Uint8List? _masterPlaylistFile;
+
   Uint8List? get masterPlaylistFile => _$this._masterPlaylistFile;
+
   set masterPlaylistFile(Uint8List? masterPlaylistFile) =>
       _$this._masterPlaylistFile = masterPlaylistFile;
 
   Uint8List? _resolutionPlaylistFile;
+
   Uint8List? get resolutionPlaylistFile => _$this._resolutionPlaylistFile;
+
   set resolutionPlaylistFile(Uint8List? resolutionPlaylistFile) =>
       _$this._resolutionPlaylistFile = resolutionPlaylistFile;
 
   String? _resolutionPlaylistFilename;
+
   String? get resolutionPlaylistFilename => _$this._resolutionPlaylistFilename;
+
   set resolutionPlaylistFilename(String? resolutionPlaylistFilename) =>
       _$this._resolutionPlaylistFilename = resolutionPlaylistFilename;
 
   Uint8List? _videoChunkFile;
+
   Uint8List? get videoChunkFile => _$this._videoChunkFile;
+
   set videoChunkFile(Uint8List? videoChunkFile) =>
       _$this._videoChunkFile = videoChunkFile;
 
   String? _videoChunkFilename;
+
   String? get videoChunkFilename => _$this._videoChunkFilename;
+
   set videoChunkFilename(String? videoChunkFilename) =>
       _$this._videoChunkFilename = videoChunkFilename;
 

@@ -280,37 +280,53 @@ class JobBuilder implements Builder<Job, JobBuilder> {
   _$Job? _$v;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(int? id) => _$this._id = id;
 
   JobStateEnum? _state;
+
   JobStateEnum? get state => _$this._state;
+
   set state(JobStateEnum? state) => _$this._state = state;
 
   JobTypeEnum? _type;
+
   JobTypeEnum? get type => _$this._type;
+
   set type(JobTypeEnum? type) => _$this._type = type;
 
   MapBuilder<String, JsonObject?>? _data;
+
   MapBuilder<String, JsonObject?> get data =>
       _$this._data ??= new MapBuilder<String, JsonObject?>();
+
   set data(MapBuilder<String, JsonObject?>? data) => _$this._data = data;
 
   MapBuilder<String, JsonObject?>? _error;
+
   MapBuilder<String, JsonObject?> get error =>
       _$this._error ??= new MapBuilder<String, JsonObject?>();
+
   set error(MapBuilder<String, JsonObject?>? error) => _$this._error = error;
 
   DateTime? _createdAt;
+
   DateTime? get createdAt => _$this._createdAt;
+
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _finishedOn;
+
   DateTime? get finishedOn => _$this._finishedOn;
+
   set finishedOn(DateTime? finishedOn) => _$this._finishedOn = finishedOn;
 
   DateTime? _processedOn;
+
   DateTime? get processedOn => _$this._processedOn;
+
   set processedOn(DateTime? processedOn) => _$this._processedOn = processedOn;
 
   JobBuilder() {

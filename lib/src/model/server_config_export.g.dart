@@ -52,8 +52,10 @@ class ServerConfigExportBuilder
   _$ServerConfigExport? _$v;
 
   ServerConfigExportUsersBuilder? _users;
+
   ServerConfigExportUsersBuilder get users =>
       _$this._users ??= new ServerConfigExportUsersBuilder();
+
   set users(ServerConfigExportUsersBuilder? users) => _$this._users = users;
 
   ServerConfigExportBuilder() {

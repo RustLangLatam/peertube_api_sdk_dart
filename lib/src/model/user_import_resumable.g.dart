@@ -52,7 +52,9 @@ class UserImportResumableBuilder
   _$UserImportResumable? _$v;
 
   String? _filename;
+
   String? get filename => _$this._filename;
+
   set filename(String? filename) => _$this._filename = filename;
 
   UserImportResumableBuilder() {

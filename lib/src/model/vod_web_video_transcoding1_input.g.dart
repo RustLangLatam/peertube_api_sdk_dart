@@ -55,7 +55,9 @@ class VODWebVideoTranscoding1InputBuilder
   _$VODWebVideoTranscoding1Input? _$v;
 
   String? _videoFileUrl;
+
   String? get videoFileUrl => _$this._videoFileUrl;
+
   set videoFileUrl(String? videoFileUrl) => _$this._videoFileUrl = videoFileUrl;
 
   VODWebVideoTranscoding1InputBuilder() {

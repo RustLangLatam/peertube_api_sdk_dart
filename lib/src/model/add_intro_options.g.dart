@@ -49,7 +49,9 @@ class AddIntroOptionsBuilder
   _$AddIntroOptions? _$v;
 
   Uint8List? _file;
+
   Uint8List? get file => _$this._file;
+
   set file(Uint8List? file) => _$this._file = file;
 
   AddIntroOptionsBuilder() {

@@ -62,11 +62,15 @@ class ServerConfigCustomTranscodingHlsBuilder
   _$ServerConfigCustomTranscodingHls? _$v;
 
   bool? _enabled;
+
   bool? get enabled => _$this._enabled;
+
   set enabled(bool? enabled) => _$this._enabled = enabled;
 
   bool? _splitAudioAndVideo;
+
   bool? get splitAudioAndVideo => _$this._splitAudioAndVideo;
+
   set splitAudioAndVideo(bool? splitAudioAndVideo) =>
       _$this._splitAudioAndVideo = splitAudioAndVideo;
 

@@ -1,5 +1,4 @@
 import 'package:dio/dio.dart';
-import 'package:one_of/one_of.dart';
 import 'package:peer_tube_api_sdk/peer_tube_api_sdk.dart';
 
 import '../peertube_api_example.dart';

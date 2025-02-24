@@ -59,14 +59,18 @@ class ServerConfigCustomCacheBuilder
   _$ServerConfigCustomCache? _$v;
 
   ServerConfigCustomCachePreviewsBuilder? _previews;
+
   ServerConfigCustomCachePreviewsBuilder get previews =>
       _$this._previews ??= new ServerConfigCustomCachePreviewsBuilder();
+
   set previews(ServerConfigCustomCachePreviewsBuilder? previews) =>
       _$this._previews = previews;
 
   ServerConfigCustomCachePreviewsBuilder? _captions;
+
   ServerConfigCustomCachePreviewsBuilder get captions =>
       _$this._captions ??= new ServerConfigCustomCachePreviewsBuilder();
+
   set captions(ServerConfigCustomCachePreviewsBuilder? captions) =>
       _$this._captions = captions;
 

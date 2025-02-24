@@ -64,7 +64,9 @@ class ApiV1UsersMeNotificationsReadPostRequestBuilder
   _$ApiV1UsersMeNotificationsReadPostRequest? _$v;
 
   ListBuilder<int>? _ids;
+
   ListBuilder<int> get ids => _$this._ids ??= new ListBuilder<int>();
+
   set ids(ListBuilder<int>? ids) => _$this._ids = ids;
 
   ApiV1UsersMeNotificationsReadPostRequestBuilder() {

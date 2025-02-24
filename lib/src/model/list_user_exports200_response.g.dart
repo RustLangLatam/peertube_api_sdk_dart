@@ -86,30 +86,42 @@ class ListUserExports200ResponseBuilder
   _$ListUserExports200Response? _$v;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(int? id) => _$this._id = id;
 
   ListUserExports200ResponseStateBuilder? _state;
+
   ListUserExports200ResponseStateBuilder get state =>
       _$this._state ??= new ListUserExports200ResponseStateBuilder();
+
   set state(ListUserExports200ResponseStateBuilder? state) =>
       _$this._state = state;
 
   int? _size;
+
   int? get size => _$this._size;
+
   set size(int? size) => _$this._size = size;
 
   String? _privateDownloadUrl;
+
   String? get privateDownloadUrl => _$this._privateDownloadUrl;
+
   set privateDownloadUrl(String? privateDownloadUrl) =>
       _$this._privateDownloadUrl = privateDownloadUrl;
 
   DateTime? _createdAt;
+
   DateTime? get createdAt => _$this._createdAt;
+
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _expiresOn;
+
   DateTime? get expiresOn => _$this._expiresOn;
+
   set expiresOn(DateTime? expiresOn) => _$this._expiresOn = expiresOn;
 
   ListUserExports200ResponseBuilder() {

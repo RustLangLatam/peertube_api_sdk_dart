@@ -73,24 +73,34 @@ class VideoRedundancyBuilder
   _$VideoRedundancy? _$v;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(int? id) => _$this._id = id;
 
   String? _name;
+
   String? get name => _$this._name;
+
   set name(String? name) => _$this._name = name;
 
   String? _url;
+
   String? get url => _$this._url;
+
   set url(String? url) => _$this._url = url;
 
   String? _uuid;
+
   String? get uuid => _$this._uuid;
+
   set uuid(String? uuid) => _$this._uuid = uuid;
 
   VideoRedundancyRedundanciesBuilder? _redundancies;
+
   VideoRedundancyRedundanciesBuilder get redundancies =>
       _$this._redundancies ??= new VideoRedundancyRedundanciesBuilder();
+
   set redundancies(VideoRedundancyRedundanciesBuilder? redundancies) =>
       _$this._redundancies = redundancies;
 

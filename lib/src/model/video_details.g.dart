@@ -304,214 +304,300 @@ class VideoDetailsBuilder
   _$VideoDetails? _$v;
 
   bool? _commentsEnabled;
+
   bool? get commentsEnabled => _$this._commentsEnabled;
+
   set commentsEnabled(covariant bool? commentsEnabled) =>
       _$this._commentsEnabled = commentsEnabled;
 
   int? _viewers;
+
   int? get viewers => _$this._viewers;
+
   set viewers(covariant int? viewers) => _$this._viewers = viewers;
 
   bool? _downloadEnabled;
+
   bool? get downloadEnabled => _$this._downloadEnabled;
+
   set downloadEnabled(covariant bool? downloadEnabled) =>
       _$this._downloadEnabled = downloadEnabled;
 
   ListBuilder<String>? _trackerUrls;
+
   ListBuilder<String> get trackerUrls =>
       _$this._trackerUrls ??= new ListBuilder<String>();
+
   set trackerUrls(covariant ListBuilder<String>? trackerUrls) =>
       _$this._trackerUrls = trackerUrls;
 
   VideoCommentsPolicyConstantBuilder? _commentsPolicy;
+
   VideoCommentsPolicyConstantBuilder get commentsPolicy =>
       _$this._commentsPolicy ??= new VideoCommentsPolicyConstantBuilder();
+
   set commentsPolicy(
           covariant VideoCommentsPolicyConstantBuilder? commentsPolicy) =>
       _$this._commentsPolicy = commentsPolicy;
 
   String? _description;
+
   String? get description => _$this._description;
+
   set description(covariant String? description) =>
       _$this._description = description;
 
   ListBuilder<VideoFile>? _files;
+
   ListBuilder<VideoFile> get files =>
       _$this._files ??= new ListBuilder<VideoFile>();
+
   set files(covariant ListBuilder<VideoFile>? files) => _$this._files = files;
 
   ListBuilder<VideoStreamingPlaylists>? _streamingPlaylists;
+
   ListBuilder<VideoStreamingPlaylists> get streamingPlaylists =>
       _$this._streamingPlaylists ??= new ListBuilder<VideoStreamingPlaylists>();
+
   set streamingPlaylists(
           covariant ListBuilder<VideoStreamingPlaylists>? streamingPlaylists) =>
       _$this._streamingPlaylists = streamingPlaylists;
 
   DateTime? _inputFileUpdatedAt;
+
   DateTime? get inputFileUpdatedAt => _$this._inputFileUpdatedAt;
+
   set inputFileUpdatedAt(covariant DateTime? inputFileUpdatedAt) =>
       _$this._inputFileUpdatedAt = inputFileUpdatedAt;
 
   String? _support;
+
   String? get support => _$this._support;
+
   set support(covariant String? support) => _$this._support = support;
 
   ListBuilder<String>? _tags;
+
   ListBuilder<String> get tags => _$this._tags ??= new ListBuilder<String>();
+
   set tags(covariant ListBuilder<String>? tags) => _$this._tags = tags;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(covariant int? id) => _$this._id = id;
 
   String? _uuid;
+
   String? get uuid => _$this._uuid;
+
   set uuid(covariant String? uuid) => _$this._uuid = uuid;
 
   String? _shortUUID;
+
   String? get shortUUID => _$this._shortUUID;
+
   set shortUUID(covariant String? shortUUID) => _$this._shortUUID = shortUUID;
 
   bool? _isLive;
+
   bool? get isLive => _$this._isLive;
+
   set isLive(covariant bool? isLive) => _$this._isLive = isLive;
 
   DateTime? _createdAt;
+
   DateTime? get createdAt => _$this._createdAt;
+
   set createdAt(covariant DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _publishedAt;
+
   DateTime? get publishedAt => _$this._publishedAt;
+
   set publishedAt(covariant DateTime? publishedAt) =>
       _$this._publishedAt = publishedAt;
 
   DateTime? _updatedAt;
+
   DateTime? get updatedAt => _$this._updatedAt;
+
   set updatedAt(covariant DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   DateTime? _originallyPublishedAt;
+
   DateTime? get originallyPublishedAt => _$this._originallyPublishedAt;
+
   set originallyPublishedAt(covariant DateTime? originallyPublishedAt) =>
       _$this._originallyPublishedAt = originallyPublishedAt;
 
   VideoConstantNumberCategoryBuilder? _category;
+
   VideoConstantNumberCategoryBuilder get category =>
       _$this._category ??= new VideoConstantNumberCategoryBuilder();
+
   set category(covariant VideoConstantNumberCategoryBuilder? category) =>
       _$this._category = category;
 
   VideoConstantNumberLicenceBuilder? _licence;
+
   VideoConstantNumberLicenceBuilder get licence =>
       _$this._licence ??= new VideoConstantNumberLicenceBuilder();
+
   set licence(covariant VideoConstantNumberLicenceBuilder? licence) =>
       _$this._licence = licence;
 
   VideoConstantStringLanguageBuilder? _language;
+
   VideoConstantStringLanguageBuilder get language =>
       _$this._language ??= new VideoConstantStringLanguageBuilder();
+
   set language(covariant VideoConstantStringLanguageBuilder? language) =>
       _$this._language = language;
 
   VideoPrivacyConstantBuilder? _privacy;
+
   VideoPrivacyConstantBuilder get privacy =>
       _$this._privacy ??= new VideoPrivacyConstantBuilder();
+
   set privacy(covariant VideoPrivacyConstantBuilder? privacy) =>
       _$this._privacy = privacy;
 
   String? _truncatedDescription;
+
   String? get truncatedDescription => _$this._truncatedDescription;
+
   set truncatedDescription(covariant String? truncatedDescription) =>
       _$this._truncatedDescription = truncatedDescription;
 
   int? _duration;
+
   int? get duration => _$this._duration;
+
   set duration(covariant int? duration) => _$this._duration = duration;
 
   double? _aspectRatio;
+
   double? get aspectRatio => _$this._aspectRatio;
+
   set aspectRatio(covariant double? aspectRatio) =>
       _$this._aspectRatio = aspectRatio;
 
   bool? _isLocal;
+
   bool? get isLocal => _$this._isLocal;
+
   set isLocal(covariant bool? isLocal) => _$this._isLocal = isLocal;
 
   String? _name;
+
   String? get name => _$this._name;
+
   set name(covariant String? name) => _$this._name = name;
 
   String? _thumbnailPath;
+
   String? get thumbnailPath => _$this._thumbnailPath;
+
   set thumbnailPath(covariant String? thumbnailPath) =>
       _$this._thumbnailPath = thumbnailPath;
 
   String? _previewPath;
+
   String? get previewPath => _$this._previewPath;
+
   set previewPath(covariant String? previewPath) =>
       _$this._previewPath = previewPath;
 
   String? _embedPath;
+
   String? get embedPath => _$this._embedPath;
+
   set embedPath(covariant String? embedPath) => _$this._embedPath = embedPath;
 
   int? _views;
+
   int? get views => _$this._views;
+
   set views(covariant int? views) => _$this._views = views;
 
   int? _likes;
+
   int? get likes => _$this._likes;
+
   set likes(covariant int? likes) => _$this._likes = likes;
 
   int? _dislikes;
+
   int? get dislikes => _$this._dislikes;
+
   set dislikes(covariant int? dislikes) => _$this._dislikes = dislikes;
 
   bool? _nsfw;
+
   bool? get nsfw => _$this._nsfw;
+
   set nsfw(covariant bool? nsfw) => _$this._nsfw = nsfw;
 
   bool? _waitTranscoding;
+
   bool? get waitTranscoding => _$this._waitTranscoding;
+
   set waitTranscoding(covariant bool? waitTranscoding) =>
       _$this._waitTranscoding = waitTranscoding;
 
   VideoStateConstantBuilder? _state;
+
   VideoStateConstantBuilder get state =>
       _$this._state ??= new VideoStateConstantBuilder();
+
   set state(covariant VideoStateConstantBuilder? state) =>
       _$this._state = state;
 
   VideoScheduledUpdateBuilder? _scheduledUpdate;
+
   VideoScheduledUpdateBuilder get scheduledUpdate =>
       _$this._scheduledUpdate ??= new VideoScheduledUpdateBuilder();
+
   set scheduledUpdate(covariant VideoScheduledUpdateBuilder? scheduledUpdate) =>
       _$this._scheduledUpdate = scheduledUpdate;
 
   bool? _blacklisted;
+
   bool? get blacklisted => _$this._blacklisted;
+
   set blacklisted(covariant bool? blacklisted) =>
       _$this._blacklisted = blacklisted;
 
   String? _blacklistedReason;
+
   String? get blacklistedReason => _$this._blacklistedReason;
+
   set blacklistedReason(covariant String? blacklistedReason) =>
       _$this._blacklistedReason = blacklistedReason;
 
   AccountSummaryBuilder? _account;
+
   AccountSummaryBuilder get account =>
       _$this._account ??= new AccountSummaryBuilder();
+
   set account(covariant AccountSummaryBuilder? account) =>
       _$this._account = account;
 
   VideoChannelSummaryBuilder? _channel;
+
   VideoChannelSummaryBuilder get channel =>
       _$this._channel ??= new VideoChannelSummaryBuilder();
+
   set channel(covariant VideoChannelSummaryBuilder? channel) =>
       _$this._channel = channel;
 
   VideoUserHistoryBuilder? _userHistory;
+
   VideoUserHistoryBuilder get userHistory =>
       _$this._userHistory ??= new VideoUserHistoryBuilder();
+
   set userHistory(covariant VideoUserHistoryBuilder? userHistory) =>
       _$this._userHistory = userHistory;
 

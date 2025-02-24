@@ -55,8 +55,10 @@ class ServerConfigAutoBlacklistVideosBuilder
   _$ServerConfigAutoBlacklistVideos? _$v;
 
   ServerConfigEmailBuilder? _ofUsers;
+
   ServerConfigEmailBuilder get ofUsers =>
       _$this._ofUsers ??= new ServerConfigEmailBuilder();
+
   set ofUsers(ServerConfigEmailBuilder? ofUsers) => _$this._ofUsers = ofUsers;
 
   ServerConfigAutoBlacklistVideosBuilder() {

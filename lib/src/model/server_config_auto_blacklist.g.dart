@@ -53,8 +53,10 @@ class ServerConfigAutoBlacklistBuilder
   _$ServerConfigAutoBlacklist? _$v;
 
   ServerConfigAutoBlacklistVideosBuilder? _videos;
+
   ServerConfigAutoBlacklistVideosBuilder get videos =>
       _$this._videos ??= new ServerConfigAutoBlacklistVideosBuilder();
+
   set videos(ServerConfigAutoBlacklistVideosBuilder? videos) =>
       _$this._videos = videos;
 

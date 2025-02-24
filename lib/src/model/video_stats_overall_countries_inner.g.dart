@@ -61,11 +61,15 @@ class VideoStatsOverallCountriesInnerBuilder
   _$VideoStatsOverallCountriesInner? _$v;
 
   String? _isoCode;
+
   String? get isoCode => _$this._isoCode;
+
   set isoCode(String? isoCode) => _$this._isoCode = isoCode;
 
   num? _viewers;
+
   num? get viewers => _$this._viewers;
+
   set viewers(num? viewers) => _$this._viewers = viewers;
 
   VideoStatsOverallCountriesInnerBuilder() {

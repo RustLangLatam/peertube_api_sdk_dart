@@ -126,11 +126,15 @@ class AutomaticTagAvailableAvailableInnerBuilder
   _$AutomaticTagAvailableAvailableInner? _$v;
 
   String? _name;
+
   String? get name => _$this._name;
+
   set name(String? name) => _$this._name = name;
 
   AutomaticTagAvailableAvailableInnerTypeEnum? _type;
+
   AutomaticTagAvailableAvailableInnerTypeEnum? get type => _$this._type;
+
   set type(AutomaticTagAvailableAvailableInnerTypeEnum? type) =>
       _$this._type = type;
 

@@ -28,9 +28,13 @@ final BuiltSet<FileStorage> _$values =
 
 class _$FileStorageMeta {
   const _$FileStorageMeta();
+
   FileStorage get number0 => _$number0;
+
   FileStorage get number1 => _$number1;
+
   FileStorage valueOf(String name) => _$valueOf(name);
+
   BuiltSet<FileStorage> get values => _$values;
 }
 

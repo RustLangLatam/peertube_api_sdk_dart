@@ -59,7 +59,9 @@ class VerifyRegistrationEmailRequestBuilder
   _$VerifyRegistrationEmailRequest? _$v;
 
   String? _verificationString;
+
   String? get verificationString => _$this._verificationString;
+
   set verificationString(String? verificationString) =>
       _$this._verificationString = verificationString;
 

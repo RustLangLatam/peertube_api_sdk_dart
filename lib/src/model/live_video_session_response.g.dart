@@ -160,24 +160,34 @@ class LiveVideoSessionResponseBuilder
   _$LiveVideoSessionResponse? _$v;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(int? id) => _$this._id = id;
 
   DateTime? _startDate;
+
   DateTime? get startDate => _$this._startDate;
+
   set startDate(DateTime? startDate) => _$this._startDate = startDate;
 
   DateTime? _endDate;
+
   DateTime? get endDate => _$this._endDate;
+
   set endDate(DateTime? endDate) => _$this._endDate = endDate;
 
   LiveVideoSessionResponseErrorEnum? _error;
+
   LiveVideoSessionResponseErrorEnum? get error => _$this._error;
+
   set error(LiveVideoSessionResponseErrorEnum? error) => _$this._error = error;
 
   LiveVideoSessionResponseReplayVideoBuilder? _replayVideo;
+
   LiveVideoSessionResponseReplayVideoBuilder get replayVideo =>
       _$this._replayVideo ??= new LiveVideoSessionResponseReplayVideoBuilder();
+
   set replayVideo(LiveVideoSessionResponseReplayVideoBuilder? replayVideo) =>
       _$this._replayVideo = replayVideo;
 

@@ -52,8 +52,10 @@ class ServerConfigTrendingBuilder
   _$ServerConfigTrending? _$v;
 
   ServerConfigTrendingVideosBuilder? _videos;
+
   ServerConfigTrendingVideosBuilder get videos =>
       _$this._videos ??= new ServerConfigTrendingVideosBuilder();
+
   set videos(ServerConfigTrendingVideosBuilder? videos) =>
       _$this._videos = videos;
 

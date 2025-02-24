@@ -65,16 +65,22 @@ class ServerConfigSignupBuilder
   _$ServerConfigSignup? _$v;
 
   bool? _allowed;
+
   bool? get allowed => _$this._allowed;
+
   set allowed(bool? allowed) => _$this._allowed = allowed;
 
   bool? _allowedForCurrentIP;
+
   bool? get allowedForCurrentIP => _$this._allowedForCurrentIP;
+
   set allowedForCurrentIP(bool? allowedForCurrentIP) =>
       _$this._allowedForCurrentIP = allowedForCurrentIP;
 
   bool? _requiresEmailVerification;
+
   bool? get requiresEmailVerification => _$this._requiresEmailVerification;
+
   set requiresEmailVerification(bool? requiresEmailVerification) =>
       _$this._requiresEmailVerification = requiresEmailVerification;
 

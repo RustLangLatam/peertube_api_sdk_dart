@@ -74,23 +74,33 @@ class WatchedWordsListsBuilder
   _$WatchedWordsLists? _$v;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(int? id) => _$this._id = id;
 
   String? _listName;
+
   String? get listName => _$this._listName;
+
   set listName(String? listName) => _$this._listName = listName;
 
   ListBuilder<String>? _words;
+
   ListBuilder<String> get words => _$this._words ??= new ListBuilder<String>();
+
   set words(ListBuilder<String>? words) => _$this._words = words;
 
   DateTime? _updatedAt;
+
   DateTime? get updatedAt => _$this._updatedAt;
+
   set updatedAt(DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   DateTime? _createdAt;
+
   DateTime? get createdAt => _$this._createdAt;
+
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   WatchedWordsListsBuilder() {

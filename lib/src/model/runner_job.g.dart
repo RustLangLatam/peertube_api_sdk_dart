@@ -8,47 +8,63 @@ part of 'runner_job.dart';
 
 abstract mixin class RunnerJobBuilder {
   void replace(RunnerJob other);
+
   void update(void Function(RunnerJobBuilder) updates);
+
   String? get uuid;
+
   set uuid(String? uuid);
 
   RunnerJobType? get type;
+
   set type(RunnerJobType? type);
 
   RunnerJobStateConstantBuilder get state;
+
   set state(RunnerJobStateConstantBuilder? state);
 
   RunnerJobPayloadBuilder get payload;
+
   set payload(RunnerJobPayloadBuilder? payload);
 
   int? get failures;
+
   set failures(int? failures);
 
   String? get error;
+
   set error(String? error);
 
   int? get progress;
+
   set progress(int? progress);
 
   int? get priority;
+
   set priority(int? priority);
 
   DateTime? get updatedAt;
+
   set updatedAt(DateTime? updatedAt);
 
   DateTime? get createdAt;
+
   set createdAt(DateTime? createdAt);
 
   DateTime? get startedAt;
+
   set startedAt(DateTime? startedAt);
 
   DateTime? get finishedAt;
+
   set finishedAt(DateTime? finishedAt);
 
   RunnerJobParentBuilder get parent;
+
   set parent(RunnerJobParentBuilder? parent);
 
   RunnerJobRunnerBuilder get runner;
+
   set runner(RunnerJobRunnerBuilder? runner);
 }
 
@@ -176,67 +192,95 @@ class $RunnerJobBuilder
   _$$RunnerJob? _$v;
 
   String? _uuid;
+
   String? get uuid => _$this._uuid;
+
   set uuid(covariant String? uuid) => _$this._uuid = uuid;
 
   RunnerJobType? _type;
+
   RunnerJobType? get type => _$this._type;
+
   set type(covariant RunnerJobType? type) => _$this._type = type;
 
   RunnerJobStateConstantBuilder? _state;
+
   RunnerJobStateConstantBuilder get state =>
       _$this._state ??= new RunnerJobStateConstantBuilder();
+
   set state(covariant RunnerJobStateConstantBuilder? state) =>
       _$this._state = state;
 
   RunnerJobPayloadBuilder? _payload;
+
   RunnerJobPayloadBuilder get payload =>
       _$this._payload ??= new RunnerJobPayloadBuilder();
+
   set payload(covariant RunnerJobPayloadBuilder? payload) =>
       _$this._payload = payload;
 
   int? _failures;
+
   int? get failures => _$this._failures;
+
   set failures(covariant int? failures) => _$this._failures = failures;
 
   String? _error;
+
   String? get error => _$this._error;
+
   set error(covariant String? error) => _$this._error = error;
 
   int? _progress;
+
   int? get progress => _$this._progress;
+
   set progress(covariant int? progress) => _$this._progress = progress;
 
   int? _priority;
+
   int? get priority => _$this._priority;
+
   set priority(covariant int? priority) => _$this._priority = priority;
 
   DateTime? _updatedAt;
+
   DateTime? get updatedAt => _$this._updatedAt;
+
   set updatedAt(covariant DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   DateTime? _createdAt;
+
   DateTime? get createdAt => _$this._createdAt;
+
   set createdAt(covariant DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _startedAt;
+
   DateTime? get startedAt => _$this._startedAt;
+
   set startedAt(covariant DateTime? startedAt) => _$this._startedAt = startedAt;
 
   DateTime? _finishedAt;
+
   DateTime? get finishedAt => _$this._finishedAt;
+
   set finishedAt(covariant DateTime? finishedAt) =>
       _$this._finishedAt = finishedAt;
 
   RunnerJobParentBuilder? _parent;
+
   RunnerJobParentBuilder get parent =>
       _$this._parent ??= new RunnerJobParentBuilder();
+
   set parent(covariant RunnerJobParentBuilder? parent) =>
       _$this._parent = parent;
 
   RunnerJobRunnerBuilder? _runner;
+
   RunnerJobRunnerBuilder get runner =>
       _$this._runner ??= new RunnerJobRunnerBuilder();
+
   set runner(covariant RunnerJobRunnerBuilder? runner) =>
       _$this._runner = runner;
 

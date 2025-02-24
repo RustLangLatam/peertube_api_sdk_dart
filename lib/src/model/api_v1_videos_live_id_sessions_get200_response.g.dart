@@ -66,12 +66,16 @@ class ApiV1VideosLiveIdSessionsGet200ResponseBuilder
   _$ApiV1VideosLiveIdSessionsGet200Response? _$v;
 
   int? _total;
+
   int? get total => _$this._total;
+
   set total(int? total) => _$this._total = total;
 
   ListBuilder<LiveVideoSessionResponse>? _data;
+
   ListBuilder<LiveVideoSessionResponse> get data =>
       _$this._data ??= new ListBuilder<LiveVideoSessionResponse>();
+
   set data(ListBuilder<LiveVideoSessionResponse>? data) => _$this._data = data;
 
   ApiV1VideosLiveIdSessionsGet200ResponseBuilder() {

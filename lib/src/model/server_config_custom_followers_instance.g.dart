@@ -64,11 +64,15 @@ class ServerConfigCustomFollowersInstanceBuilder
   _$ServerConfigCustomFollowersInstance? _$v;
 
   bool? _enabled;
+
   bool? get enabled => _$this._enabled;
+
   set enabled(bool? enabled) => _$this._enabled = enabled;
 
   bool? _manualApproval;
+
   bool? get manualApproval => _$this._manualApproval;
+
   set manualApproval(bool? manualApproval) =>
       _$this._manualApproval = manualApproval;
 

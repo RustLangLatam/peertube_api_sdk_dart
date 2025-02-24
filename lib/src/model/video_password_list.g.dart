@@ -57,12 +57,16 @@ class VideoPasswordListBuilder
   _$VideoPasswordList? _$v;
 
   int? _total;
+
   int? get total => _$this._total;
+
   set total(int? total) => _$this._total = total;
 
   ListBuilder<VideoPassword>? _data;
+
   ListBuilder<VideoPassword> get data =>
       _$this._data ??= new ListBuilder<VideoPassword>();
+
   set data(ListBuilder<VideoPassword>? data) => _$this._data = data;
 
   VideoPasswordListBuilder() {

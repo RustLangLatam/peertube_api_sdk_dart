@@ -73,16 +73,22 @@ class ApiV1RunnersRegisterPostRequestBuilder
   _$ApiV1RunnersRegisterPostRequest? _$v;
 
   String? _registrationToken;
+
   String? get registrationToken => _$this._registrationToken;
+
   set registrationToken(String? registrationToken) =>
       _$this._registrationToken = registrationToken;
 
   String? _name;
+
   String? get name => _$this._name;
+
   set name(String? name) => _$this._name = name;
 
   String? _description;
+
   String? get description => _$this._description;
+
   set description(String? description) => _$this._description = description;
 
   ApiV1RunnersRegisterPostRequestBuilder() {

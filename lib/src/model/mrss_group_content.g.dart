@@ -90,31 +90,45 @@ class MRSSGroupContentBuilder
   _$MRSSGroupContent? _$v;
 
   String? _url;
+
   String? get url => _$this._url;
+
   set url(String? url) => _$this._url = url;
 
   int? _fileSize;
+
   int? get fileSize => _$this._fileSize;
+
   set fileSize(int? fileSize) => _$this._fileSize = fileSize;
 
   String? _type;
+
   String? get type => _$this._type;
+
   set type(String? type) => _$this._type = type;
 
   int? _framerate;
+
   int? get framerate => _$this._framerate;
+
   set framerate(int? framerate) => _$this._framerate = framerate;
 
   int? _duration;
+
   int? get duration => _$this._duration;
+
   set duration(int? duration) => _$this._duration = duration;
 
   int? _height;
+
   int? get height => _$this._height;
+
   set height(int? height) => _$this._height = height;
 
   String? _lang;
+
   String? get lang => _$this._lang;
+
   set lang(String? lang) => _$this._lang = lang;
 
   MRSSGroupContentBuilder() {

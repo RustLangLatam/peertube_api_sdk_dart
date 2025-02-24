@@ -66,12 +66,16 @@ class ApiV1AbusesAbuseIdMessagesGet200ResponseBuilder
   _$ApiV1AbusesAbuseIdMessagesGet200Response? _$v;
 
   int? _total;
+
   int? get total => _$this._total;
+
   set total(int? total) => _$this._total = total;
 
   ListBuilder<AbuseMessage>? _data;
+
   ListBuilder<AbuseMessage> get data =>
       _$this._data ??= new ListBuilder<AbuseMessage>();
+
   set data(ListBuilder<AbuseMessage>? data) => _$this._data = data;
 
   ApiV1AbusesAbuseIdMessagesGet200ResponseBuilder() {

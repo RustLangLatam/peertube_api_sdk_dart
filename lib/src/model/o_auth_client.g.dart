@@ -54,11 +54,15 @@ class OAuthClientBuilder implements Builder<OAuthClient, OAuthClientBuilder> {
   _$OAuthClient? _$v;
 
   String? _clientId;
+
   String? get clientId => _$this._clientId;
+
   set clientId(String? clientId) => _$this._clientId = clientId;
 
   String? _clientSecret;
+
   String? get clientSecret => _$this._clientSecret;
+
   set clientSecret(String? clientSecret) => _$this._clientSecret = clientSecret;
 
   OAuthClientBuilder() {

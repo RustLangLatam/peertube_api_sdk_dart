@@ -128,14 +128,18 @@ class CreateVideoTranscodingRequestBuilder
   _$CreateVideoTranscodingRequest? _$v;
 
   CreateVideoTranscodingRequestTranscodingTypeEnum? _transcodingType;
+
   CreateVideoTranscodingRequestTranscodingTypeEnum? get transcodingType =>
       _$this._transcodingType;
+
   set transcodingType(
           CreateVideoTranscodingRequestTranscodingTypeEnum? transcodingType) =>
       _$this._transcodingType = transcodingType;
 
   bool? _forceTranscoding;
+
   bool? get forceTranscoding => _$this._forceTranscoding;
+
   set forceTranscoding(bool? forceTranscoding) =>
       _$this._forceTranscoding = forceTranscoding;
 

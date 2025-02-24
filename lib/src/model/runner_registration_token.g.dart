@@ -80,24 +80,34 @@ class RunnerRegistrationTokenBuilder
   _$RunnerRegistrationToken? _$v;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(int? id) => _$this._id = id;
 
   String? _registrationToken;
+
   String? get registrationToken => _$this._registrationToken;
+
   set registrationToken(String? registrationToken) =>
       _$this._registrationToken = registrationToken;
 
   DateTime? _createdAt;
+
   DateTime? get createdAt => _$this._createdAt;
+
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _updatedAt;
+
   DateTime? get updatedAt => _$this._updatedAt;
+
   set updatedAt(DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   int? _registeredRunnersCount;
+
   int? get registeredRunnersCount => _$this._registeredRunnersCount;
+
   set registeredRunnersCount(int? registeredRunnersCount) =>
       _$this._registeredRunnersCount = registeredRunnersCount;
 

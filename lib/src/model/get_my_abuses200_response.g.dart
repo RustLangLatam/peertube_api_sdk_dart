@@ -58,11 +58,15 @@ class GetMyAbuses200ResponseBuilder
   _$GetMyAbuses200Response? _$v;
 
   int? _total;
+
   int? get total => _$this._total;
+
   set total(int? total) => _$this._total = total;
 
   ListBuilder<Abuse>? _data;
+
   ListBuilder<Abuse> get data => _$this._data ??= new ListBuilder<Abuse>();
+
   set data(ListBuilder<Abuse>? data) => _$this._data = data;
 
   GetMyAbuses200ResponseBuilder() {

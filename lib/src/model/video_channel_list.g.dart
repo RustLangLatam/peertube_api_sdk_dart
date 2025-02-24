@@ -57,12 +57,16 @@ class VideoChannelListBuilder
   _$VideoChannelList? _$v;
 
   int? _total;
+
   int? get total => _$this._total;
+
   set total(int? total) => _$this._total = total;
 
   ListBuilder<VideoChannelListDataInner>? _data;
+
   ListBuilder<VideoChannelListDataInner> get data =>
       _$this._data ??= new ListBuilder<VideoChannelListDataInner>();
+
   set data(ListBuilder<VideoChannelListDataInner>? data) => _$this._data = data;
 
   VideoChannelListBuilder() {

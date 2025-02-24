@@ -35,10 +35,15 @@ final BuiltSet<VideoCommentsPolicySet> _$values =
 
 class _$VideoCommentsPolicySetMeta {
   const _$VideoCommentsPolicySetMeta();
+
   VideoCommentsPolicySet get number1 => _$number1;
+
   VideoCommentsPolicySet get number2 => _$number2;
+
   VideoCommentsPolicySet get number3 => _$number3;
+
   VideoCommentsPolicySet valueOf(String name) => _$valueOf(name);
+
   BuiltSet<VideoCommentsPolicySet> get values => _$values;
 }
 

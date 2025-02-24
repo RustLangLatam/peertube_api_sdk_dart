@@ -61,11 +61,15 @@ class VODAudioMergeTranscoding1InputBuilder
   _$VODAudioMergeTranscoding1Input? _$v;
 
   String? _audioFileUrl;
+
   String? get audioFileUrl => _$this._audioFileUrl;
+
   set audioFileUrl(String? audioFileUrl) => _$this._audioFileUrl = audioFileUrl;
 
   String? _previewFileUrl;
+
   String? get previewFileUrl => _$this._previewFileUrl;
+
   set previewFileUrl(String? previewFileUrl) =>
       _$this._previewFileUrl = previewFileUrl;
 

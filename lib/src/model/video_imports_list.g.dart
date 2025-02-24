@@ -57,12 +57,16 @@ class VideoImportsListBuilder
   _$VideoImportsList? _$v;
 
   int? _total;
+
   int? get total => _$this._total;
+
   set total(int? total) => _$this._total = total;
 
   ListBuilder<VideoImport>? _data;
+
   ListBuilder<VideoImport> get data =>
       _$this._data ??= new ListBuilder<VideoImport>();
+
   set data(ListBuilder<VideoImport>? data) => _$this._data = data;
 
   VideoImportsListBuilder() {

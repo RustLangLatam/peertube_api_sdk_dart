@@ -54,7 +54,9 @@ class ServerConfigInstanceSupportBuilder
   _$ServerConfigInstanceSupport? _$v;
 
   String? _text;
+
   String? get text => _$this._text;
+
   set text(String? text) => _$this._text = text;
 
   ServerConfigInstanceSupportBuilder() {

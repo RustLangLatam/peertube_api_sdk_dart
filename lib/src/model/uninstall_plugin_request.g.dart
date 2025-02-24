@@ -55,7 +55,9 @@ class UninstallPluginRequestBuilder
   _$UninstallPluginRequest? _$v;
 
   String? _npmName;
+
   String? get npmName => _$this._npmName;
+
   set npmName(String? npmName) => _$this._npmName = npmName;
 
   UninstallPluginRequestBuilder() {

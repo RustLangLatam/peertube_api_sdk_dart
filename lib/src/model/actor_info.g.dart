@@ -70,24 +70,34 @@ class ActorInfoBuilder implements Builder<ActorInfo, ActorInfoBuilder> {
   _$ActorInfo? _$v;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(int? id) => _$this._id = id;
 
   String? _name;
+
   String? get name => _$this._name;
+
   set name(String? name) => _$this._name = name;
 
   String? _displayName;
+
   String? get displayName => _$this._displayName;
+
   set displayName(String? displayName) => _$this._displayName = displayName;
 
   String? _host;
+
   String? get host => _$this._host;
+
   set host(String? host) => _$this._host = host;
 
   ListBuilder<ActorImage>? _avatars;
+
   ListBuilder<ActorImage> get avatars =>
       _$this._avatars ??= new ListBuilder<ActorImage>();
+
   set avatars(ListBuilder<ActorImage>? avatars) => _$this._avatars = avatars;
 
   ActorInfoBuilder() {

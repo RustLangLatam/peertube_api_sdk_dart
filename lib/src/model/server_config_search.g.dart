@@ -52,8 +52,10 @@ class ServerConfigSearchBuilder
   _$ServerConfigSearch? _$v;
 
   ServerConfigSearchRemoteUriBuilder? _remoteUri;
+
   ServerConfigSearchRemoteUriBuilder get remoteUri =>
       _$this._remoteUri ??= new ServerConfigSearchRemoteUriBuilder();
+
   set remoteUri(ServerConfigSearchRemoteUriBuilder? remoteUri) =>
       _$this._remoteUri = remoteUri;
 

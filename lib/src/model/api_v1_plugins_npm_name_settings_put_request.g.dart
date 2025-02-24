@@ -60,8 +60,10 @@ class ApiV1PluginsNpmNameSettingsPutRequestBuilder
   _$ApiV1PluginsNpmNameSettingsPutRequest? _$v;
 
   MapBuilder<String, JsonObject?>? _settings;
+
   MapBuilder<String, JsonObject?> get settings =>
       _$this._settings ??= new MapBuilder<String, JsonObject?>();
+
   set settings(MapBuilder<String, JsonObject?>? settings) =>
       _$this._settings = settings;
 

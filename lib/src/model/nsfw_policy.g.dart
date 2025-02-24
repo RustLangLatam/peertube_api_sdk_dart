@@ -32,10 +32,15 @@ final BuiltSet<NSFWPolicy> _$values =
 
 class _$NSFWPolicyMeta {
   const _$NSFWPolicyMeta();
+
   NSFWPolicy get display => _$display;
+
   NSFWPolicy get blur => _$blur;
+
   NSFWPolicy get doNotList => _$doNotList;
+
   NSFWPolicy valueOf(String name) => _$valueOf(name);
+
   BuiltSet<NSFWPolicy> get values => _$values;
 }
 

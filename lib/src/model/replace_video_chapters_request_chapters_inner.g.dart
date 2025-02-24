@@ -66,11 +66,15 @@ class ReplaceVideoChaptersRequestChaptersInnerBuilder
   _$ReplaceVideoChaptersRequestChaptersInner? _$v;
 
   String? _title;
+
   String? get title => _$this._title;
+
   set title(String? title) => _$this._title = title;
 
   int? _timecode;
+
   int? get timecode => _$this._timecode;
+
   set timecode(int? timecode) => _$this._timecode = timecode;
 
   ReplaceVideoChaptersRequestChaptersInnerBuilder() {

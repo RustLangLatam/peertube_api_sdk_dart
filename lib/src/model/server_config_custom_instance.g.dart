@@ -170,104 +170,144 @@ class ServerConfigCustomInstanceBuilder
   _$ServerConfigCustomInstance? _$v;
 
   String? _name;
+
   String? get name => _$this._name;
+
   set name(String? name) => _$this._name = name;
 
   String? _shortDescription;
+
   String? get shortDescription => _$this._shortDescription;
+
   set shortDescription(String? shortDescription) =>
       _$this._shortDescription = shortDescription;
 
   String? _description;
+
   String? get description => _$this._description;
+
   set description(String? description) => _$this._description = description;
 
   String? _terms;
+
   String? get terms => _$this._terms;
+
   set terms(String? terms) => _$this._terms = terms;
 
   String? _codeOfConduct;
+
   String? get codeOfConduct => _$this._codeOfConduct;
+
   set codeOfConduct(String? codeOfConduct) =>
       _$this._codeOfConduct = codeOfConduct;
 
   String? _creationReason;
+
   String? get creationReason => _$this._creationReason;
+
   set creationReason(String? creationReason) =>
       _$this._creationReason = creationReason;
 
   String? _moderationInformation;
+
   String? get moderationInformation => _$this._moderationInformation;
+
   set moderationInformation(String? moderationInformation) =>
       _$this._moderationInformation = moderationInformation;
 
   String? _administrator;
+
   String? get administrator => _$this._administrator;
+
   set administrator(String? administrator) =>
       _$this._administrator = administrator;
 
   String? _maintenanceLifetime;
+
   String? get maintenanceLifetime => _$this._maintenanceLifetime;
+
   set maintenanceLifetime(String? maintenanceLifetime) =>
       _$this._maintenanceLifetime = maintenanceLifetime;
 
   String? _businessModel;
+
   String? get businessModel => _$this._businessModel;
+
   set businessModel(String? businessModel) =>
       _$this._businessModel = businessModel;
 
   String? _hardwareInformation;
+
   String? get hardwareInformation => _$this._hardwareInformation;
+
   set hardwareInformation(String? hardwareInformation) =>
       _$this._hardwareInformation = hardwareInformation;
 
   ListBuilder<String>? _languages;
+
   ListBuilder<String> get languages =>
       _$this._languages ??= new ListBuilder<String>();
+
   set languages(ListBuilder<String>? languages) =>
       _$this._languages = languages;
 
   ListBuilder<num>? _categories;
+
   ListBuilder<num> get categories =>
       _$this._categories ??= new ListBuilder<num>();
+
   set categories(ListBuilder<num>? categories) =>
       _$this._categories = categories;
 
   bool? _isNSFW;
+
   bool? get isNSFW => _$this._isNSFW;
+
   set isNSFW(bool? isNSFW) => _$this._isNSFW = isNSFW;
 
   String? _defaultNSFWPolicy;
+
   String? get defaultNSFWPolicy => _$this._defaultNSFWPolicy;
+
   set defaultNSFWPolicy(String? defaultNSFWPolicy) =>
       _$this._defaultNSFWPolicy = defaultNSFWPolicy;
 
   String? _serverCountry;
+
   String? get serverCountry => _$this._serverCountry;
+
   set serverCountry(String? serverCountry) =>
       _$this._serverCountry = serverCountry;
 
   ServerConfigInstanceSupportBuilder? _support;
+
   ServerConfigInstanceSupportBuilder get support =>
       _$this._support ??= new ServerConfigInstanceSupportBuilder();
+
   set support(ServerConfigInstanceSupportBuilder? support) =>
       _$this._support = support;
 
   ServerConfigInstanceSocialBuilder? _social;
+
   ServerConfigInstanceSocialBuilder get social =>
       _$this._social ??= new ServerConfigInstanceSocialBuilder();
+
   set social(ServerConfigInstanceSocialBuilder? social) =>
       _$this._social = social;
 
   String? _defaultClientRoute;
+
   String? get defaultClientRoute => _$this._defaultClientRoute;
+
   set defaultClientRoute(String? defaultClientRoute) =>
       _$this._defaultClientRoute = defaultClientRoute;
 
   ServerConfigInstanceCustomizationsBuilder? _customizations;
+
   ServerConfigInstanceCustomizationsBuilder get customizations =>
       _$this._customizations ??=
           new ServerConfigInstanceCustomizationsBuilder();
+
   set customizations(
           ServerConfigInstanceCustomizationsBuilder? customizations) =>
       _$this._customizations = customizations;

@@ -54,8 +54,10 @@ class ServerConfigCustomFollowersBuilder
   _$ServerConfigCustomFollowers? _$v;
 
   ServerConfigCustomFollowersInstanceBuilder? _instance;
+
   ServerConfigCustomFollowersInstanceBuilder get instance =>
       _$this._instance ??= new ServerConfigCustomFollowersInstanceBuilder();
+
   set instance(ServerConfigCustomFollowersInstanceBuilder? instance) =>
       _$this._instance = instance;
 

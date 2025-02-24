@@ -251,183 +251,245 @@ class ServerStatsBuilder implements Builder<ServerStats, ServerStatsBuilder> {
   _$ServerStats? _$v;
 
   num? _totalUsers;
+
   num? get totalUsers => _$this._totalUsers;
+
   set totalUsers(num? totalUsers) => _$this._totalUsers = totalUsers;
 
   num? _totalDailyActiveUsers;
+
   num? get totalDailyActiveUsers => _$this._totalDailyActiveUsers;
+
   set totalDailyActiveUsers(num? totalDailyActiveUsers) =>
       _$this._totalDailyActiveUsers = totalDailyActiveUsers;
 
   num? _totalWeeklyActiveUsers;
+
   num? get totalWeeklyActiveUsers => _$this._totalWeeklyActiveUsers;
+
   set totalWeeklyActiveUsers(num? totalWeeklyActiveUsers) =>
       _$this._totalWeeklyActiveUsers = totalWeeklyActiveUsers;
 
   num? _totalMonthlyActiveUsers;
+
   num? get totalMonthlyActiveUsers => _$this._totalMonthlyActiveUsers;
+
   set totalMonthlyActiveUsers(num? totalMonthlyActiveUsers) =>
       _$this._totalMonthlyActiveUsers = totalMonthlyActiveUsers;
 
   num? _totalModerators;
+
   num? get totalModerators => _$this._totalModerators;
+
   set totalModerators(num? totalModerators) =>
       _$this._totalModerators = totalModerators;
 
   num? _totalAdmins;
+
   num? get totalAdmins => _$this._totalAdmins;
+
   set totalAdmins(num? totalAdmins) => _$this._totalAdmins = totalAdmins;
 
   num? _totalLocalVideos;
+
   num? get totalLocalVideos => _$this._totalLocalVideos;
+
   set totalLocalVideos(num? totalLocalVideos) =>
       _$this._totalLocalVideos = totalLocalVideos;
 
   num? _totalLocalVideoViews;
+
   num? get totalLocalVideoViews => _$this._totalLocalVideoViews;
+
   set totalLocalVideoViews(num? totalLocalVideoViews) =>
       _$this._totalLocalVideoViews = totalLocalVideoViews;
 
   num? _totalLocalVideoComments;
+
   num? get totalLocalVideoComments => _$this._totalLocalVideoComments;
+
   set totalLocalVideoComments(num? totalLocalVideoComments) =>
       _$this._totalLocalVideoComments = totalLocalVideoComments;
 
   num? _totalLocalVideoFilesSize;
+
   num? get totalLocalVideoFilesSize => _$this._totalLocalVideoFilesSize;
+
   set totalLocalVideoFilesSize(num? totalLocalVideoFilesSize) =>
       _$this._totalLocalVideoFilesSize = totalLocalVideoFilesSize;
 
   num? _totalVideos;
+
   num? get totalVideos => _$this._totalVideos;
+
   set totalVideos(num? totalVideos) => _$this._totalVideos = totalVideos;
 
   num? _totalVideoComments;
+
   num? get totalVideoComments => _$this._totalVideoComments;
+
   set totalVideoComments(num? totalVideoComments) =>
       _$this._totalVideoComments = totalVideoComments;
 
   num? _totalLocalVideoChannels;
+
   num? get totalLocalVideoChannels => _$this._totalLocalVideoChannels;
+
   set totalLocalVideoChannels(num? totalLocalVideoChannels) =>
       _$this._totalLocalVideoChannels = totalLocalVideoChannels;
 
   num? _totalLocalDailyActiveVideoChannels;
+
   num? get totalLocalDailyActiveVideoChannels =>
       _$this._totalLocalDailyActiveVideoChannels;
+
   set totalLocalDailyActiveVideoChannels(
           num? totalLocalDailyActiveVideoChannels) =>
       _$this._totalLocalDailyActiveVideoChannels =
           totalLocalDailyActiveVideoChannels;
 
   num? _totalLocalWeeklyActiveVideoChannels;
+
   num? get totalLocalWeeklyActiveVideoChannels =>
       _$this._totalLocalWeeklyActiveVideoChannels;
+
   set totalLocalWeeklyActiveVideoChannels(
           num? totalLocalWeeklyActiveVideoChannels) =>
       _$this._totalLocalWeeklyActiveVideoChannels =
           totalLocalWeeklyActiveVideoChannels;
 
   num? _totalLocalMonthlyActiveVideoChannels;
+
   num? get totalLocalMonthlyActiveVideoChannels =>
       _$this._totalLocalMonthlyActiveVideoChannels;
+
   set totalLocalMonthlyActiveVideoChannels(
           num? totalLocalMonthlyActiveVideoChannels) =>
       _$this._totalLocalMonthlyActiveVideoChannels =
           totalLocalMonthlyActiveVideoChannels;
 
   num? _totalLocalPlaylists;
+
   num? get totalLocalPlaylists => _$this._totalLocalPlaylists;
+
   set totalLocalPlaylists(num? totalLocalPlaylists) =>
       _$this._totalLocalPlaylists = totalLocalPlaylists;
 
   num? _totalInstanceFollowers;
+
   num? get totalInstanceFollowers => _$this._totalInstanceFollowers;
+
   set totalInstanceFollowers(num? totalInstanceFollowers) =>
       _$this._totalInstanceFollowers = totalInstanceFollowers;
 
   num? _totalInstanceFollowing;
+
   num? get totalInstanceFollowing => _$this._totalInstanceFollowing;
+
   set totalInstanceFollowing(num? totalInstanceFollowing) =>
       _$this._totalInstanceFollowing = totalInstanceFollowing;
 
   ListBuilder<ServerStatsVideosRedundancyInner>? _videosRedundancy;
+
   ListBuilder<ServerStatsVideosRedundancyInner> get videosRedundancy =>
       _$this._videosRedundancy ??=
           new ListBuilder<ServerStatsVideosRedundancyInner>();
+
   set videosRedundancy(
           ListBuilder<ServerStatsVideosRedundancyInner>? videosRedundancy) =>
       _$this._videosRedundancy = videosRedundancy;
 
   num? _totalActivityPubMessagesProcessed;
+
   num? get totalActivityPubMessagesProcessed =>
       _$this._totalActivityPubMessagesProcessed;
+
   set totalActivityPubMessagesProcessed(
           num? totalActivityPubMessagesProcessed) =>
       _$this._totalActivityPubMessagesProcessed =
           totalActivityPubMessagesProcessed;
 
   num? _totalActivityPubMessagesSuccesses;
+
   num? get totalActivityPubMessagesSuccesses =>
       _$this._totalActivityPubMessagesSuccesses;
+
   set totalActivityPubMessagesSuccesses(
           num? totalActivityPubMessagesSuccesses) =>
       _$this._totalActivityPubMessagesSuccesses =
           totalActivityPubMessagesSuccesses;
 
   num? _totalActivityPubMessagesErrors;
+
   num? get totalActivityPubMessagesErrors =>
       _$this._totalActivityPubMessagesErrors;
+
   set totalActivityPubMessagesErrors(num? totalActivityPubMessagesErrors) =>
       _$this._totalActivityPubMessagesErrors = totalActivityPubMessagesErrors;
 
   num? _activityPubMessagesProcessedPerSecond;
+
   num? get activityPubMessagesProcessedPerSecond =>
       _$this._activityPubMessagesProcessedPerSecond;
+
   set activityPubMessagesProcessedPerSecond(
           num? activityPubMessagesProcessedPerSecond) =>
       _$this._activityPubMessagesProcessedPerSecond =
           activityPubMessagesProcessedPerSecond;
 
   num? _totalActivityPubMessagesWaiting;
+
   num? get totalActivityPubMessagesWaiting =>
       _$this._totalActivityPubMessagesWaiting;
+
   set totalActivityPubMessagesWaiting(num? totalActivityPubMessagesWaiting) =>
       _$this._totalActivityPubMessagesWaiting = totalActivityPubMessagesWaiting;
 
   num? _averageRegistrationRequestResponseTimeMs;
+
   num? get averageRegistrationRequestResponseTimeMs =>
       _$this._averageRegistrationRequestResponseTimeMs;
+
   set averageRegistrationRequestResponseTimeMs(
           num? averageRegistrationRequestResponseTimeMs) =>
       _$this._averageRegistrationRequestResponseTimeMs =
           averageRegistrationRequestResponseTimeMs;
 
   num? _totalRegistrationRequestsProcessed;
+
   num? get totalRegistrationRequestsProcessed =>
       _$this._totalRegistrationRequestsProcessed;
+
   set totalRegistrationRequestsProcessed(
           num? totalRegistrationRequestsProcessed) =>
       _$this._totalRegistrationRequestsProcessed =
           totalRegistrationRequestsProcessed;
 
   num? _totalRegistrationRequests;
+
   num? get totalRegistrationRequests => _$this._totalRegistrationRequests;
+
   set totalRegistrationRequests(num? totalRegistrationRequests) =>
       _$this._totalRegistrationRequests = totalRegistrationRequests;
 
   num? _averageAbuseResponseTimeMs;
+
   num? get averageAbuseResponseTimeMs => _$this._averageAbuseResponseTimeMs;
+
   set averageAbuseResponseTimeMs(num? averageAbuseResponseTimeMs) =>
       _$this._averageAbuseResponseTimeMs = averageAbuseResponseTimeMs;
 
   num? _totalAbusesProcessed;
+
   num? get totalAbusesProcessed => _$this._totalAbusesProcessed;
+
   set totalAbusesProcessed(num? totalAbusesProcessed) =>
       _$this._totalAbusesProcessed = totalAbusesProcessed;
 
   num? _totalAbuses;
+
   num? get totalAbuses => _$this._totalAbuses;
+
   set totalAbuses(num? totalAbuses) => _$this._totalAbuses = totalAbuses;
 
   ServerStatsBuilder() {

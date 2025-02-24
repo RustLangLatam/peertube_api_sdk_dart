@@ -65,7 +65,9 @@ class ApiV1VideosOwnershipIdAcceptPostIdParameterBuilder
   _$ApiV1VideosOwnershipIdAcceptPostIdParameter? _$v;
 
   OneOf? _oneOf;
+
   OneOf? get oneOf => _$this._oneOf;
+
   set oneOf(OneOf? oneOf) => _$this._oneOf = oneOf;
 
   ApiV1VideosOwnershipIdAcceptPostIdParameterBuilder() {

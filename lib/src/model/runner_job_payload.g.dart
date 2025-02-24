@@ -53,7 +53,9 @@ class RunnerJobPayloadBuilder
   _$RunnerJobPayload? _$v;
 
   AnyOf? _anyOf;
+
   AnyOf? get anyOf => _$this._anyOf;
+
   set anyOf(AnyOf? anyOf) => _$this._anyOf = anyOf;
 
   RunnerJobPayloadBuilder() {

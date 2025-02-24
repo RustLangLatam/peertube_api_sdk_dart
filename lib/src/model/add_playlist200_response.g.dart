@@ -53,9 +53,11 @@ class AddPlaylist200ResponseBuilder
   _$AddPlaylist200Response? _$v;
 
   AddPlaylist200ResponseVideoPlaylistBuilder? _videoPlaylist;
+
   AddPlaylist200ResponseVideoPlaylistBuilder get videoPlaylist =>
       _$this._videoPlaylist ??=
           new AddPlaylist200ResponseVideoPlaylistBuilder();
+
   set videoPlaylist(
           AddPlaylist200ResponseVideoPlaylistBuilder? videoPlaylist) =>
       _$this._videoPlaylist = videoPlaylist;

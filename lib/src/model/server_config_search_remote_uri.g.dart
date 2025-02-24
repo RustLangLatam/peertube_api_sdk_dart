@@ -60,11 +60,15 @@ class ServerConfigSearchRemoteUriBuilder
   _$ServerConfigSearchRemoteUri? _$v;
 
   bool? _users;
+
   bool? get users => _$this._users;
+
   set users(bool? users) => _$this._users = users;
 
   bool? _anonymous;
+
   bool? get anonymous => _$this._anonymous;
+
   set anonymous(bool? anonymous) => _$this._anonymous = anonymous;
 
   ServerConfigSearchRemoteUriBuilder() {

@@ -53,7 +53,9 @@ class LiveVideoReplaySettingsBuilder
   _$LiveVideoReplaySettings? _$v;
 
   VideoPrivacySet? _privacy;
+
   VideoPrivacySet? get privacy => _$this._privacy;
+
   set privacy(VideoPrivacySet? privacy) => _$this._privacy = privacy;
 
   LiveVideoReplaySettingsBuilder() {

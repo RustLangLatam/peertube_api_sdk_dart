@@ -60,11 +60,15 @@ class GetAccountFollowers200ResponseBuilder
   _$GetAccountFollowers200Response? _$v;
 
   int? _total;
+
   int? get total => _$this._total;
+
   set total(int? total) => _$this._total = total;
 
   ListBuilder<Follow>? _data;
+
   ListBuilder<Follow> get data => _$this._data ??= new ListBuilder<Follow>();
+
   set data(ListBuilder<Follow>? data) => _$this._data = data;
 
   GetAccountFollowers200ResponseBuilder() {

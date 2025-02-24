@@ -58,11 +58,15 @@ class RegisterUserChannelBuilder
   _$RegisterUserChannel? _$v;
 
   String? _name;
+
   String? get name => _$this._name;
+
   set name(String? name) => _$this._name = name;
 
   String? _displayName;
+
   String? get displayName => _$this._displayName;
+
   set displayName(String? displayName) => _$this._displayName = displayName;
 
   RegisterUserChannelBuilder() {

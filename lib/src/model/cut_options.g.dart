@@ -52,11 +52,15 @@ class CutOptionsBuilder implements Builder<CutOptions, CutOptionsBuilder> {
   _$CutOptions? _$v;
 
   int? _start;
+
   int? get start => _$this._start;
+
   set start(int? start) => _$this._start = start;
 
   int? _end;
+
   int? get end => _$this._end;
+
   set end(int? end) => _$this._end = end;
 
   CutOptionsBuilder() {

@@ -54,14 +54,18 @@ class BlockStatusBuilder implements Builder<BlockStatus, BlockStatusBuilder> {
   _$BlockStatus? _$v;
 
   MapBuilder<String, BlockStatusAccountsValue>? _accounts;
+
   MapBuilder<String, BlockStatusAccountsValue> get accounts =>
       _$this._accounts ??= new MapBuilder<String, BlockStatusAccountsValue>();
+
   set accounts(MapBuilder<String, BlockStatusAccountsValue>? accounts) =>
       _$this._accounts = accounts;
 
   MapBuilder<String, BlockStatusHostsValue>? _hosts;
+
   MapBuilder<String, BlockStatusHostsValue> get hosts =>
       _$this._hosts ??= new MapBuilder<String, BlockStatusHostsValue>();
+
   set hosts(MapBuilder<String, BlockStatusHostsValue>? hosts) =>
       _$this._hosts = hosts;
 

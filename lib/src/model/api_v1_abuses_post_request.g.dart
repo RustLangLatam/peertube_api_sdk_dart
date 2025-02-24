@@ -194,32 +194,42 @@ class ApiV1AbusesPostRequestBuilder
   _$ApiV1AbusesPostRequest? _$v;
 
   String? _reason;
+
   String? get reason => _$this._reason;
+
   set reason(String? reason) => _$this._reason = reason;
 
   ListBuilder<ApiV1AbusesPostRequestPredefinedReasonsEnum>? _predefinedReasons;
+
   ListBuilder<ApiV1AbusesPostRequestPredefinedReasonsEnum>
       get predefinedReasons => _$this._predefinedReasons ??=
           new ListBuilder<ApiV1AbusesPostRequestPredefinedReasonsEnum>();
+
   set predefinedReasons(
           ListBuilder<ApiV1AbusesPostRequestPredefinedReasonsEnum>?
               predefinedReasons) =>
       _$this._predefinedReasons = predefinedReasons;
 
   ApiV1AbusesPostRequestVideoBuilder? _video;
+
   ApiV1AbusesPostRequestVideoBuilder get video =>
       _$this._video ??= new ApiV1AbusesPostRequestVideoBuilder();
+
   set video(ApiV1AbusesPostRequestVideoBuilder? video) => _$this._video = video;
 
   ApiV1AbusesPostRequestCommentBuilder? _comment;
+
   ApiV1AbusesPostRequestCommentBuilder get comment =>
       _$this._comment ??= new ApiV1AbusesPostRequestCommentBuilder();
+
   set comment(ApiV1AbusesPostRequestCommentBuilder? comment) =>
       _$this._comment = comment;
 
   ApiV1AbusesPostRequestAccountBuilder? _account;
+
   ApiV1AbusesPostRequestAccountBuilder get account =>
       _$this._account ??= new ApiV1AbusesPostRequestAccountBuilder();
+
   set account(ApiV1AbusesPostRequestAccountBuilder? account) =>
       _$this._account = account;
 

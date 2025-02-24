@@ -126,63 +126,89 @@ class UserRegistrationBuilder
   _$UserRegistration? _$v;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(int? id) => _$this._id = id;
 
   UserRegistrationStateBuilder? _state;
+
   UserRegistrationStateBuilder get state =>
       _$this._state ??= new UserRegistrationStateBuilder();
+
   set state(UserRegistrationStateBuilder? state) => _$this._state = state;
 
   String? _registrationReason;
+
   String? get registrationReason => _$this._registrationReason;
+
   set registrationReason(String? registrationReason) =>
       _$this._registrationReason = registrationReason;
 
   String? _moderationResponse;
+
   String? get moderationResponse => _$this._moderationResponse;
+
   set moderationResponse(String? moderationResponse) =>
       _$this._moderationResponse = moderationResponse;
 
   String? _username;
+
   String? get username => _$this._username;
+
   set username(String? username) => _$this._username = username;
 
   String? _email;
+
   String? get email => _$this._email;
+
   set email(String? email) => _$this._email = email;
 
   bool? _emailVerified;
+
   bool? get emailVerified => _$this._emailVerified;
+
   set emailVerified(bool? emailVerified) =>
       _$this._emailVerified = emailVerified;
 
   String? _accountDisplayName;
+
   String? get accountDisplayName => _$this._accountDisplayName;
+
   set accountDisplayName(String? accountDisplayName) =>
       _$this._accountDisplayName = accountDisplayName;
 
   String? _channelHandle;
+
   String? get channelHandle => _$this._channelHandle;
+
   set channelHandle(String? channelHandle) =>
       _$this._channelHandle = channelHandle;
 
   String? _channelDisplayName;
+
   String? get channelDisplayName => _$this._channelDisplayName;
+
   set channelDisplayName(String? channelDisplayName) =>
       _$this._channelDisplayName = channelDisplayName;
 
   DateTime? _createdAt;
+
   DateTime? get createdAt => _$this._createdAt;
+
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _updatedAt;
+
   DateTime? get updatedAt => _$this._updatedAt;
+
   set updatedAt(DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   UserRegistrationUserBuilder? _user;
+
   UserRegistrationUserBuilder get user =>
       _$this._user ??= new UserRegistrationUserBuilder();
+
   set user(UserRegistrationUserBuilder? user) => _$this._user = user;
 
   UserRegistrationBuilder() {

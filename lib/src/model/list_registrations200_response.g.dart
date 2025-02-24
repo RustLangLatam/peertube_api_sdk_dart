@@ -60,12 +60,16 @@ class ListRegistrations200ResponseBuilder
   _$ListRegistrations200Response? _$v;
 
   int? _total;
+
   int? get total => _$this._total;
+
   set total(int? total) => _$this._total = total;
 
   ListBuilder<UserRegistration>? _data;
+
   ListBuilder<UserRegistration> get data =>
       _$this._data ??= new ListBuilder<UserRegistration>();
+
   set data(ListBuilder<UserRegistration>? data) => _$this._data = data;
 
   ListRegistrations200ResponseBuilder() {

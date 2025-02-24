@@ -82,24 +82,34 @@ class ServerStatsVideosRedundancyInnerBuilder
   _$ServerStatsVideosRedundancyInner? _$v;
 
   String? _strategy;
+
   String? get strategy => _$this._strategy;
+
   set strategy(String? strategy) => _$this._strategy = strategy;
 
   num? _totalSize;
+
   num? get totalSize => _$this._totalSize;
+
   set totalSize(num? totalSize) => _$this._totalSize = totalSize;
 
   num? _totalUsed;
+
   num? get totalUsed => _$this._totalUsed;
+
   set totalUsed(num? totalUsed) => _$this._totalUsed = totalUsed;
 
   num? _totalVideoFiles;
+
   num? get totalVideoFiles => _$this._totalVideoFiles;
+
   set totalVideoFiles(num? totalVideoFiles) =>
       _$this._totalVideoFiles = totalVideoFiles;
 
   num? _totalVideos;
+
   num? get totalVideos => _$this._totalVideos;
+
   set totalVideos(num? totalVideos) => _$this._totalVideos = totalVideos;
 
   ServerStatsVideosRedundancyInnerBuilder() {

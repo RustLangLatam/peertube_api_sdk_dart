@@ -57,7 +57,9 @@ class ServerConfigCustomServicesTwitterBuilder
   _$ServerConfigCustomServicesTwitter? _$v;
 
   String? _username;
+
   String? get username => _$this._username;
+
   set username(String? username) => _$this._username = username;
 
   ServerConfigCustomServicesTwitterBuilder() {

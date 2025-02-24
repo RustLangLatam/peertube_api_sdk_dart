@@ -61,16 +61,22 @@ class RunnerJobParentBuilder
   _$RunnerJobParent? _$v;
 
   RunnerJobType? _type;
+
   RunnerJobType? get type => _$this._type;
+
   set type(RunnerJobType? type) => _$this._type = type;
 
   RunnerJobStateConstantBuilder? _state;
+
   RunnerJobStateConstantBuilder get state =>
       _$this._state ??= new RunnerJobStateConstantBuilder();
+
   set state(RunnerJobStateConstantBuilder? state) => _$this._state = state;
 
   String? _uuid;
+
   String? get uuid => _$this._uuid;
+
   set uuid(String? uuid) => _$this._uuid = uuid;
 
   RunnerJobParentBuilder() {

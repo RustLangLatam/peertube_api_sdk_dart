@@ -51,8 +51,10 @@ class ServerConfigViewsBuilder
   _$ServerConfigViews? _$v;
 
   ServerConfigViewsViewsBuilder? _views;
+
   ServerConfigViewsViewsBuilder get views =>
       _$this._views ??= new ServerConfigViewsViewsBuilder();
+
   set views(ServerConfigViewsViewsBuilder? views) => _$this._views = views;
 
   ServerConfigViewsBuilder() {

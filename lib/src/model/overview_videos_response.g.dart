@@ -64,20 +64,26 @@ class OverviewVideosResponseBuilder
   _$OverviewVideosResponse? _$v;
 
   ListBuilder<CategoryOverview>? _categories;
+
   ListBuilder<CategoryOverview> get categories =>
       _$this._categories ??= new ListBuilder<CategoryOverview>();
+
   set categories(ListBuilder<CategoryOverview>? categories) =>
       _$this._categories = categories;
 
   ListBuilder<ChannelOverview>? _channels;
+
   ListBuilder<ChannelOverview> get channels =>
       _$this._channels ??= new ListBuilder<ChannelOverview>();
+
   set channels(ListBuilder<ChannelOverview>? channels) =>
       _$this._channels = channels;
 
   ListBuilder<TagOverview>? _tags;
+
   ListBuilder<TagOverview> get tags =>
       _$this._tags ??= new ListBuilder<TagOverview>();
+
   set tags(ListBuilder<TagOverview>? tags) => _$this._tags = tags;
 
   OverviewVideosResponseBuilder() {

@@ -110,39 +110,57 @@ class ServerConfigCustomTranscodingResolutionsBuilder
   _$ServerConfigCustomTranscodingResolutions? _$v;
 
   bool? _n0p;
+
   bool? get n0p => _$this._n0p;
+
   set n0p(bool? n0p) => _$this._n0p = n0p;
 
   bool? _n144p;
+
   bool? get n144p => _$this._n144p;
+
   set n144p(bool? n144p) => _$this._n144p = n144p;
 
   bool? _n240p;
+
   bool? get n240p => _$this._n240p;
+
   set n240p(bool? n240p) => _$this._n240p = n240p;
 
   bool? _n360p;
+
   bool? get n360p => _$this._n360p;
+
   set n360p(bool? n360p) => _$this._n360p = n360p;
 
   bool? _n480p;
+
   bool? get n480p => _$this._n480p;
+
   set n480p(bool? n480p) => _$this._n480p = n480p;
 
   bool? _n720p;
+
   bool? get n720p => _$this._n720p;
+
   set n720p(bool? n720p) => _$this._n720p = n720p;
 
   bool? _n1080p;
+
   bool? get n1080p => _$this._n1080p;
+
   set n1080p(bool? n1080p) => _$this._n1080p = n1080p;
 
   bool? _n1440p;
+
   bool? get n1440p => _$this._n1440p;
+
   set n1440p(bool? n1440p) => _$this._n1440p = n1440p;
 
   bool? _n2160p;
+
   bool? get n2160p => _$this._n2160p;
+
   set n2160p(bool? n2160p) => _$this._n2160p = n2160p;
 
   ServerConfigCustomTranscodingResolutionsBuilder() {

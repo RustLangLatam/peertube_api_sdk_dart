@@ -54,7 +54,9 @@ class ServerConfigTrendingVideosBuilder
   _$ServerConfigTrendingVideos? _$v;
 
   int? _intervalDays;
+
   int? get intervalDays => _$this._intervalDays;
+
   set intervalDays(int? intervalDays) => _$this._intervalDays = intervalDays;
 
   ServerConfigTrendingVideosBuilder() {

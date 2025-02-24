@@ -76,16 +76,22 @@ class ApiV1RunnersJobsRequestPost200ResponseAvailableJobsInnerBuilder
   _$ApiV1RunnersJobsRequestPost200ResponseAvailableJobsInner? _$v;
 
   String? _uuid;
+
   String? get uuid => _$this._uuid;
+
   set uuid(String? uuid) => _$this._uuid = uuid;
 
   RunnerJobType? _type;
+
   RunnerJobType? get type => _$this._type;
+
   set type(RunnerJobType? type) => _$this._type = type;
 
   RunnerJobPayloadBuilder? _payload;
+
   RunnerJobPayloadBuilder get payload =>
       _$this._payload ??= new RunnerJobPayloadBuilder();
+
   set payload(RunnerJobPayloadBuilder? payload) => _$this._payload = payload;
 
   ApiV1RunnersJobsRequestPost200ResponseAvailableJobsInnerBuilder() {

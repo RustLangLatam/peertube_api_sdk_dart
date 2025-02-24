@@ -4,6 +4,7 @@
 
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
+
 // ignore_for_file: unused_element
 import 'package:peer_tube_api_sdk/src/model/video_resolution_constant.dart';
 

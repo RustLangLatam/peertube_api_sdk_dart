@@ -198,59 +198,83 @@ class PlaybackMetricCreateBuilder
   _$PlaybackMetricCreate? _$v;
 
   PlaybackMetricCreatePlayerModeEnum? _playerMode;
+
   PlaybackMetricCreatePlayerModeEnum? get playerMode => _$this._playerMode;
+
   set playerMode(PlaybackMetricCreatePlayerModeEnum? playerMode) =>
       _$this._playerMode = playerMode;
 
   bool? _p2pEnabled;
+
   bool? get p2pEnabled => _$this._p2pEnabled;
+
   set p2pEnabled(bool? p2pEnabled) => _$this._p2pEnabled = p2pEnabled;
 
   num? _resolutionChanges;
+
   num? get resolutionChanges => _$this._resolutionChanges;
+
   set resolutionChanges(num? resolutionChanges) =>
       _$this._resolutionChanges = resolutionChanges;
 
   num? _errors;
+
   num? get errors => _$this._errors;
+
   set errors(num? errors) => _$this._errors = errors;
 
   num? _downloadedBytesP2P;
+
   num? get downloadedBytesP2P => _$this._downloadedBytesP2P;
+
   set downloadedBytesP2P(num? downloadedBytesP2P) =>
       _$this._downloadedBytesP2P = downloadedBytesP2P;
 
   num? _downloadedBytesHTTP;
+
   num? get downloadedBytesHTTP => _$this._downloadedBytesHTTP;
+
   set downloadedBytesHTTP(num? downloadedBytesHTTP) =>
       _$this._downloadedBytesHTTP = downloadedBytesHTTP;
 
   num? _uploadedBytesP2P;
+
   num? get uploadedBytesP2P => _$this._uploadedBytesP2P;
+
   set uploadedBytesP2P(num? uploadedBytesP2P) =>
       _$this._uploadedBytesP2P = uploadedBytesP2P;
 
   ApiV1VideosOwnershipIdAcceptPostIdParameterBuilder? _videoId;
+
   ApiV1VideosOwnershipIdAcceptPostIdParameterBuilder get videoId =>
       _$this._videoId ??=
           new ApiV1VideosOwnershipIdAcceptPostIdParameterBuilder();
+
   set videoId(ApiV1VideosOwnershipIdAcceptPostIdParameterBuilder? videoId) =>
       _$this._videoId = videoId;
 
   num? _resolution;
+
   num? get resolution => _$this._resolution;
+
   set resolution(num? resolution) => _$this._resolution = resolution;
 
   num? _fps;
+
   num? get fps => _$this._fps;
+
   set fps(num? fps) => _$this._fps = fps;
 
   num? _p2pPeers;
+
   num? get p2pPeers => _$this._p2pPeers;
+
   set p2pPeers(num? p2pPeers) => _$this._p2pPeers = p2pPeers;
 
   num? _bufferStalled;
+
   num? get bufferStalled => _$this._bufferStalled;
+
   set bufferStalled(num? bufferStalled) =>
       _$this._bufferStalled = bufferStalled;
 

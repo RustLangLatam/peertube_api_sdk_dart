@@ -56,8 +56,10 @@ class ApiV1VideosIdPasswordsPutRequestBuilder
   _$ApiV1VideosIdPasswordsPutRequest? _$v;
 
   SetBuilder<String>? _passwords;
+
   SetBuilder<String> get passwords =>
       _$this._passwords ??= new SetBuilder<String>();
+
   set passwords(SetBuilder<String>? passwords) => _$this._passwords = passwords;
 
   ApiV1VideosIdPasswordsPutRequestBuilder() {

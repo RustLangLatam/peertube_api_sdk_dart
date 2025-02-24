@@ -62,7 +62,9 @@ class VideosForXMLInnerMediaCommunityMediaStatisticsBuilder
   _$VideosForXMLInnerMediaCommunityMediaStatistics? _$v;
 
   int? _views;
+
   int? get views => _$this._views;
+
   set views(int? views) => _$this._views = views;
 
   VideosForXMLInnerMediaCommunityMediaStatisticsBuilder() {

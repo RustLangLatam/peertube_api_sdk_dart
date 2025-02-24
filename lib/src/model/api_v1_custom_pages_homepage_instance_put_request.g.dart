@@ -60,7 +60,9 @@ class ApiV1CustomPagesHomepageInstancePutRequestBuilder
   _$ApiV1CustomPagesHomepageInstancePutRequest? _$v;
 
   String? _content;
+
   String? get content => _$this._content;
+
   set content(String? content) => _$this._content = content;
 
   ApiV1CustomPagesHomepageInstancePutRequestBuilder() {

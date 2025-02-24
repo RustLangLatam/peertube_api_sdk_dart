@@ -185,99 +185,141 @@ class VideoUploadRequestResumableBuilder
   _$VideoUploadRequestResumable? _$v;
 
   String? _filename;
+
   String? get filename => _$this._filename;
+
   set filename(covariant String? filename) => _$this._filename = filename;
 
   String? _name;
+
   String? get name => _$this._name;
+
   set name(covariant String? name) => _$this._name = name;
 
   int? _channelId;
+
   int? get channelId => _$this._channelId;
+
   set channelId(covariant int? channelId) => _$this._channelId = channelId;
 
   VideoPrivacySet? _privacy;
+
   VideoPrivacySet? get privacy => _$this._privacy;
+
   set privacy(covariant VideoPrivacySet? privacy) => _$this._privacy = privacy;
 
   int? _category;
+
   int? get category => _$this._category;
+
   set category(covariant int? category) => _$this._category = category;
 
   int? _licence;
+
   int? get licence => _$this._licence;
+
   set licence(covariant int? licence) => _$this._licence = licence;
 
   String? _language;
+
   String? get language => _$this._language;
+
   set language(covariant String? language) => _$this._language = language;
 
   String? _description;
+
   String? get description => _$this._description;
+
   set description(covariant String? description) =>
       _$this._description = description;
 
   bool? _waitTranscoding;
+
   bool? get waitTranscoding => _$this._waitTranscoding;
+
   set waitTranscoding(covariant bool? waitTranscoding) =>
       _$this._waitTranscoding = waitTranscoding;
 
   bool? _generateTranscription;
+
   bool? get generateTranscription => _$this._generateTranscription;
+
   set generateTranscription(covariant bool? generateTranscription) =>
       _$this._generateTranscription = generateTranscription;
 
   String? _support;
+
   String? get support => _$this._support;
+
   set support(covariant String? support) => _$this._support = support;
 
   bool? _nsfw;
+
   bool? get nsfw => _$this._nsfw;
+
   set nsfw(covariant bool? nsfw) => _$this._nsfw = nsfw;
 
   SetBuilder<String>? _tags;
+
   SetBuilder<String> get tags => _$this._tags ??= new SetBuilder<String>();
+
   set tags(covariant SetBuilder<String>? tags) => _$this._tags = tags;
 
   bool? _commentsEnabled;
+
   bool? get commentsEnabled => _$this._commentsEnabled;
+
   set commentsEnabled(covariant bool? commentsEnabled) =>
       _$this._commentsEnabled = commentsEnabled;
 
   VideoCommentsPolicySet? _commentsPolicy;
+
   VideoCommentsPolicySet? get commentsPolicy => _$this._commentsPolicy;
+
   set commentsPolicy(covariant VideoCommentsPolicySet? commentsPolicy) =>
       _$this._commentsPolicy = commentsPolicy;
 
   bool? _downloadEnabled;
+
   bool? get downloadEnabled => _$this._downloadEnabled;
+
   set downloadEnabled(covariant bool? downloadEnabled) =>
       _$this._downloadEnabled = downloadEnabled;
 
   DateTime? _originallyPublishedAt;
+
   DateTime? get originallyPublishedAt => _$this._originallyPublishedAt;
+
   set originallyPublishedAt(covariant DateTime? originallyPublishedAt) =>
       _$this._originallyPublishedAt = originallyPublishedAt;
 
   VideoScheduledUpdateBuilder? _scheduleUpdate;
+
   VideoScheduledUpdateBuilder get scheduleUpdate =>
       _$this._scheduleUpdate ??= new VideoScheduledUpdateBuilder();
+
   set scheduleUpdate(covariant VideoScheduledUpdateBuilder? scheduleUpdate) =>
       _$this._scheduleUpdate = scheduleUpdate;
 
   Uint8List? _thumbnailfile;
+
   Uint8List? get thumbnailfile => _$this._thumbnailfile;
+
   set thumbnailfile(covariant Uint8List? thumbnailfile) =>
       _$this._thumbnailfile = thumbnailfile;
 
   Uint8List? _previewfile;
+
   Uint8List? get previewfile => _$this._previewfile;
+
   set previewfile(covariant Uint8List? previewfile) =>
       _$this._previewfile = previewfile;
 
   SetBuilder<String>? _videoPasswords;
+
   SetBuilder<String> get videoPasswords =>
       _$this._videoPasswords ??= new SetBuilder<String>();
+
   set videoPasswords(covariant SetBuilder<String>? videoPasswords) =>
       _$this._videoPasswords = videoPasswords;
 

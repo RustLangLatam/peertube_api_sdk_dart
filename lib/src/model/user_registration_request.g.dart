@@ -96,30 +96,42 @@ class UserRegistrationRequestBuilder
   _$UserRegistrationRequest? _$v;
 
   String? _registrationReason;
+
   String? get registrationReason => _$this._registrationReason;
+
   set registrationReason(covariant String? registrationReason) =>
       _$this._registrationReason = registrationReason;
 
   String? _username;
+
   String? get username => _$this._username;
+
   set username(covariant String? username) => _$this._username = username;
 
   String? _password;
+
   String? get password => _$this._password;
+
   set password(covariant String? password) => _$this._password = password;
 
   String? _email;
+
   String? get email => _$this._email;
+
   set email(covariant String? email) => _$this._email = email;
 
   String? _displayName;
+
   String? get displayName => _$this._displayName;
+
   set displayName(covariant String? displayName) =>
       _$this._displayName = displayName;
 
   RegisterUserChannelBuilder? _channel;
+
   RegisterUserChannelBuilder get channel =>
       _$this._channel ??= new RegisterUserChannelBuilder();
+
   set channel(covariant RegisterUserChannelBuilder? channel) =>
       _$this._channel = channel;
 

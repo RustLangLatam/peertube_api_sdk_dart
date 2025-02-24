@@ -130,66 +130,94 @@ class VideoPlaylistBuilder
   _$VideoPlaylist? _$v;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(int? id) => _$this._id = id;
 
   String? _uuid;
+
   String? get uuid => _$this._uuid;
+
   set uuid(String? uuid) => _$this._uuid = uuid;
 
   String? _shortUUID;
+
   String? get shortUUID => _$this._shortUUID;
+
   set shortUUID(String? shortUUID) => _$this._shortUUID = shortUUID;
 
   DateTime? _createdAt;
+
   DateTime? get createdAt => _$this._createdAt;
+
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _updatedAt;
+
   DateTime? get updatedAt => _$this._updatedAt;
+
   set updatedAt(DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   String? _description;
+
   String? get description => _$this._description;
+
   set description(String? description) => _$this._description = description;
 
   String? _displayName;
+
   String? get displayName => _$this._displayName;
+
   set displayName(String? displayName) => _$this._displayName = displayName;
 
   bool? _isLocal;
+
   bool? get isLocal => _$this._isLocal;
+
   set isLocal(bool? isLocal) => _$this._isLocal = isLocal;
 
   int? _videoLength;
+
   int? get videoLength => _$this._videoLength;
+
   set videoLength(int? videoLength) => _$this._videoLength = videoLength;
 
   String? _thumbnailPath;
+
   String? get thumbnailPath => _$this._thumbnailPath;
+
   set thumbnailPath(String? thumbnailPath) =>
       _$this._thumbnailPath = thumbnailPath;
 
   VideoPlaylistPrivacyConstantBuilder? _privacy;
+
   VideoPlaylistPrivacyConstantBuilder get privacy =>
       _$this._privacy ??= new VideoPlaylistPrivacyConstantBuilder();
+
   set privacy(VideoPlaylistPrivacyConstantBuilder? privacy) =>
       _$this._privacy = privacy;
 
   VideoPlaylistTypeConstantBuilder? _type;
+
   VideoPlaylistTypeConstantBuilder get type =>
       _$this._type ??= new VideoPlaylistTypeConstantBuilder();
+
   set type(VideoPlaylistTypeConstantBuilder? type) => _$this._type = type;
 
   AccountSummaryBuilder? _ownerAccount;
+
   AccountSummaryBuilder get ownerAccount =>
       _$this._ownerAccount ??= new AccountSummaryBuilder();
+
   set ownerAccount(AccountSummaryBuilder? ownerAccount) =>
       _$this._ownerAccount = ownerAccount;
 
   VideoChannelSummaryBuilder? _videoChannel;
+
   VideoChannelSummaryBuilder get videoChannel =>
       _$this._videoChannel ??= new VideoChannelSummaryBuilder();
+
   set videoChannel(VideoChannelSummaryBuilder? videoChannel) =>
       _$this._videoChannel = videoChannel;
 

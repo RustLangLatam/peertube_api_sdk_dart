@@ -60,11 +60,15 @@ class VideoCommentsPolicyConstantBuilder
   _$VideoCommentsPolicyConstant? _$v;
 
   VideoCommentsPolicySet? _id;
+
   VideoCommentsPolicySet? get id => _$this._id;
+
   set id(VideoCommentsPolicySet? id) => _$this._id = id;
 
   String? _label;
+
   String? get label => _$this._label;
+
   set label(String? label) => _$this._label = label;
 
   VideoCommentsPolicyConstantBuilder() {

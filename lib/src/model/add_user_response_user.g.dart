@@ -58,12 +58,16 @@ class AddUserResponseUserBuilder
   _$AddUserResponseUser? _$v;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(int? id) => _$this._id = id;
 
   ApiV1AbusesPost200ResponseAbuseBuilder? _account;
+
   ApiV1AbusesPost200ResponseAbuseBuilder get account =>
       _$this._account ??= new ApiV1AbusesPost200ResponseAbuseBuilder();
+
   set account(ApiV1AbusesPost200ResponseAbuseBuilder? account) =>
       _$this._account = account;
 

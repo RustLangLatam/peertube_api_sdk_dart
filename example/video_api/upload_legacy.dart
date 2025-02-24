@@ -1,4 +1,5 @@
 import 'dart:io';
+
 import 'package:built_collection/built_collection.dart';
 import 'package:dio/dio.dart';
 import 'package:peer_tube_api_sdk/peer_tube_api_sdk.dart';
@@ -21,12 +22,16 @@ Future<void> main() async {
   final String name = 'PeerTube Dart SDK Upload Video 1.0.8';
   final int channelId = 1; // Channel ID where the video will be uploaded
   final File file = File('resources/video_2025.mp4'); // Video file path
-  final File thumbnailFile = File('resources/dart_logo_dart_192px.png'); // Thumbnail file path (optional)
+  final File thumbnailFile = File(
+      'resources/dart_logo_dart_192px.png'); // Thumbnail file path (optional)
 
   // 📌 **Convert files to MultipartFile**
-  final MultipartFile videoFile = await MultipartFile.fromFile(file.path,  contentType: DioMediaType('video', 'mp4'));
+  final MultipartFile videoFile = await MultipartFile.fromFile(file.path,
+      contentType: DioMediaType('video', 'mp4'));
 
-  final MultipartFile thumbnail = await MultipartFile.fromFile(thumbnailFile.path, contentType: DioMediaType('image', 'png'));
+  final MultipartFile thumbnail = await MultipartFile.fromFile(
+      thumbnailFile.path,
+      contentType: DioMediaType('image', 'png'));
 
   // 📌 **Configuration Options**
   const bool nsfw = false;
@@ -35,7 +40,8 @@ Future<void> main() async {
   const int category = 1; // Category ID 1 = Music
   const int licence = 6; // License ID 6 = 'CC BY-NC-ND 4.0'
   const String language = "en";
-  const String description = "This is a test video uploaded using Flutter and PeerTube API.";
+  const String description =
+      "This is a test video uploaded using Flutter and PeerTube API.";
 
   // 📌 **Tags (max 5, between 2-30 characters)**
   final BuiltSet<String> tags = BuiltSet(["dart", "peertube", "upload"]);

@@ -67,15 +67,21 @@ class VideosForXMLInnerMediaThumbnailBuilder
   _$VideosForXMLInnerMediaThumbnail? _$v;
 
   String? _url;
+
   String? get url => _$this._url;
+
   set url(String? url) => _$this._url = url;
 
   int? _height;
+
   int? get height => _$this._height;
+
   set height(int? height) => _$this._height = height;
 
   int? _width;
+
   int? get width => _$this._width;
+
   set width(int? width) => _$this._width = width;
 
   VideosForXMLInnerMediaThumbnailBuilder() {

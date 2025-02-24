@@ -63,11 +63,15 @@ class GetLatestUserImport200ResponseStateBuilder
   _$GetLatestUserImport200ResponseState? _$v;
 
   UserImportState? _id;
+
   UserImportState? get id => _$this._id;
+
   set id(UserImportState? id) => _$this._id = id;
 
   String? _label;
+
   String? get label => _$this._label;
+
   set label(String? label) => _$this._label = label;
 
   GetLatestUserImport200ResponseStateBuilder() {

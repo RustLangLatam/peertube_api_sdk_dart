@@ -122,11 +122,15 @@ class GetMeVideoRatingBuilder
   _$GetMeVideoRating? _$v;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(int? id) => _$this._id = id;
 
   GetMeVideoRatingRatingEnum? _rating;
+
   GetMeVideoRatingRatingEnum? get rating => _$this._rating;
+
   set rating(GetMeVideoRatingRatingEnum? rating) => _$this._rating = rating;
 
   GetMeVideoRatingBuilder() {

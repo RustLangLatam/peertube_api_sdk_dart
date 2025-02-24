@@ -68,21 +68,29 @@ class PlaylistElementBuilder
   _$PlaylistElement? _$v;
 
   int? _position;
+
   int? get position => _$this._position;
+
   set position(int? position) => _$this._position = position;
 
   int? _startTimestamp;
+
   int? get startTimestamp => _$this._startTimestamp;
+
   set startTimestamp(int? startTimestamp) =>
       _$this._startTimestamp = startTimestamp;
 
   int? _stopTimestamp;
+
   int? get stopTimestamp => _$this._stopTimestamp;
+
   set stopTimestamp(int? stopTimestamp) =>
       _$this._stopTimestamp = stopTimestamp;
 
   Video? _video;
+
   Video? get video => _$this._video;
+
   set video(Video? video) => _$this._video = video;
 
   PlaylistElementBuilder() {

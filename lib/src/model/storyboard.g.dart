@@ -81,28 +81,40 @@ class StoryboardBuilder implements Builder<Storyboard, StoryboardBuilder> {
   _$Storyboard? _$v;
 
   String? _storyboardPath;
+
   String? get storyboardPath => _$this._storyboardPath;
+
   set storyboardPath(String? storyboardPath) =>
       _$this._storyboardPath = storyboardPath;
 
   int? _totalHeight;
+
   int? get totalHeight => _$this._totalHeight;
+
   set totalHeight(int? totalHeight) => _$this._totalHeight = totalHeight;
 
   int? _totalWidth;
+
   int? get totalWidth => _$this._totalWidth;
+
   set totalWidth(int? totalWidth) => _$this._totalWidth = totalWidth;
 
   int? _spriteHeight;
+
   int? get spriteHeight => _$this._spriteHeight;
+
   set spriteHeight(int? spriteHeight) => _$this._spriteHeight = spriteHeight;
 
   int? _spriteWidth;
+
   int? get spriteWidth => _$this._spriteWidth;
+
   set spriteWidth(int? spriteWidth) => _$this._spriteWidth = spriteWidth;
 
   int? _spriteDuration;
+
   int? get spriteDuration => _$this._spriteDuration;
+
   set spriteDuration(int? spriteDuration) =>
       _$this._spriteDuration = spriteDuration;
 

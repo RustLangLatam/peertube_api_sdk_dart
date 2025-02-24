@@ -165,57 +165,77 @@ class ServerConfigCustomTranscodingBuilder
   _$ServerConfigCustomTranscoding? _$v;
 
   bool? _enabled;
+
   bool? get enabled => _$this._enabled;
+
   set enabled(bool? enabled) => _$this._enabled = enabled;
 
   ServerConfigCustomTranscodingOriginalFileBuilder? _originalFile;
+
   ServerConfigCustomTranscodingOriginalFileBuilder get originalFile =>
       _$this._originalFile ??=
           new ServerConfigCustomTranscodingOriginalFileBuilder();
+
   set originalFile(
           ServerConfigCustomTranscodingOriginalFileBuilder? originalFile) =>
       _$this._originalFile = originalFile;
 
   bool? _allowAdditionalExtensions;
+
   bool? get allowAdditionalExtensions => _$this._allowAdditionalExtensions;
+
   set allowAdditionalExtensions(bool? allowAdditionalExtensions) =>
       _$this._allowAdditionalExtensions = allowAdditionalExtensions;
 
   bool? _allowAudioFiles;
+
   bool? get allowAudioFiles => _$this._allowAudioFiles;
+
   set allowAudioFiles(bool? allowAudioFiles) =>
       _$this._allowAudioFiles = allowAudioFiles;
 
   int? _threads;
+
   int? get threads => _$this._threads;
+
   set threads(int? threads) => _$this._threads = threads;
 
   num? _concurrency;
+
   num? get concurrency => _$this._concurrency;
+
   set concurrency(num? concurrency) => _$this._concurrency = concurrency;
 
   ServerConfigCustomTranscodingProfileEnum? _profile;
+
   ServerConfigCustomTranscodingProfileEnum? get profile => _$this._profile;
+
   set profile(ServerConfigCustomTranscodingProfileEnum? profile) =>
       _$this._profile = profile;
 
   ServerConfigCustomTranscodingResolutionsBuilder? _resolutions;
+
   ServerConfigCustomTranscodingResolutionsBuilder get resolutions =>
       _$this._resolutions ??=
           new ServerConfigCustomTranscodingResolutionsBuilder();
+
   set resolutions(
           ServerConfigCustomTranscodingResolutionsBuilder? resolutions) =>
       _$this._resolutions = resolutions;
 
   ServerConfigCustomTranscodingWebVideosBuilder? _webVideos;
+
   ServerConfigCustomTranscodingWebVideosBuilder get webVideos =>
       _$this._webVideos ??= new ServerConfigCustomTranscodingWebVideosBuilder();
+
   set webVideos(ServerConfigCustomTranscodingWebVideosBuilder? webVideos) =>
       _$this._webVideos = webVideos;
 
   ServerConfigCustomTranscodingHlsBuilder? _hls;
+
   ServerConfigCustomTranscodingHlsBuilder get hls =>
       _$this._hls ??= new ServerConfigCustomTranscodingHlsBuilder();
+
   set hls(ServerConfigCustomTranscodingHlsBuilder? hls) => _$this._hls = hls;
 
   ServerConfigCustomTranscodingBuilder() {

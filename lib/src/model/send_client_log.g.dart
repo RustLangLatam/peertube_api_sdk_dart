@@ -139,27 +139,39 @@ class SendClientLogBuilder
   _$SendClientLog? _$v;
 
   String? _message;
+
   String? get message => _$this._message;
+
   set message(String? message) => _$this._message = message;
 
   String? _url;
+
   String? get url => _$this._url;
+
   set url(String? url) => _$this._url = url;
 
   SendClientLogLevelEnum? _level;
+
   SendClientLogLevelEnum? get level => _$this._level;
+
   set level(SendClientLogLevelEnum? level) => _$this._level = level;
 
   String? _stackTrace;
+
   String? get stackTrace => _$this._stackTrace;
+
   set stackTrace(String? stackTrace) => _$this._stackTrace = stackTrace;
 
   String? _userAgent;
+
   String? get userAgent => _$this._userAgent;
+
   set userAgent(String? userAgent) => _$this._userAgent = userAgent;
 
   String? _meta;
+
   String? get meta => _$this._meta;
+
   set meta(String? meta) => _$this._meta = meta;
 
   SendClientLogBuilder() {

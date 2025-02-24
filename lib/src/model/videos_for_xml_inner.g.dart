@@ -206,91 +206,123 @@ class VideosForXMLInnerBuilder
   _$VideosForXMLInner? _$v;
 
   String? _link;
+
   String? get link => _$this._link;
+
   set link(String? link) => _$this._link = link;
 
   String? _guid;
+
   String? get guid => _$this._guid;
+
   set guid(String? guid) => _$this._guid = guid;
 
   DateTime? _pubDate;
+
   DateTime? get pubDate => _$this._pubDate;
+
   set pubDate(DateTime? pubDate) => _$this._pubDate = pubDate;
 
   String? _description;
+
   String? get description => _$this._description;
+
   set description(String? description) => _$this._description = description;
 
   String? _contentColonEncoded;
+
   String? get contentColonEncoded => _$this._contentColonEncoded;
+
   set contentColonEncoded(String? contentColonEncoded) =>
       _$this._contentColonEncoded = contentColonEncoded;
 
   String? _dcColonCreator;
+
   String? get dcColonCreator => _$this._dcColonCreator;
+
   set dcColonCreator(String? dcColonCreator) =>
       _$this._dcColonCreator = dcColonCreator;
 
   int? _mediaColonCategory;
+
   int? get mediaColonCategory => _$this._mediaColonCategory;
+
   set mediaColonCategory(int? mediaColonCategory) =>
       _$this._mediaColonCategory = mediaColonCategory;
 
   VideosForXMLInnerMediaCommunityBuilder? _mediaColonCommunity;
+
   VideosForXMLInnerMediaCommunityBuilder get mediaColonCommunity =>
       _$this._mediaColonCommunity ??=
           new VideosForXMLInnerMediaCommunityBuilder();
+
   set mediaColonCommunity(
           VideosForXMLInnerMediaCommunityBuilder? mediaColonCommunity) =>
       _$this._mediaColonCommunity = mediaColonCommunity;
 
   VideosForXMLInnerMediaEmbedBuilder? _mediaColonEmbed;
+
   VideosForXMLInnerMediaEmbedBuilder get mediaColonEmbed =>
       _$this._mediaColonEmbed ??= new VideosForXMLInnerMediaEmbedBuilder();
+
   set mediaColonEmbed(VideosForXMLInnerMediaEmbedBuilder? mediaColonEmbed) =>
       _$this._mediaColonEmbed = mediaColonEmbed;
 
   VideosForXMLInnerMediaPlayerBuilder? _mediaColonPlayer;
+
   VideosForXMLInnerMediaPlayerBuilder get mediaColonPlayer =>
       _$this._mediaColonPlayer ??= new VideosForXMLInnerMediaPlayerBuilder();
+
   set mediaColonPlayer(VideosForXMLInnerMediaPlayerBuilder? mediaColonPlayer) =>
       _$this._mediaColonPlayer = mediaColonPlayer;
 
   VideosForXMLInnerMediaThumbnailBuilder? _mediaColonThumbnail;
+
   VideosForXMLInnerMediaThumbnailBuilder get mediaColonThumbnail =>
       _$this._mediaColonThumbnail ??=
           new VideosForXMLInnerMediaThumbnailBuilder();
+
   set mediaColonThumbnail(
           VideosForXMLInnerMediaThumbnailBuilder? mediaColonThumbnail) =>
       _$this._mediaColonThumbnail = mediaColonThumbnail;
 
   String? _mediaColonTitle;
+
   String? get mediaColonTitle => _$this._mediaColonTitle;
+
   set mediaColonTitle(String? mediaColonTitle) =>
       _$this._mediaColonTitle = mediaColonTitle;
 
   String? _mediaColonDescription;
+
   String? get mediaColonDescription => _$this._mediaColonDescription;
+
   set mediaColonDescription(String? mediaColonDescription) =>
       _$this._mediaColonDescription = mediaColonDescription;
 
   VideosForXMLInnerMediaColonRatingEnum? _mediaColonRating;
+
   VideosForXMLInnerMediaColonRatingEnum? get mediaColonRating =>
       _$this._mediaColonRating;
+
   set mediaColonRating(
           VideosForXMLInnerMediaColonRatingEnum? mediaColonRating) =>
       _$this._mediaColonRating = mediaColonRating;
 
   VideosForXMLInnerEnclosureBuilder? _enclosure;
+
   VideosForXMLInnerEnclosureBuilder get enclosure =>
       _$this._enclosure ??= new VideosForXMLInnerEnclosureBuilder();
+
   set enclosure(VideosForXMLInnerEnclosureBuilder? enclosure) =>
       _$this._enclosure = enclosure;
 
   ListBuilder<VideosForXMLInnerMediaGroupInner>? _mediaColonGroup;
+
   ListBuilder<VideosForXMLInnerMediaGroupInner> get mediaColonGroup =>
       _$this._mediaColonGroup ??=
           new ListBuilder<VideosForXMLInnerMediaGroupInner>();
+
   set mediaColonGroup(
           ListBuilder<VideosForXMLInnerMediaGroupInner>? mediaColonGroup) =>
       _$this._mediaColonGroup = mediaColonGroup;

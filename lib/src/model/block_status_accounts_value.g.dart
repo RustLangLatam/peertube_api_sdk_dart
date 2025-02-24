@@ -60,12 +60,16 @@ class BlockStatusAccountsValueBuilder
   _$BlockStatusAccountsValue? _$v;
 
   bool? _blockedByServer;
+
   bool? get blockedByServer => _$this._blockedByServer;
+
   set blockedByServer(bool? blockedByServer) =>
       _$this._blockedByServer = blockedByServer;
 
   bool? _blockedByUser;
+
   bool? get blockedByUser => _$this._blockedByUser;
+
   set blockedByUser(bool? blockedByUser) =>
       _$this._blockedByUser = blockedByUser;
 

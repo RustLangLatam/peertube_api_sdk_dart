@@ -85,21 +85,29 @@ class ApiV1RunnersJobsJobUUIDUpdatePostRequestBuilder
   _$ApiV1RunnersJobsJobUUIDUpdatePostRequest? _$v;
 
   String? _runnerToken;
+
   String? get runnerToken => _$this._runnerToken;
+
   set runnerToken(String? runnerToken) => _$this._runnerToken = runnerToken;
 
   String? _jobToken;
+
   String? get jobToken => _$this._jobToken;
+
   set jobToken(String? jobToken) => _$this._jobToken = jobToken;
 
   int? _progress;
+
   int? get progress => _$this._progress;
+
   set progress(int? progress) => _$this._progress = progress;
 
   ApiV1RunnersJobsJobUUIDUpdatePostRequestPayloadBuilder? _payload;
+
   ApiV1RunnersJobsJobUUIDUpdatePostRequestPayloadBuilder get payload =>
       _$this._payload ??=
           new ApiV1RunnersJobsJobUUIDUpdatePostRequestPayloadBuilder();
+
   set payload(
           ApiV1RunnersJobsJobUUIDUpdatePostRequestPayloadBuilder? payload) =>
       _$this._payload = payload;

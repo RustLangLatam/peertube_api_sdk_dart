@@ -66,15 +66,21 @@ class ServerConfigInstanceSocialBuilder
   _$ServerConfigInstanceSocial? _$v;
 
   String? _externalLink;
+
   String? get externalLink => _$this._externalLink;
+
   set externalLink(String? externalLink) => _$this._externalLink = externalLink;
 
   String? _mastodonLink;
+
   String? get mastodonLink => _$this._mastodonLink;
+
   set mastodonLink(String? mastodonLink) => _$this._mastodonLink = mastodonLink;
 
   String? _blueskyLink;
+
   String? get blueskyLink => _$this._blueskyLink;
+
   set blueskyLink(String? blueskyLink) => _$this._blueskyLink = blueskyLink;
 
   ServerConfigInstanceSocialBuilder() {

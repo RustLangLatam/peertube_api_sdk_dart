@@ -65,8 +65,10 @@ class ApiV1VideoChannelsChannelHandleBannerPickPost200ResponseBuilder
   _$ApiV1VideoChannelsChannelHandleBannerPickPost200Response? _$v;
 
   ListBuilder<ActorImage>? _banners;
+
   ListBuilder<ActorImage> get banners =>
       _$this._banners ??= new ListBuilder<ActorImage>();
+
   set banners(ListBuilder<ActorImage>? banners) => _$this._banners = banners;
 
   ApiV1VideoChannelsChannelHandleBannerPickPost200ResponseBuilder() {

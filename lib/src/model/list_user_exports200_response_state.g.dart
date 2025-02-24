@@ -61,11 +61,15 @@ class ListUserExports200ResponseStateBuilder
   _$ListUserExports200ResponseState? _$v;
 
   UserExportState? _id;
+
   UserExportState? get id => _$this._id;
+
   set id(UserExportState? id) => _$this._id = id;
 
   String? _label;
+
   String? get label => _$this._label;
+
   set label(String? label) => _$this._label = label;
 
   ListUserExports200ResponseStateBuilder() {

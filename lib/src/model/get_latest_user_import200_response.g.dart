@@ -66,17 +66,23 @@ class GetLatestUserImport200ResponseBuilder
   _$GetLatestUserImport200Response? _$v;
 
   int? _id;
+
   int? get id => _$this._id;
+
   set id(int? id) => _$this._id = id;
 
   GetLatestUserImport200ResponseStateBuilder? _state;
+
   GetLatestUserImport200ResponseStateBuilder get state =>
       _$this._state ??= new GetLatestUserImport200ResponseStateBuilder();
+
   set state(GetLatestUserImport200ResponseStateBuilder? state) =>
       _$this._state = state;
 
   DateTime? _createdAt;
+
   DateTime? get createdAt => _$this._createdAt;
+
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   GetLatestUserImport200ResponseBuilder() {
