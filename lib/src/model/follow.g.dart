@@ -140,45 +140,31 @@ class FollowBuilder implements Builder<Follow, FollowBuilder> {
   _$Follow? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(int? id) => _$this._id = id;
 
   Actor? _follower;
-
   Actor? get follower => _$this._follower;
-
   set follower(Actor? follower) => _$this._follower = follower;
 
   Actor? _following;
-
   Actor? get following => _$this._following;
-
   set following(Actor? following) => _$this._following = following;
 
   num? _score;
-
   num? get score => _$this._score;
-
   set score(num? score) => _$this._score = score;
 
   FollowStateEnum? _state;
-
   FollowStateEnum? get state => _$this._state;
-
   set state(FollowStateEnum? state) => _$this._state = state;
 
   DateTime? _createdAt;
-
   DateTime? get createdAt => _$this._createdAt;
-
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _updatedAt;
-
   DateTime? get updatedAt => _$this._updatedAt;
-
   set updatedAt(DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   FollowBuilder() {

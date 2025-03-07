@@ -53,10 +53,8 @@ class ServerConfigVideoCaptionBuilder
   _$ServerConfigVideoCaption? _$v;
 
   ServerConfigVideoCaptionFileBuilder? _file;
-
   ServerConfigVideoCaptionFileBuilder get file =>
       _$this._file ??= new ServerConfigVideoCaptionFileBuilder();
-
   set file(ServerConfigVideoCaptionFileBuilder? file) => _$this._file = file;
 
   ServerConfigVideoCaptionBuilder() {

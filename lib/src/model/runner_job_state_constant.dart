@@ -19,7 +19,6 @@ abstract class RunnerJobStateConstant
     implements Built<RunnerJobStateConstant, RunnerJobStateConstantBuilder> {
   @BuiltValueField(wireName: r'id')
   RunnerJobState? get id;
-
   // enum idEnum {  1,  2,  3,  4,  5,  6,  7,  8,  };
 
   @BuiltValueField(wireName: r'label')

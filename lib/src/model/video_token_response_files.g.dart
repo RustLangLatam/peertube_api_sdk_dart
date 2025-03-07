@@ -59,15 +59,11 @@ class VideoTokenResponseFilesBuilder
   _$VideoTokenResponseFiles? _$v;
 
   String? _token;
-
   String? get token => _$this._token;
-
   set token(String? token) => _$this._token = token;
 
   DateTime? _expires;
-
   DateTime? get expires => _$this._expires;
-
   set expires(DateTime? expires) => _$this._expires = expires;
 
   VideoTokenResponseFilesBuilder() {

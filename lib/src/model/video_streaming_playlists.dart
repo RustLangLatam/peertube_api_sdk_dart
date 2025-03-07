@@ -32,7 +32,6 @@ abstract class VideoStreamingPlaylists
   /// Playlist type: - `1`: HLS
   @BuiltValueField(wireName: r'type')
   VideoStreamingPlaylistsTypeEnum? get type;
-
   // enum typeEnum {  1,  };
 
   VideoStreamingPlaylists._();
@@ -218,7 +217,6 @@ class VideoStreamingPlaylistsTypeEnum extends EnumClass {
 
   static BuiltSet<VideoStreamingPlaylistsTypeEnum> get values =>
       _$videoStreamingPlaylistsTypeEnumValues;
-
   static VideoStreamingPlaylistsTypeEnum valueOf(String name) =>
       _$videoStreamingPlaylistsTypeEnumValueOf(name);
 }

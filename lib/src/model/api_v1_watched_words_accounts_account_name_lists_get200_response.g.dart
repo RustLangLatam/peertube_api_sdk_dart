@@ -71,16 +71,12 @@ class ApiV1WatchedWordsAccountsAccountNameListsGet200ResponseBuilder
   _$ApiV1WatchedWordsAccountsAccountNameListsGet200Response? _$v;
 
   int? _total;
-
   int? get total => _$this._total;
-
   set total(int? total) => _$this._total = total;
 
   ListBuilder<WatchedWordsLists>? _data;
-
   ListBuilder<WatchedWordsLists> get data =>
       _$this._data ??= new ListBuilder<WatchedWordsLists>();
-
   set data(ListBuilder<WatchedWordsLists>? data) => _$this._data = data;
 
   ApiV1WatchedWordsAccountsAccountNameListsGet200ResponseBuilder() {

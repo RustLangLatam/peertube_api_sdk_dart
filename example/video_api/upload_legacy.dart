@@ -5,7 +5,7 @@ import 'package:dio/dio.dart';
 import 'package:peer_tube_api_sdk/peer_tube_api_sdk.dart';
 
 /// 📌 **PeerTube API Base URL**
-const baseUrl = 'https://peertube.orderi.co';
+const baseUrl = 'https://peertube.tv';
 
 /// 📌 **Initialize PeerTube API Client**
 PeerTubeApiSdk getApiClient(
@@ -16,7 +16,7 @@ PeerTubeApiSdk getApiClient(
 }
 
 Future<void> main() async {
-  final api = getApiClient(baseUrl).getVideoApi();
+  final api = getApiClient(baseUrl).getVideoUploadApi();
 
   // 📌 **Video Data**
   final String name = 'PeerTube Dart SDK Upload Video 1.0.8';

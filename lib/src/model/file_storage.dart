@@ -23,7 +23,6 @@ class FileStorage extends EnumClass {
   const FileStorage._(String name) : super(name);
 
   static BuiltSet<FileStorage> get values => _$values;
-
   static FileStorage valueOf(String name) => _$valueOf(name);
 }
 

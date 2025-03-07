@@ -23,7 +23,6 @@ abstract class GetMeVideoRating
   /// Rating of the video
   @BuiltValueField(wireName: r'rating')
   GetMeVideoRatingRatingEnum get rating;
-
   // enum ratingEnum {  like,  dislike,  none,  };
 
   GetMeVideoRating._();
@@ -153,7 +152,6 @@ class GetMeVideoRatingRatingEnum extends EnumClass {
 
   static BuiltSet<GetMeVideoRatingRatingEnum> get values =>
       _$getMeVideoRatingRatingEnumValues;
-
   static GetMeVideoRatingRatingEnum valueOf(String name) =>
       _$getMeVideoRatingRatingEnumValueOf(name);
 }

@@ -4,18 +4,18 @@
 
 import 'dart:async';
 
+import 'package:built_value/json_object.dart';
 import 'package:built_value/serializer.dart';
 import 'package:dio/dio.dart';
+
 import 'package:peer_tube_api_sdk/src/api_util.dart';
 import 'package:peer_tube_api_sdk/src/model/list_registrations200_response.dart';
 import 'package:peer_tube_api_sdk/src/model/register_user.dart';
 import 'package:peer_tube_api_sdk/src/model/resend_email_to_verify_registration_request.dart';
-import 'package:peer_tube_api_sdk/src/model/resend_email_to_verify_user_request.dart';
 import 'package:peer_tube_api_sdk/src/model/user_registration.dart';
 import 'package:peer_tube_api_sdk/src/model/user_registration_accept_or_reject.dart';
 import 'package:peer_tube_api_sdk/src/model/user_registration_request.dart';
 import 'package:peer_tube_api_sdk/src/model/verify_registration_email_request.dart';
-import 'package:peer_tube_api_sdk/src/model/verify_user_request.dart';
 
 class RegisterApi {
   final Dio _dio;
@@ -578,75 +578,6 @@ class RegisterApi {
     return _response;
   }
 
-  /// Resend user verification link
-  ///
-  ///
-  /// Parameters:
-  /// * [resendEmailToVerifyUserRequest]
-  /// * [cancelToken] - A [CancelToken] that can be used to cancel the operation
-  /// * [headers] - Can be used to add additional headers to the request
-  /// * [extras] - Can be used to add flags to the request
-  /// * [validateStatus] - A [ValidateStatus] callback that can be used to determine request success based on the HTTP status of the response
-  /// * [onSendProgress] - A [ProgressCallback] that can be used to get the send progress
-  /// * [onReceiveProgress] - A [ProgressCallback] that can be used to get the receive progress
-  ///
-  /// Returns a [Future]
-  /// Throws [DioException] if API call or serialization fails
-  Future<Response<void>> resendEmailToVerifyUser({
-    ResendEmailToVerifyUserRequest? resendEmailToVerifyUserRequest,
-    CancelToken? cancelToken,
-    Map<String, dynamic>? headers,
-    Map<String, dynamic>? extra,
-    ValidateStatus? validateStatus,
-    ProgressCallback? onSendProgress,
-    ProgressCallback? onReceiveProgress,
-  }) async {
-    final _path = r'/api/v1/users/ask-send-verify-email';
-    final _options = Options(
-      method: r'POST',
-      headers: <String, dynamic>{
-        ...?headers,
-      },
-      extra: <String, dynamic>{
-        'secure': <Map<String, String>>[],
-        ...?extra,
-      },
-      contentType: 'application/json',
-      validateStatus: validateStatus,
-    );
-
-    dynamic _bodyData;
-
-    try {
-      const _type = FullType(ResendEmailToVerifyUserRequest);
-      _bodyData = resendEmailToVerifyUserRequest == null
-          ? null
-          : _serializers.serialize(resendEmailToVerifyUserRequest,
-              specifiedType: _type);
-    } catch (error, stackTrace) {
-      throw DioException(
-        requestOptions: _options.compose(
-          _dio.options,
-          _path,
-        ),
-        type: DioExceptionType.unknown,
-        error: error,
-        stackTrace: stackTrace,
-      );
-    }
-
-    final _response = await _dio.request<Object>(
-      _path,
-      data: _bodyData,
-      options: _options,
-      cancelToken: cancelToken,
-      onSendProgress: onSendProgress,
-      onReceiveProgress: onReceiveProgress,
-    );
-
-    return _response;
-  }
-
   /// Verify a registration email
   /// Following a user registration request, the user will receive an email asking to click a link containing a secret.
   ///
@@ -699,77 +630,6 @@ class RegisterApi {
           ? null
           : _serializers.serialize(verifyRegistrationEmailRequest,
               specifiedType: _type);
-    } catch (error, stackTrace) {
-      throw DioException(
-        requestOptions: _options.compose(
-          _dio.options,
-          _path,
-        ),
-        type: DioExceptionType.unknown,
-        error: error,
-        stackTrace: stackTrace,
-      );
-    }
-
-    final _response = await _dio.request<Object>(
-      _path,
-      data: _bodyData,
-      options: _options,
-      cancelToken: cancelToken,
-      onSendProgress: onSendProgress,
-      onReceiveProgress: onReceiveProgress,
-    );
-
-    return _response;
-  }
-
-  /// Verify a user
-  /// Following a user registration, the new user will receive an email asking to click a link containing a secret. This endpoint can also be used to verify a new email set in the user account.
-  ///
-  /// Parameters:
-  /// * [id] - Entity id
-  /// * [verifyUserRequest]
-  /// * [cancelToken] - A [CancelToken] that can be used to cancel the operation
-  /// * [headers] - Can be used to add additional headers to the request
-  /// * [extras] - Can be used to add flags to the request
-  /// * [validateStatus] - A [ValidateStatus] callback that can be used to determine request success based on the HTTP status of the response
-  /// * [onSendProgress] - A [ProgressCallback] that can be used to get the send progress
-  /// * [onReceiveProgress] - A [ProgressCallback] that can be used to get the receive progress
-  ///
-  /// Returns a [Future]
-  /// Throws [DioException] if API call or serialization fails
-  Future<Response<void>> verifyUser({
-    required int id,
-    VerifyUserRequest? verifyUserRequest,
-    CancelToken? cancelToken,
-    Map<String, dynamic>? headers,
-    Map<String, dynamic>? extra,
-    ValidateStatus? validateStatus,
-    ProgressCallback? onSendProgress,
-    ProgressCallback? onReceiveProgress,
-  }) async {
-    final _path = r'/api/v1/users/{id}/verify-email'.replaceAll('{' r'id' '}',
-        encodeQueryParameter(_serializers, id, const FullType(int)).toString());
-    final _options = Options(
-      method: r'POST',
-      headers: <String, dynamic>{
-        ...?headers,
-      },
-      extra: <String, dynamic>{
-        'secure': <Map<String, String>>[],
-        ...?extra,
-      },
-      contentType: 'application/json',
-      validateStatus: validateStatus,
-    );
-
-    dynamic _bodyData;
-
-    try {
-      const _type = FullType(VerifyUserRequest);
-      _bodyData = verifyUserRequest == null
-          ? null
-          : _serializers.serialize(verifyUserRequest, specifiedType: _type);
     } catch (error, stackTrace) {
       throw DioException(
         requestOptions: _options.compose(

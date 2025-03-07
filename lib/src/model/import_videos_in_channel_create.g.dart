@@ -65,16 +65,12 @@ class ImportVideosInChannelCreateBuilder
   _$ImportVideosInChannelCreate? _$v;
 
   String? _externalChannelUrl;
-
   String? get externalChannelUrl => _$this._externalChannelUrl;
-
   set externalChannelUrl(String? externalChannelUrl) =>
       _$this._externalChannelUrl = externalChannelUrl;
 
   int? _videoChannelSyncId;
-
   int? get videoChannelSyncId => _$this._videoChannelSyncId;
-
   set videoChannelSyncId(int? videoChannelSyncId) =>
       _$this._videoChannelSyncId = videoChannelSyncId;
 

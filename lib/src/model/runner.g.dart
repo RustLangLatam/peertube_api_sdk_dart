@@ -87,45 +87,31 @@ class RunnerBuilder implements Builder<Runner, RunnerBuilder> {
   _$Runner? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(int? id) => _$this._id = id;
 
   String? _name;
-
   String? get name => _$this._name;
-
   set name(String? name) => _$this._name = name;
 
   String? _description;
-
   String? get description => _$this._description;
-
   set description(String? description) => _$this._description = description;
 
   String? _ip;
-
   String? get ip => _$this._ip;
-
   set ip(String? ip) => _$this._ip = ip;
 
   DateTime? _updatedAt;
-
   DateTime? get updatedAt => _$this._updatedAt;
-
   set updatedAt(DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   DateTime? _createdAt;
-
   DateTime? get createdAt => _$this._createdAt;
-
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _lastContact;
-
   DateTime? get lastContact => _$this._lastContact;
-
   set lastContact(DateTime? lastContact) => _$this._lastContact = lastContact;
 
   RunnerBuilder() {

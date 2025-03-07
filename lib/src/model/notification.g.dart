@@ -118,85 +118,61 @@ class NotificationBuilder
   _$Notification? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(int? id) => _$this._id = id;
 
   int? _type;
-
   int? get type => _$this._type;
-
   set type(int? type) => _$this._type = type;
 
   bool? _read;
-
   bool? get read => _$this._read;
-
   set read(bool? read) => _$this._read = read;
 
   NotificationVideoBuilder? _video;
-
   NotificationVideoBuilder get video =>
       _$this._video ??= new NotificationVideoBuilder();
-
   set video(NotificationVideoBuilder? video) => _$this._video = video;
 
   NotificationVideoImportBuilder? _videoImport;
-
   NotificationVideoImportBuilder get videoImport =>
       _$this._videoImport ??= new NotificationVideoImportBuilder();
-
   set videoImport(NotificationVideoImportBuilder? videoImport) =>
       _$this._videoImport = videoImport;
 
   NotificationCommentBuilder? _comment;
-
   NotificationCommentBuilder get comment =>
       _$this._comment ??= new NotificationCommentBuilder();
-
   set comment(NotificationCommentBuilder? comment) => _$this._comment = comment;
 
   NotificationVideoAbuseBuilder? _videoAbuse;
-
   NotificationVideoAbuseBuilder get videoAbuse =>
       _$this._videoAbuse ??= new NotificationVideoAbuseBuilder();
-
   set videoAbuse(NotificationVideoAbuseBuilder? videoAbuse) =>
       _$this._videoAbuse = videoAbuse;
 
   NotificationVideoAbuseBuilder? _videoBlacklist;
-
   NotificationVideoAbuseBuilder get videoBlacklist =>
       _$this._videoBlacklist ??= new NotificationVideoAbuseBuilder();
-
   set videoBlacklist(NotificationVideoAbuseBuilder? videoBlacklist) =>
       _$this._videoBlacklist = videoBlacklist;
 
   ActorInfoBuilder? _account;
-
   ActorInfoBuilder get account => _$this._account ??= new ActorInfoBuilder();
-
   set account(ActorInfoBuilder? account) => _$this._account = account;
 
   NotificationActorFollowBuilder? _actorFollow;
-
   NotificationActorFollowBuilder get actorFollow =>
       _$this._actorFollow ??= new NotificationActorFollowBuilder();
-
   set actorFollow(NotificationActorFollowBuilder? actorFollow) =>
       _$this._actorFollow = actorFollow;
 
   DateTime? _createdAt;
-
   DateTime? get createdAt => _$this._createdAt;
-
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _updatedAt;
-
   DateTime? get updatedAt => _$this._updatedAt;
-
   set updatedAt(DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   NotificationBuilder() {

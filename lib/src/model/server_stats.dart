@@ -2,12 +2,11 @@
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
 
+// ignore_for_file: unused_element
+import 'package:peer_tube_api_sdk/src/model/server_stats_videos_redundancy_inner.dart';
 import 'package:built_collection/built_collection.dart';
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
-
-// ignore_for_file: unused_element
-import 'package:peer_tube_api_sdk/src/model/server_stats_videos_redundancy_inner.dart';
 
 part 'server_stats.g.dart';
 

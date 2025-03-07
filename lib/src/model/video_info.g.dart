@@ -8,23 +8,17 @@ part of 'video_info.dart';
 
 abstract mixin class VideoInfoBuilder {
   void replace(VideoInfo other);
-
   void update(void Function(VideoInfoBuilder) updates);
-
   int? get id;
-
   set id(int? id);
 
   String? get uuid;
-
   set uuid(String? uuid);
 
   String? get name;
-
   set name(String? name);
 
   VideoStateConstantBuilder get state;
-
   set state(VideoStateConstantBuilder? state);
 }
 
@@ -87,28 +81,20 @@ class $VideoInfoBuilder
   _$$VideoInfo? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(covariant int? id) => _$this._id = id;
 
   String? _uuid;
-
   String? get uuid => _$this._uuid;
-
   set uuid(covariant String? uuid) => _$this._uuid = uuid;
 
   String? _name;
-
   String? get name => _$this._name;
-
   set name(covariant String? name) => _$this._name = name;
 
   VideoStateConstantBuilder? _state;
-
   VideoStateConstantBuilder get state =>
       _$this._state ??= new VideoStateConstantBuilder();
-
   set state(covariant VideoStateConstantBuilder? state) =>
       _$this._state = state;
 

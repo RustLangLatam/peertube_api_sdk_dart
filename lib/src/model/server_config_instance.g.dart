@@ -115,83 +115,61 @@ class ServerConfigInstanceBuilder
   _$ServerConfigInstance? _$v;
 
   String? _name;
-
   String? get name => _$this._name;
-
   set name(String? name) => _$this._name = name;
 
   String? _shortDescription;
-
   String? get shortDescription => _$this._shortDescription;
-
   set shortDescription(String? shortDescription) =>
       _$this._shortDescription = shortDescription;
 
   String? _defaultClientRoute;
-
   String? get defaultClientRoute => _$this._defaultClientRoute;
-
   set defaultClientRoute(String? defaultClientRoute) =>
       _$this._defaultClientRoute = defaultClientRoute;
 
   bool? _isNSFW;
-
   bool? get isNSFW => _$this._isNSFW;
-
   set isNSFW(bool? isNSFW) => _$this._isNSFW = isNSFW;
 
   String? _defaultNSFWPolicy;
-
   String? get defaultNSFWPolicy => _$this._defaultNSFWPolicy;
-
   set defaultNSFWPolicy(String? defaultNSFWPolicy) =>
       _$this._defaultNSFWPolicy = defaultNSFWPolicy;
 
   String? _serverCountry;
-
   String? get serverCountry => _$this._serverCountry;
-
   set serverCountry(String? serverCountry) =>
       _$this._serverCountry = serverCountry;
 
   ServerConfigInstanceSupportBuilder? _support;
-
   ServerConfigInstanceSupportBuilder get support =>
       _$this._support ??= new ServerConfigInstanceSupportBuilder();
-
   set support(ServerConfigInstanceSupportBuilder? support) =>
       _$this._support = support;
 
   ServerConfigInstanceSocialBuilder? _social;
-
   ServerConfigInstanceSocialBuilder get social =>
       _$this._social ??= new ServerConfigInstanceSocialBuilder();
-
   set social(ServerConfigInstanceSocialBuilder? social) =>
       _$this._social = social;
 
   ServerConfigInstanceCustomizationsBuilder? _customizations;
-
   ServerConfigInstanceCustomizationsBuilder get customizations =>
       _$this._customizations ??=
           new ServerConfigInstanceCustomizationsBuilder();
-
   set customizations(
           ServerConfigInstanceCustomizationsBuilder? customizations) =>
       _$this._customizations = customizations;
 
   ListBuilder<ActorImage>? _avatars;
-
   ListBuilder<ActorImage> get avatars =>
       _$this._avatars ??= new ListBuilder<ActorImage>();
-
   set avatars(ListBuilder<ActorImage>? avatars) => _$this._avatars = avatars;
 
   ListBuilder<ActorImage>? _banners;
-
   ListBuilder<ActorImage> get banners =>
       _$this._banners ??= new ListBuilder<ActorImage>();
-
   set banners(ListBuilder<ActorImage>? banners) => _$this._banners = banners;
 
   ServerConfigInstanceBuilder() {

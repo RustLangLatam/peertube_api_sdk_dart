@@ -4,12 +4,12 @@
 
 // ignore_for_file: unused_element
 import 'package:built_collection/built_collection.dart';
+import 'package:peer_tube_api_sdk/src/model/nsfw_policy.dart';
+import 'package:peer_tube_api_sdk/src/model/video_channel.dart';
+import 'package:peer_tube_api_sdk/src/model/account.dart';
+import 'package:peer_tube_api_sdk/src/model/user_role.dart';
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
-import 'package:peer_tube_api_sdk/src/model/account.dart';
-import 'package:peer_tube_api_sdk/src/model/nsfw_policy.dart';
-import 'package:peer_tube_api_sdk/src/model/user_role.dart';
-import 'package:peer_tube_api_sdk/src/model/video_channel.dart';
 
 part 'user.g.dart';
 
@@ -94,7 +94,6 @@ abstract class User {
 
   @BuiltValueField(wireName: r'nsfwPolicy')
   NSFWPolicy? get nsfwPolicy;
-
   // enum nsfwPolicyEnum {  display,  blur,  do_not_list,  };
 
   @BuiltValueField(wireName: r'role')

@@ -61,16 +61,12 @@ class ApiV1ServerFollowingPostRequestBuilder
   _$ApiV1ServerFollowingPostRequest? _$v;
 
   SetBuilder<String>? _hosts;
-
   SetBuilder<String> get hosts => _$this._hosts ??= new SetBuilder<String>();
-
   set hosts(SetBuilder<String>? hosts) => _$this._hosts = hosts;
 
   SetBuilder<String>? _handles;
-
   SetBuilder<String> get handles =>
       _$this._handles ??= new SetBuilder<String>();
-
   set handles(SetBuilder<String>? handles) => _$this._handles = handles;
 
   ApiV1ServerFollowingPostRequestBuilder() {

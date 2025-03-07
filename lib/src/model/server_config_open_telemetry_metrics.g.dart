@@ -63,15 +63,11 @@ class ServerConfigOpenTelemetryMetricsBuilder
   _$ServerConfigOpenTelemetryMetrics? _$v;
 
   bool? _enabled;
-
   bool? get enabled => _$this._enabled;
-
   set enabled(bool? enabled) => _$this._enabled = enabled;
 
   num? _playbackStatsInterval;
-
   num? get playbackStatsInterval => _$this._playbackStatsInterval;
-
   set playbackStatsInterval(num? playbackStatsInterval) =>
       _$this._playbackStatsInterval = playbackStatsInterval;
 

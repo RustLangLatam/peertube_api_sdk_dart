@@ -2,27 +2,26 @@
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
 
-import 'package:built_value/built_value.dart';
-import 'package:built_value/serializer.dart';
-import 'package:peer_tube_api_sdk/src/model/server_config_auto_blacklist.dart';
-import 'package:peer_tube_api_sdk/src/model/server_config_avatar.dart';
-import 'package:peer_tube_api_sdk/src/model/server_config_email.dart';
-import 'package:peer_tube_api_sdk/src/model/server_config_export.dart';
-import 'package:peer_tube_api_sdk/src/model/server_config_followings.dart';
-import 'package:peer_tube_api_sdk/src/model/server_config_import.dart';
-import 'package:peer_tube_api_sdk/src/model/server_config_instance.dart';
-
 // ignore_for_file: unused_element
 import 'package:peer_tube_api_sdk/src/model/server_config_open_telemetry.dart';
-import 'package:peer_tube_api_sdk/src/model/server_config_plugin.dart';
+import 'package:peer_tube_api_sdk/src/model/server_config_auto_blacklist.dart';
+import 'package:peer_tube_api_sdk/src/model/server_config_email.dart';
+import 'package:peer_tube_api_sdk/src/model/server_config_followings.dart';
 import 'package:peer_tube_api_sdk/src/model/server_config_search.dart';
-import 'package:peer_tube_api_sdk/src/model/server_config_signup.dart';
+import 'package:peer_tube_api_sdk/src/model/server_config_import.dart';
+import 'package:peer_tube_api_sdk/src/model/server_config_instance.dart';
+import 'package:peer_tube_api_sdk/src/model/server_config_plugin.dart';
+import 'package:peer_tube_api_sdk/src/model/server_config_export.dart';
 import 'package:peer_tube_api_sdk/src/model/server_config_transcoding.dart';
-import 'package:peer_tube_api_sdk/src/model/server_config_trending.dart';
-import 'package:peer_tube_api_sdk/src/model/server_config_user.dart';
 import 'package:peer_tube_api_sdk/src/model/server_config_video.dart';
+import 'package:peer_tube_api_sdk/src/model/server_config_signup.dart';
+import 'package:peer_tube_api_sdk/src/model/server_config_avatar.dart';
 import 'package:peer_tube_api_sdk/src/model/server_config_video_caption.dart';
 import 'package:peer_tube_api_sdk/src/model/server_config_views.dart';
+import 'package:peer_tube_api_sdk/src/model/server_config_user.dart';
+import 'package:peer_tube_api_sdk/src/model/server_config_trending.dart';
+import 'package:built_value/built_value.dart';
+import 'package:built_value/serializer.dart';
 
 part 'server_config.g.dart';
 

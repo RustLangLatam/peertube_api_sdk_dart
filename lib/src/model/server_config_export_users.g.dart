@@ -66,22 +66,16 @@ class ServerConfigExportUsersBuilder
   _$ServerConfigExportUsers? _$v;
 
   bool? _enabled;
-
   bool? get enabled => _$this._enabled;
-
   set enabled(bool? enabled) => _$this._enabled = enabled;
 
   num? _exportExpiration;
-
   num? get exportExpiration => _$this._exportExpiration;
-
   set exportExpiration(num? exportExpiration) =>
       _$this._exportExpiration = exportExpiration;
 
   num? _maxUserVideoQuota;
-
   num? get maxUserVideoQuota => _$this._maxUserVideoQuota;
-
   set maxUserVideoQuota(num? maxUserVideoQuota) =>
       _$this._maxUserVideoQuota = maxUserVideoQuota;
 

@@ -60,16 +60,12 @@ class ApiV1RunnersJobsGet200ResponseBuilder
   _$ApiV1RunnersJobsGet200Response? _$v;
 
   int? _total;
-
   int? get total => _$this._total;
-
   set total(int? total) => _$this._total = total;
 
   ListBuilder<RunnerJobAdmin>? _data;
-
   ListBuilder<RunnerJobAdmin> get data =>
       _$this._data ??= new ListBuilder<RunnerJobAdmin>();
-
   set data(ListBuilder<RunnerJobAdmin>? data) => _$this._data = data;
 
   ApiV1RunnersJobsGet200ResponseBuilder() {

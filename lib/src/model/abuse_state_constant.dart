@@ -19,7 +19,6 @@ abstract class AbuseStateConstant
     implements Built<AbuseStateConstant, AbuseStateConstantBuilder> {
   @BuiltValueField(wireName: r'id')
   AbuseStateSet? get id;
-
   // enum idEnum {  1,  2,  3,  };
 
   @BuiltValueField(wireName: r'label')

@@ -31,7 +31,6 @@ abstract class FileRedundancyInformation
 
   @BuiltValueField(wireName: r'strategy')
   FileRedundancyInformationStrategyEnum? get strategy;
-
   // enum strategyEnum {  manual,  most-views,  trending,  recently-added,  };
 
   @BuiltValueField(wireName: r'size')
@@ -250,7 +249,6 @@ class FileRedundancyInformationStrategyEnum extends EnumClass {
 
   static BuiltSet<FileRedundancyInformationStrategyEnum> get values =>
       _$fileRedundancyInformationStrategyEnumValues;
-
   static FileRedundancyInformationStrategyEnum valueOf(String name) =>
       _$fileRedundancyInformationStrategyEnumValueOf(name);
 }

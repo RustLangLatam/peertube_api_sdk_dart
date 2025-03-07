@@ -75,33 +75,23 @@ class NotificationCommentBuilder
   _$NotificationComment? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(int? id) => _$this._id = id;
 
   int? _threadId;
-
   int? get threadId => _$this._threadId;
-
   set threadId(int? threadId) => _$this._threadId = threadId;
 
   VideoInfo? _video;
-
   VideoInfo? get video => _$this._video;
-
   set video(VideoInfo? video) => _$this._video = video;
 
   ActorInfoBuilder? _account;
-
   ActorInfoBuilder get account => _$this._account ??= new ActorInfoBuilder();
-
   set account(ActorInfoBuilder? account) => _$this._account = account;
 
   bool? _heldForReview;
-
   bool? get heldForReview => _$this._heldForReview;
-
   set heldForReview(bool? heldForReview) =>
       _$this._heldForReview = heldForReview;
 

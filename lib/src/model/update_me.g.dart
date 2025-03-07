@@ -196,104 +196,74 @@ class UpdateMeBuilder implements Builder<UpdateMe, UpdateMeBuilder> {
   _$UpdateMe? _$v;
 
   String? _password;
-
   String? get password => _$this._password;
-
   set password(String? password) => _$this._password = password;
 
   String? _currentPassword;
-
   String? get currentPassword => _$this._currentPassword;
-
   set currentPassword(String? currentPassword) =>
       _$this._currentPassword = currentPassword;
 
   String? _email;
-
   String? get email => _$this._email;
-
   set email(String? email) => _$this._email = email;
 
   String? _displayName;
-
   String? get displayName => _$this._displayName;
-
   set displayName(String? displayName) => _$this._displayName = displayName;
 
   UpdateMeDisplayNSFWEnum? _displayNSFW;
-
   UpdateMeDisplayNSFWEnum? get displayNSFW => _$this._displayNSFW;
-
   set displayNSFW(UpdateMeDisplayNSFWEnum? displayNSFW) =>
       _$this._displayNSFW = displayNSFW;
 
   bool? _p2pEnabled;
-
   bool? get p2pEnabled => _$this._p2pEnabled;
-
   set p2pEnabled(bool? p2pEnabled) => _$this._p2pEnabled = p2pEnabled;
 
   bool? _autoPlayVideo;
-
   bool? get autoPlayVideo => _$this._autoPlayVideo;
-
   set autoPlayVideo(bool? autoPlayVideo) =>
       _$this._autoPlayVideo = autoPlayVideo;
 
   bool? _autoPlayNextVideo;
-
   bool? get autoPlayNextVideo => _$this._autoPlayNextVideo;
-
   set autoPlayNextVideo(bool? autoPlayNextVideo) =>
       _$this._autoPlayNextVideo = autoPlayNextVideo;
 
   bool? _autoPlayNextVideoPlaylist;
-
   bool? get autoPlayNextVideoPlaylist => _$this._autoPlayNextVideoPlaylist;
-
   set autoPlayNextVideoPlaylist(bool? autoPlayNextVideoPlaylist) =>
       _$this._autoPlayNextVideoPlaylist = autoPlayNextVideoPlaylist;
 
   bool? _videosHistoryEnabled;
-
   bool? get videosHistoryEnabled => _$this._videosHistoryEnabled;
-
   set videosHistoryEnabled(bool? videosHistoryEnabled) =>
       _$this._videosHistoryEnabled = videosHistoryEnabled;
 
   ListBuilder<String>? _videoLanguages;
-
   ListBuilder<String> get videoLanguages =>
       _$this._videoLanguages ??= new ListBuilder<String>();
-
   set videoLanguages(ListBuilder<String>? videoLanguages) =>
       _$this._videoLanguages = videoLanguages;
 
   String? _theme;
-
   String? get theme => _$this._theme;
-
   set theme(String? theme) => _$this._theme = theme;
 
   bool? _noInstanceConfigWarningModal;
-
   bool? get noInstanceConfigWarningModal =>
       _$this._noInstanceConfigWarningModal;
-
   set noInstanceConfigWarningModal(bool? noInstanceConfigWarningModal) =>
       _$this._noInstanceConfigWarningModal = noInstanceConfigWarningModal;
 
   bool? _noAccountSetupWarningModal;
-
   bool? get noAccountSetupWarningModal => _$this._noAccountSetupWarningModal;
-
   set noAccountSetupWarningModal(bool? noAccountSetupWarningModal) =>
       _$this._noAccountSetupWarningModal = noAccountSetupWarningModal;
 
   bool? _noWelcomeModal;
-
   bool? get noWelcomeModal => _$this._noWelcomeModal;
-
   set noWelcomeModal(bool? noWelcomeModal) =>
       _$this._noWelcomeModal = noWelcomeModal;
 

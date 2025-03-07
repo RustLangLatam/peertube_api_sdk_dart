@@ -55,10 +55,8 @@ class AddVideoChannelSync200ResponseBuilder
   _$AddVideoChannelSync200Response? _$v;
 
   VideoChannelSyncBuilder? _videoChannelSync;
-
   VideoChannelSyncBuilder get videoChannelSync =>
       _$this._videoChannelSync ??= new VideoChannelSyncBuilder();
-
   set videoChannelSync(VideoChannelSyncBuilder? videoChannelSync) =>
       _$this._videoChannelSync = videoChannelSync;
 

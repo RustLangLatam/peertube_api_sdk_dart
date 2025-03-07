@@ -71,15 +71,11 @@ class ApiV1WatchedWordsAccountsAccountNameListsPostRequestBuilder
   _$ApiV1WatchedWordsAccountsAccountNameListsPostRequest? _$v;
 
   String? _listName;
-
   String? get listName => _$this._listName;
-
   set listName(String? listName) => _$this._listName = listName;
 
   ListBuilder<String>? _words;
-
   ListBuilder<String> get words => _$this._words ??= new ListBuilder<String>();
-
   set words(ListBuilder<String>? words) => _$this._words = words;
 
   ApiV1WatchedWordsAccountsAccountNameListsPostRequestBuilder() {

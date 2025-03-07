@@ -53,10 +53,8 @@ class CommentThreadPostResponseBuilder
   _$CommentThreadPostResponse? _$v;
 
   VideoCommentBuilder? _comment;
-
   VideoCommentBuilder get comment =>
       _$this._comment ??= new VideoCommentBuilder();
-
   set comment(VideoCommentBuilder? comment) => _$this._comment = comment;
 
   CommentThreadPostResponseBuilder() {

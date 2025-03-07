@@ -59,16 +59,12 @@ class GetVideoBlocks200ResponseBuilder
   _$GetVideoBlocks200Response? _$v;
 
   int? _total;
-
   int? get total => _$this._total;
-
   set total(int? total) => _$this._total = total;
 
   ListBuilder<VideoBlacklist>? _data;
-
   ListBuilder<VideoBlacklist> get data =>
       _$this._data ??= new ListBuilder<VideoBlacklist>();
-
   set data(ListBuilder<VideoBlacklist>? data) => _$this._data = data;
 
   GetVideoBlocks200ResponseBuilder() {

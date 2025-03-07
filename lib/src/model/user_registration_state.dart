@@ -20,7 +20,6 @@ abstract class UserRegistrationState
   /// The registration state (Pending = `1`, Rejected = `2`, Accepted = `3`)
   @BuiltValueField(wireName: r'id')
   UserRegistrationStateIdEnum? get id;
-
   // enum idEnum {  1,  2,  3,  };
 
   @BuiltValueField(wireName: r'label')
@@ -160,7 +159,6 @@ class UserRegistrationStateIdEnum extends EnumClass {
 
   static BuiltSet<UserRegistrationStateIdEnum> get values =>
       _$userRegistrationStateIdEnumValues;
-
   static UserRegistrationStateIdEnum valueOf(String name) =>
       _$userRegistrationStateIdEnumValueOf(name);
 }

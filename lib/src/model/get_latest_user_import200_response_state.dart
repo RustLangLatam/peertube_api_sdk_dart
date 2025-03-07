@@ -21,7 +21,6 @@ abstract class GetLatestUserImport200ResponseState
             GetLatestUserImport200ResponseStateBuilder> {
   @BuiltValueField(wireName: r'id')
   UserImportState? get id;
-
   // enum idEnum {  1,  2,  3,  4,  };
 
   @BuiltValueField(wireName: r'label')

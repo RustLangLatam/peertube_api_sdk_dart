@@ -60,10 +60,8 @@ class ApiV1UsersMeAvatarPickPost200ResponseBuilder
   _$ApiV1UsersMeAvatarPickPost200Response? _$v;
 
   ListBuilder<ActorImage>? _avatars;
-
   ListBuilder<ActorImage> get avatars =>
       _$this._avatars ??= new ListBuilder<ActorImage>();
-
   set avatars(ListBuilder<ActorImage>? avatars) => _$this._avatars = avatars;
 
   ApiV1UsersMeAvatarPickPost200ResponseBuilder() {

@@ -98,52 +98,36 @@ class AddUserBuilder implements Builder<AddUser, AddUserBuilder> {
   _$AddUser? _$v;
 
   String? _username;
-
   String? get username => _$this._username;
-
   set username(String? username) => _$this._username = username;
 
   String? _password;
-
   String? get password => _$this._password;
-
   set password(String? password) => _$this._password = password;
 
   String? _email;
-
   String? get email => _$this._email;
-
   set email(String? email) => _$this._email = email;
 
   UserRoleBuilder? _role;
-
   UserRoleBuilder get role => _$this._role ??= new UserRoleBuilder();
-
   set role(UserRoleBuilder? role) => _$this._role = role;
 
   int? _videoQuota;
-
   int? get videoQuota => _$this._videoQuota;
-
   set videoQuota(int? videoQuota) => _$this._videoQuota = videoQuota;
 
   int? _videoQuotaDaily;
-
   int? get videoQuotaDaily => _$this._videoQuotaDaily;
-
   set videoQuotaDaily(int? videoQuotaDaily) =>
       _$this._videoQuotaDaily = videoQuotaDaily;
 
   String? _channelName;
-
   String? get channelName => _$this._channelName;
-
   set channelName(String? channelName) => _$this._channelName = channelName;
 
   UserAdminFlags? _adminFlags;
-
   UserAdminFlags? get adminFlags => _$this._adminFlags;
-
   set adminFlags(UserAdminFlags? adminFlags) => _$this._adminFlags = adminFlags;
 
   AddUserBuilder() {

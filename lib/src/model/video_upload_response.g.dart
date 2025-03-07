@@ -52,10 +52,8 @@ class VideoUploadResponseBuilder
   _$VideoUploadResponse? _$v;
 
   VideoUploadResponseVideoBuilder? _video;
-
   VideoUploadResponseVideoBuilder get video =>
       _$this._video ??= new VideoUploadResponseVideoBuilder();
-
   set video(VideoUploadResponseVideoBuilder? video) => _$this._video = video;
 
   VideoUploadResponseBuilder() {

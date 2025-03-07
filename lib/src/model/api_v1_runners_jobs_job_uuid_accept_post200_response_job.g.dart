@@ -150,101 +150,71 @@ class ApiV1RunnersJobsJobUUIDAcceptPost200ResponseJobBuilder
   _$ApiV1RunnersJobsJobUUIDAcceptPost200ResponseJob? _$v;
 
   String? _jobToken;
-
   String? get jobToken => _$this._jobToken;
-
   set jobToken(covariant String? jobToken) => _$this._jobToken = jobToken;
 
   String? _uuid;
-
   String? get uuid => _$this._uuid;
-
   set uuid(covariant String? uuid) => _$this._uuid = uuid;
 
   RunnerJobType? _type;
-
   RunnerJobType? get type => _$this._type;
-
   set type(covariant RunnerJobType? type) => _$this._type = type;
 
   RunnerJobStateConstantBuilder? _state;
-
   RunnerJobStateConstantBuilder get state =>
       _$this._state ??= new RunnerJobStateConstantBuilder();
-
   set state(covariant RunnerJobStateConstantBuilder? state) =>
       _$this._state = state;
 
   RunnerJobPayloadBuilder? _payload;
-
   RunnerJobPayloadBuilder get payload =>
       _$this._payload ??= new RunnerJobPayloadBuilder();
-
   set payload(covariant RunnerJobPayloadBuilder? payload) =>
       _$this._payload = payload;
 
   int? _failures;
-
   int? get failures => _$this._failures;
-
   set failures(covariant int? failures) => _$this._failures = failures;
 
   String? _error;
-
   String? get error => _$this._error;
-
   set error(covariant String? error) => _$this._error = error;
 
   int? _progress;
-
   int? get progress => _$this._progress;
-
   set progress(covariant int? progress) => _$this._progress = progress;
 
   int? _priority;
-
   int? get priority => _$this._priority;
-
   set priority(covariant int? priority) => _$this._priority = priority;
 
   DateTime? _updatedAt;
-
   DateTime? get updatedAt => _$this._updatedAt;
-
   set updatedAt(covariant DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   DateTime? _createdAt;
-
   DateTime? get createdAt => _$this._createdAt;
-
   set createdAt(covariant DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _startedAt;
-
   DateTime? get startedAt => _$this._startedAt;
-
   set startedAt(covariant DateTime? startedAt) => _$this._startedAt = startedAt;
 
   DateTime? _finishedAt;
-
   DateTime? get finishedAt => _$this._finishedAt;
-
   set finishedAt(covariant DateTime? finishedAt) =>
       _$this._finishedAt = finishedAt;
 
   RunnerJobParentBuilder? _parent;
-
   RunnerJobParentBuilder get parent =>
       _$this._parent ??= new RunnerJobParentBuilder();
-
   set parent(covariant RunnerJobParentBuilder? parent) =>
       _$this._parent = parent;
 
   RunnerJobRunnerBuilder? _runner;
-
   RunnerJobRunnerBuilder get runner =>
       _$this._runner ??= new RunnerJobRunnerBuilder();
-
   set runner(covariant RunnerJobRunnerBuilder? runner) =>
       _$this._runner = runner;
 

@@ -61,21 +61,15 @@ class RunnerJobRunnerBuilder
   _$RunnerJobRunner? _$v;
 
   num? _id;
-
   num? get id => _$this._id;
-
   set id(num? id) => _$this._id = id;
 
   String? _name;
-
   String? get name => _$this._name;
-
   set name(String? name) => _$this._name = name;
 
   String? _description;
-
   String? get description => _$this._description;
-
   set description(String? description) => _$this._description = description;
 
   RunnerJobRunnerBuilder() {

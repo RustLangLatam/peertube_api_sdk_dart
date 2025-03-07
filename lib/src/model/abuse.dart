@@ -2,14 +2,15 @@
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
 
-import 'package:built_collection/built_collection.dart';
-import 'package:built_value/built_value.dart';
-import 'package:built_value/serializer.dart';
-import 'package:peer_tube_api_sdk/src/model/abuse_state_constant.dart';
-import 'package:peer_tube_api_sdk/src/model/account.dart';
-import 'package:peer_tube_api_sdk/src/model/api_v1_abuses_post_request.dart';
 // ignore_for_file: unused_element
 import 'package:peer_tube_api_sdk/src/model/video_info.dart';
+import 'package:built_collection/built_collection.dart';
+import 'package:peer_tube_api_sdk/src/model/account.dart';
+import 'package:peer_tube_api_sdk/src/model/abuse_state_constant.dart';
+import 'package:built_value/built_value.dart';
+import 'package:built_value/serializer.dart';
+
+import 'api_v1_abuses_post_request.dart';
 
 part 'abuse.g.dart';
 
@@ -34,7 +35,6 @@ abstract class Abuse implements Built<Abuse, AbuseBuilder> {
 
   @BuiltValueField(wireName: r'predefinedReasons')
   BuiltList<ApiV1AbusesPostRequestPredefinedReasonsEnum>? get predefinedReasons;
-
   // enum predefinedReasonsEnum {  violentOrAbusive,  hatefulOrAbusive,  spamOrMisleading,  privacy,  rights,  serverRules,  thumbnails,  captions,  };
 
   @BuiltValueField(wireName: r'reporterAccount')

@@ -30,7 +30,6 @@ abstract class SendClientLog
 
   @BuiltValueField(wireName: r'level')
   SendClientLogLevelEnum get level;
-
   // enum levelEnum {  error,  warn,  };
 
   /// Stack trace of the error if there is one
@@ -215,7 +214,6 @@ class SendClientLogLevelEnum extends EnumClass {
 
   static BuiltSet<SendClientLogLevelEnum> get values =>
       _$sendClientLogLevelEnumValues;
-
   static SendClientLogLevelEnum valueOf(String name) =>
       _$sendClientLogLevelEnumValueOf(name);
 }

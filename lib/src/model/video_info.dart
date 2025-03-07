@@ -2,10 +2,10 @@
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
 
-import 'package:built_value/built_value.dart';
-import 'package:built_value/serializer.dart';
 // ignore_for_file: unused_element
 import 'package:peer_tube_api_sdk/src/model/video_state_constant.dart';
+import 'package:built_value/built_value.dart';
+import 'package:built_value/serializer.dart';
 
 part 'video_info.g.dart';
 

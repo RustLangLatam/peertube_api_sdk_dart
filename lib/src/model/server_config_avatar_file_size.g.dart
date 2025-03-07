@@ -53,9 +53,7 @@ class ServerConfigAvatarFileSizeBuilder
   _$ServerConfigAvatarFileSize? _$v;
 
   int? _max;
-
   int? get max => _$this._max;
-
   set max(int? max) => _$this._max = max;
 
   ServerConfigAvatarFileSizeBuilder() {

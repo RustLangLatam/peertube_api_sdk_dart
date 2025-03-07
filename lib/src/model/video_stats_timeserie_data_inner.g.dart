@@ -60,15 +60,11 @@ class VideoStatsTimeserieDataInnerBuilder
   _$VideoStatsTimeserieDataInner? _$v;
 
   String? _date;
-
   String? get date => _$this._date;
-
   set date(String? date) => _$this._date = date;
 
   num? _value;
-
   num? get value => _$this._value;
-
   set value(num? value) => _$this._value = value;
 
   VideoStatsTimeserieDataInnerBuilder() {

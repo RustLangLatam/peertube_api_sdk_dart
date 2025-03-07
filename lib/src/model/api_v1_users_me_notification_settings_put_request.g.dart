@@ -128,86 +128,62 @@ class ApiV1UsersMeNotificationSettingsPutRequestBuilder
   _$ApiV1UsersMeNotificationSettingsPutRequest? _$v;
 
   int? _newVideoFromSubscription;
-
   int? get newVideoFromSubscription => _$this._newVideoFromSubscription;
-
   set newVideoFromSubscription(int? newVideoFromSubscription) =>
       _$this._newVideoFromSubscription = newVideoFromSubscription;
 
   int? _newCommentOnMyVideo;
-
   int? get newCommentOnMyVideo => _$this._newCommentOnMyVideo;
-
   set newCommentOnMyVideo(int? newCommentOnMyVideo) =>
       _$this._newCommentOnMyVideo = newCommentOnMyVideo;
 
   int? _abuseAsModerator;
-
   int? get abuseAsModerator => _$this._abuseAsModerator;
-
   set abuseAsModerator(int? abuseAsModerator) =>
       _$this._abuseAsModerator = abuseAsModerator;
 
   int? _videoAutoBlacklistAsModerator;
-
   int? get videoAutoBlacklistAsModerator =>
       _$this._videoAutoBlacklistAsModerator;
-
   set videoAutoBlacklistAsModerator(int? videoAutoBlacklistAsModerator) =>
       _$this._videoAutoBlacklistAsModerator = videoAutoBlacklistAsModerator;
 
   int? _blacklistOnMyVideo;
-
   int? get blacklistOnMyVideo => _$this._blacklistOnMyVideo;
-
   set blacklistOnMyVideo(int? blacklistOnMyVideo) =>
       _$this._blacklistOnMyVideo = blacklistOnMyVideo;
 
   int? _myVideoPublished;
-
   int? get myVideoPublished => _$this._myVideoPublished;
-
   set myVideoPublished(int? myVideoPublished) =>
       _$this._myVideoPublished = myVideoPublished;
 
   int? _myVideoImportFinished;
-
   int? get myVideoImportFinished => _$this._myVideoImportFinished;
-
   set myVideoImportFinished(int? myVideoImportFinished) =>
       _$this._myVideoImportFinished = myVideoImportFinished;
 
   int? _newFollow;
-
   int? get newFollow => _$this._newFollow;
-
   set newFollow(int? newFollow) => _$this._newFollow = newFollow;
 
   int? _newUserRegistration;
-
   int? get newUserRegistration => _$this._newUserRegistration;
-
   set newUserRegistration(int? newUserRegistration) =>
       _$this._newUserRegistration = newUserRegistration;
 
   int? _commentMention;
-
   int? get commentMention => _$this._commentMention;
-
   set commentMention(int? commentMention) =>
       _$this._commentMention = commentMention;
 
   int? _newInstanceFollower;
-
   int? get newInstanceFollower => _$this._newInstanceFollower;
-
   set newInstanceFollower(int? newInstanceFollower) =>
       _$this._newInstanceFollower = newInstanceFollower;
 
   int? _autoInstanceFollowing;
-
   int? get autoInstanceFollowing => _$this._autoInstanceFollowing;
-
   set autoInstanceFollowing(int? autoInstanceFollowing) =>
       _$this._autoInstanceFollowing = autoInstanceFollowing;
 

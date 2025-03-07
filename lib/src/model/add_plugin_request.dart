@@ -2,13 +2,12 @@
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
 
+// ignore_for_file: unused_element
+import 'package:peer_tube_api_sdk/src/model/add_plugin_request_one_of1.dart';
+import 'package:peer_tube_api_sdk/src/model/add_plugin_request_one_of.dart';
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
 import 'package:one_of/one_of.dart';
-import 'package:peer_tube_api_sdk/src/model/add_plugin_request_one_of.dart';
-
-// ignore_for_file: unused_element
-import 'package:peer_tube_api_sdk/src/model/add_plugin_request_one_of1.dart';
 
 part 'add_plugin_request.g.dart';
 

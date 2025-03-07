@@ -74,23 +74,17 @@ class ReorderVideoPlaylistRequestBuilder
   _$ReorderVideoPlaylistRequest? _$v;
 
   int? _startPosition;
-
   int? get startPosition => _$this._startPosition;
-
   set startPosition(int? startPosition) =>
       _$this._startPosition = startPosition;
 
   int? _insertAfterPosition;
-
   int? get insertAfterPosition => _$this._insertAfterPosition;
-
   set insertAfterPosition(int? insertAfterPosition) =>
       _$this._insertAfterPosition = insertAfterPosition;
 
   int? _reorderLength;
-
   int? get reorderLength => _$this._reorderLength;
-
   set reorderLength(int? reorderLength) =>
       _$this._reorderLength = reorderLength;
 

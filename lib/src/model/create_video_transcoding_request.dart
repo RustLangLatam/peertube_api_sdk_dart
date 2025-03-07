@@ -21,7 +21,6 @@ abstract class CreateVideoTranscodingRequest
             CreateVideoTranscodingRequestBuilder> {
   @BuiltValueField(wireName: r'transcodingType')
   CreateVideoTranscodingRequestTranscodingTypeEnum get transcodingType;
-
   // enum transcodingTypeEnum {  hls,  web-video,  };
 
   /// If the video is stuck in transcoding state, do it anyway
@@ -158,7 +157,6 @@ class CreateVideoTranscodingRequestTranscodingTypeEnum extends EnumClass {
 
   static BuiltSet<CreateVideoTranscodingRequestTranscodingTypeEnum>
       get values => _$createVideoTranscodingRequestTranscodingTypeEnumValues;
-
   static CreateVideoTranscodingRequestTranscodingTypeEnum valueOf(
           String name) =>
       _$createVideoTranscodingRequestTranscodingTypeEnumValueOf(name);

@@ -64,15 +64,11 @@ class ApiV1RunnersRegisterPost200ResponseBuilder
   _$ApiV1RunnersRegisterPost200Response? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(int? id) => _$this._id = id;
 
   String? _runnerToken;
-
   String? get runnerToken => _$this._runnerToken;
-
   set runnerToken(String? runnerToken) => _$this._runnerToken = runnerToken;
 
   ApiV1RunnersRegisterPost200ResponseBuilder() {

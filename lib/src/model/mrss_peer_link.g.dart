@@ -99,15 +99,11 @@ class MRSSPeerLinkBuilder
   _$MRSSPeerLink? _$v;
 
   String? _href;
-
   String? get href => _$this._href;
-
   set href(String? href) => _$this._href = href;
 
   MRSSPeerLinkTypeEnum? _type;
-
   MRSSPeerLinkTypeEnum? get type => _$this._type;
-
   set type(MRSSPeerLinkTypeEnum? type) => _$this._type = type;
 
   MRSSPeerLinkBuilder() {

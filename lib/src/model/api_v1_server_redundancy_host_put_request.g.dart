@@ -62,9 +62,7 @@ class ApiV1ServerRedundancyHostPutRequestBuilder
   _$ApiV1ServerRedundancyHostPutRequest? _$v;
 
   bool? _redundancyAllowed;
-
   bool? get redundancyAllowed => _$this._redundancyAllowed;
-
   set redundancyAllowed(bool? redundancyAllowed) =>
       _$this._redundancyAllowed = redundancyAllowed;
 

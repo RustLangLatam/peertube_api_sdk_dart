@@ -80,34 +80,24 @@ class VideoCommentsForXMLInnerBuilder
   _$VideoCommentsForXMLInner? _$v;
 
   String? _link;
-
   String? get link => _$this._link;
-
   set link(String? link) => _$this._link = link;
 
   String? _guid;
-
   String? get guid => _$this._guid;
-
   set guid(String? guid) => _$this._guid = guid;
 
   DateTime? _pubDate;
-
   DateTime? get pubDate => _$this._pubDate;
-
   set pubDate(DateTime? pubDate) => _$this._pubDate = pubDate;
 
   String? _contentColonEncoded;
-
   String? get contentColonEncoded => _$this._contentColonEncoded;
-
   set contentColonEncoded(String? contentColonEncoded) =>
       _$this._contentColonEncoded = contentColonEncoded;
 
   String? _dcColonCreator;
-
   String? get dcColonCreator => _$this._dcColonCreator;
-
   set dcColonCreator(String? dcColonCreator) =>
       _$this._dcColonCreator = dcColonCreator;
 

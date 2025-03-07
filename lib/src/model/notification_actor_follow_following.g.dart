@@ -143,28 +143,20 @@ class NotificationActorFollowFollowingBuilder
   _$NotificationActorFollowFollowing? _$v;
 
   NotificationActorFollowFollowingTypeEnum? _type;
-
   NotificationActorFollowFollowingTypeEnum? get type => _$this._type;
-
   set type(NotificationActorFollowFollowingTypeEnum? type) =>
       _$this._type = type;
 
   String? _name;
-
   String? get name => _$this._name;
-
   set name(String? name) => _$this._name = name;
 
   String? _displayName;
-
   String? get displayName => _$this._displayName;
-
   set displayName(String? displayName) => _$this._displayName = displayName;
 
   String? _host;
-
   String? get host => _$this._host;
-
   set host(String? host) => _$this._host = host;
 
   NotificationActorFollowFollowingBuilder() {

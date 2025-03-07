@@ -52,10 +52,8 @@ class CommentAutoTagPoliciesBuilder
   _$CommentAutoTagPolicies? _$v;
 
   ListBuilder<String>? _review;
-
   ListBuilder<String> get review =>
       _$this._review ??= new ListBuilder<String>();
-
   set review(ListBuilder<String>? review) => _$this._review = review;
 
   CommentAutoTagPoliciesBuilder() {

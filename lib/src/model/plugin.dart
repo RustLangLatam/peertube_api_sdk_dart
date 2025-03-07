@@ -4,8 +4,8 @@
 
 // ignore_for_file: unused_element
 import 'package:built_collection/built_collection.dart';
-import 'package:built_value/built_value.dart';
 import 'package:built_value/json_object.dart';
+import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
 
 part 'plugin.g.dart';
@@ -33,7 +33,6 @@ abstract class Plugin implements Built<Plugin, PluginBuilder> {
   /// - `1`: PLUGIN - `2`: THEME
   @BuiltValueField(wireName: r'type')
   PluginTypeEnum? get type;
-
   // enum typeEnum {  1,  2,  };
 
   @BuiltValueField(wireName: r'latestVersion')
@@ -328,6 +327,5 @@ class PluginTypeEnum extends EnumClass {
   const PluginTypeEnum._(String name) : super(name);
 
   static BuiltSet<PluginTypeEnum> get values => _$pluginTypeEnumValues;
-
   static PluginTypeEnum valueOf(String name) => _$pluginTypeEnumValueOf(name);
 }

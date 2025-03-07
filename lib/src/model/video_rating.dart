@@ -4,9 +4,9 @@
 
 // ignore_for_file: unused_element
 import 'package:built_collection/built_collection.dart';
+import 'package:peer_tube_api_sdk/src/model/video.dart';
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
-import 'package:peer_tube_api_sdk/src/model/video.dart';
 
 part 'video_rating.g.dart';
 
@@ -23,7 +23,6 @@ abstract class VideoRating implements Built<VideoRating, VideoRatingBuilder> {
   /// Rating of the video
   @BuiltValueField(wireName: r'rating')
   VideoRatingRatingEnum get rating;
-
   // enum ratingEnum {  like,  dislike,  none,  };
 
   VideoRating._();
@@ -147,7 +146,6 @@ class VideoRatingRatingEnum extends EnumClass {
 
   static BuiltSet<VideoRatingRatingEnum> get values =>
       _$videoRatingRatingEnumValues;
-
   static VideoRatingRatingEnum valueOf(String name) =>
       _$videoRatingRatingEnumValueOf(name);
 }

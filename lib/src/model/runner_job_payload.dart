@@ -2,14 +2,15 @@
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
 
+// ignore_for_file: unused_element
+import 'package:peer_tube_api_sdk/src/model/vod_web_video_transcoding1.dart';
+import 'package:peer_tube_api_sdk/src/model/vod_audio_merge_transcoding1.dart';
+import 'package:peer_tube_api_sdk/src/model/vodhls_transcoding1.dart';
+import 'package:peer_tube_api_sdk/src/model/vod_audio_merge_transcoding1_input.dart';
+import 'package:peer_tube_api_sdk/src/model/vod_web_video_transcoding1_output.dart';
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
 import 'package:one_of/any_of.dart';
-import 'package:peer_tube_api_sdk/src/model/vod_audio_merge_transcoding1.dart';
-
-// ignore_for_file: unused_element
-import 'package:peer_tube_api_sdk/src/model/vod_web_video_transcoding1.dart';
-import 'package:peer_tube_api_sdk/src/model/vodhls_transcoding1.dart';
 
 part 'runner_job_payload.g.dart';
 

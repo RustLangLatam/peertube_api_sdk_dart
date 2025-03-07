@@ -3,11 +3,13 @@
 //
 
 import 'dart:async';
-import 'dart:typed_data';
 
-import 'package:built_collection/built_collection.dart';
+import 'package:built_value/json_object.dart';
 import 'package:built_value/serializer.dart';
 import 'package:dio/dio.dart';
+
+import 'dart:typed_data';
+import 'package:built_collection/built_collection.dart';
 import 'package:peer_tube_api_sdk/src/api_util.dart';
 import 'package:peer_tube_api_sdk/src/model/video_comments_policy_set.dart';
 import 'package:peer_tube_api_sdk/src/model/video_privacy_set.dart';

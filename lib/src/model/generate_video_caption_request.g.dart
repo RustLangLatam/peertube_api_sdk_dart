@@ -55,9 +55,7 @@ class GenerateVideoCaptionRequestBuilder
   _$GenerateVideoCaptionRequest? _$v;
 
   bool? _forceTranscription;
-
   bool? get forceTranscription => _$this._forceTranscription;
-
   set forceTranscription(bool? forceTranscription) =>
       _$this._forceTranscription = forceTranscription;
 

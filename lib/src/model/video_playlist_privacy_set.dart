@@ -28,7 +28,6 @@ class VideoPlaylistPrivacySet extends EnumClass {
   const VideoPlaylistPrivacySet._(String name) : super(name);
 
   static BuiltSet<VideoPlaylistPrivacySet> get values => _$values;
-
   static VideoPlaylistPrivacySet valueOf(String name) => _$valueOf(name);
 }
 

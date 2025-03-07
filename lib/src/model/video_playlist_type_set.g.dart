@@ -28,13 +28,9 @@ final BuiltSet<VideoPlaylistTypeSet> _$values =
 
 class _$VideoPlaylistTypeSetMeta {
   const _$VideoPlaylistTypeSetMeta();
-
   VideoPlaylistTypeSet get number1 => _$number1;
-
   VideoPlaylistTypeSet get number2 => _$number2;
-
   VideoPlaylistTypeSet valueOf(String name) => _$valueOf(name);
-
   BuiltSet<VideoPlaylistTypeSet> get values => _$values;
 }
 

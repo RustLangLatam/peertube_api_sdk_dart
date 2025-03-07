@@ -30,7 +30,6 @@ abstract class ApiV1AbusesPostRequest
   /// Reason categories that help triage reports
   @BuiltValueField(wireName: r'predefinedReasons')
   BuiltList<ApiV1AbusesPostRequestPredefinedReasonsEnum>? get predefinedReasons;
-
   // enum predefinedReasonsEnum {  violentOrAbusive,  hatefulOrAbusive,  spamOrMisleading,  privacy,  rights,  serverRules,  thumbnails,  captions,  };
 
   @BuiltValueField(wireName: r'video')
@@ -230,7 +229,6 @@ class ApiV1AbusesPostRequestPredefinedReasonsEnum extends EnumClass {
 
   static BuiltSet<ApiV1AbusesPostRequestPredefinedReasonsEnum> get values =>
       _$apiV1AbusesPostRequestPredefinedReasonsEnumValues;
-
   static ApiV1AbusesPostRequestPredefinedReasonsEnum valueOf(String name) =>
       _$apiV1AbusesPostRequestPredefinedReasonsEnumValueOf(name);
 }

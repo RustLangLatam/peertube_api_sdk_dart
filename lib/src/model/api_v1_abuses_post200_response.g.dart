@@ -53,10 +53,8 @@ class ApiV1AbusesPost200ResponseBuilder
   _$ApiV1AbusesPost200Response? _$v;
 
   ApiV1AbusesPost200ResponseAbuseBuilder? _abuse;
-
   ApiV1AbusesPost200ResponseAbuseBuilder get abuse =>
       _$this._abuse ??= new ApiV1AbusesPost200ResponseAbuseBuilder();
-
   set abuse(ApiV1AbusesPost200ResponseAbuseBuilder? abuse) =>
       _$this._abuse = abuse;
 

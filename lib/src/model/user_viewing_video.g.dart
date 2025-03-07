@@ -118,22 +118,16 @@ class UserViewingVideoBuilder
   _$UserViewingVideo? _$v;
 
   int? _currentTime;
-
   int? get currentTime => _$this._currentTime;
-
   set currentTime(int? currentTime) => _$this._currentTime = currentTime;
 
   UserViewingVideoViewEventEnum? _viewEvent;
-
   UserViewingVideoViewEventEnum? get viewEvent => _$this._viewEvent;
-
   set viewEvent(UserViewingVideoViewEventEnum? viewEvent) =>
       _$this._viewEvent = viewEvent;
 
   String? _sessionId;
-
   String? get sessionId => _$this._sessionId;
-
   set sessionId(String? sessionId) => _$this._sessionId = sessionId;
 
   UserViewingVideoBuilder() {

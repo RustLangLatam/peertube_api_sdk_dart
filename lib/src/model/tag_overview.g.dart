@@ -52,15 +52,11 @@ class TagOverviewBuilder implements Builder<TagOverview, TagOverviewBuilder> {
   _$TagOverview? _$v;
 
   String? _tag;
-
   String? get tag => _$this._tag;
-
   set tag(String? tag) => _$this._tag = tag;
 
   ListBuilder<Video>? _videos;
-
   ListBuilder<Video> get videos => _$this._videos ??= new ListBuilder<Video>();
-
   set videos(ListBuilder<Video>? videos) => _$this._videos = videos;
 
   TagOverviewBuilder() {

@@ -86,29 +86,21 @@ class ApiV1UsersMeVideoPlaylistsVideosExistGet200ResponseVideoIdInnerBuilder
   _$ApiV1UsersMeVideoPlaylistsVideosExistGet200ResponseVideoIdInner? _$v;
 
   int? _playlistElementId;
-
   int? get playlistElementId => _$this._playlistElementId;
-
   set playlistElementId(int? playlistElementId) =>
       _$this._playlistElementId = playlistElementId;
 
   int? _playlistId;
-
   int? get playlistId => _$this._playlistId;
-
   set playlistId(int? playlistId) => _$this._playlistId = playlistId;
 
   int? _startTimestamp;
-
   int? get startTimestamp => _$this._startTimestamp;
-
   set startTimestamp(int? startTimestamp) =>
       _$this._startTimestamp = startTimestamp;
 
   int? _stopTimestamp;
-
   int? get stopTimestamp => _$this._stopTimestamp;
-
   set stopTimestamp(int? stopTimestamp) =>
       _$this._stopTimestamp = stopTimestamp;
 

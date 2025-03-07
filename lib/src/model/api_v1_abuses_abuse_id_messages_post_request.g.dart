@@ -64,9 +64,7 @@ class ApiV1AbusesAbuseIdMessagesPostRequestBuilder
   _$ApiV1AbusesAbuseIdMessagesPostRequest? _$v;
 
   String? _message;
-
   String? get message => _$this._message;
-
   set message(String? message) => _$this._message = message;
 
   ApiV1AbusesAbuseIdMessagesPostRequestBuilder() {

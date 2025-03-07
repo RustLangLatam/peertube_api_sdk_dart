@@ -66,15 +66,11 @@ class ServerConfigViewsViewsWatchingIntervalBuilder
   _$ServerConfigViewsViewsWatchingInterval? _$v;
 
   num? _anonymous;
-
   num? get anonymous => _$this._anonymous;
-
   set anonymous(num? anonymous) => _$this._anonymous = anonymous;
 
   num? _users;
-
   num? get users => _$this._users;
-
   set users(num? users) => _$this._users = users;
 
   ServerConfigViewsViewsWatchingIntervalBuilder() {

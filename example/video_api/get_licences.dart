@@ -15,14 +15,14 @@ Future<void> main() async {
   final api = getApiClient(baseUrl).getVideoApi();
 
   try {
-    // Use the API to retrieve the category list
-    final response = await api.getCategories();
+    // Use the API to retrieve the licences list
+    final response = await api.getLicences();
     if (response.data != null) {
-      final category = response.data!.asMap().map((k, v) => MapEntry(int.parse(k), v));
-      print(category);
+      final licences = response.data!.asMap().map((k, v) => MapEntry(int.parse(k), v));
+      print(licences);
     }
   } on DioException catch (e) {
     // Handle any exceptions that occur during the API call
-    print('Exception when calling VideoApi->getCategories: $e\n');
+    print('Exception when calling VideoApi->getLicences: $e\n');
   }
 }

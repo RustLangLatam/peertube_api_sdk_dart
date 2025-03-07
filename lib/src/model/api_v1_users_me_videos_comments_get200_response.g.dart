@@ -66,16 +66,12 @@ class ApiV1UsersMeVideosCommentsGet200ResponseBuilder
   _$ApiV1UsersMeVideosCommentsGet200Response? _$v;
 
   int? _total;
-
   int? get total => _$this._total;
-
   set total(int? total) => _$this._total = total;
 
   ListBuilder<VideoCommentForOwnerOrAdmin>? _data;
-
   ListBuilder<VideoCommentForOwnerOrAdmin> get data =>
       _$this._data ??= new ListBuilder<VideoCommentForOwnerOrAdmin>();
-
   set data(ListBuilder<VideoCommentForOwnerOrAdmin>? data) =>
       _$this._data = data;
 

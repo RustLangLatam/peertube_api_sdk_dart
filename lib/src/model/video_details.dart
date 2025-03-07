@@ -2,24 +2,24 @@
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
 
+// ignore_for_file: unused_element
+import 'package:peer_tube_api_sdk/peer_tube_api_sdk.dart';
+import 'package:peer_tube_api_sdk/src/model/video_file.dart';
+import 'package:peer_tube_api_sdk/src/model/video_state_constant.dart';
+import 'package:peer_tube_api_sdk/src/model/video_constant_string_language.dart';
+import 'package:peer_tube_api_sdk/src/model/video_privacy_constant.dart';
+import 'package:peer_tube_api_sdk/src/model/video_streaming_playlists.dart';
+import 'package:peer_tube_api_sdk/src/model/video.dart';
+import 'package:peer_tube_api_sdk/src/model/video_comments_policy_constant.dart';
+import 'package:peer_tube_api_sdk/src/model/video_constant_number_licence.dart';
+import 'package:peer_tube_api_sdk/src/model/video_constant_number_category.dart';
 import 'package:built_collection/built_collection.dart';
+import 'package:peer_tube_api_sdk/src/model/video_channel.dart';
+import 'package:peer_tube_api_sdk/src/model/video_scheduled_update.dart';
+import 'package:peer_tube_api_sdk/src/model/account.dart';
+import 'package:peer_tube_api_sdk/src/model/video_user_history.dart';
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
-import 'package:peer_tube_api_sdk/src/model/account_summary.dart';
-import 'package:peer_tube_api_sdk/src/model/video.dart';
-import 'package:peer_tube_api_sdk/src/model/video_channel_summary.dart';
-import 'package:peer_tube_api_sdk/src/model/video_comments_policy_constant.dart';
-import 'package:peer_tube_api_sdk/src/model/video_constant_number_category.dart';
-import 'package:peer_tube_api_sdk/src/model/video_constant_number_licence.dart';
-import 'package:peer_tube_api_sdk/src/model/video_constant_string_language.dart';
-
-// ignore_for_file: unused_element
-import 'package:peer_tube_api_sdk/src/model/video_file.dart';
-import 'package:peer_tube_api_sdk/src/model/video_privacy_constant.dart';
-import 'package:peer_tube_api_sdk/src/model/video_scheduled_update.dart';
-import 'package:peer_tube_api_sdk/src/model/video_state_constant.dart';
-import 'package:peer_tube_api_sdk/src/model/video_streaming_playlists.dart';
-import 'package:peer_tube_api_sdk/src/model/video_user_history.dart';
 
 part 'video_details.g.dart';
 

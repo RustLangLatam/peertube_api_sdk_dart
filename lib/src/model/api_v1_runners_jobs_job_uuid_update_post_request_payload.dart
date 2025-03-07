@@ -26,7 +26,6 @@ abstract class ApiV1RunnersJobsJobUUIDUpdatePostRequestPayload
             ApiV1RunnersJobsJobUUIDUpdatePostRequestPayloadBuilder> {
   @BuiltValueField(wireName: r'type')
   ApiV1RunnersJobsJobUUIDUpdatePostRequestPayloadTypeEnum? get type;
-
   // enum typeEnum {  add-chunk,  remove-chunk,  };
 
   @BuiltValueField(wireName: r'masterPlaylistFile')
@@ -240,7 +239,6 @@ class ApiV1RunnersJobsJobUUIDUpdatePostRequestPayloadTypeEnum
   static BuiltSet<ApiV1RunnersJobsJobUUIDUpdatePostRequestPayloadTypeEnum>
       get values =>
           _$apiV1RunnersJobsJobUUIDUpdatePostRequestPayloadTypeEnumValues;
-
   static ApiV1RunnersJobsJobUUIDUpdatePostRequestPayloadTypeEnum valueOf(
           String name) =>
       _$apiV1RunnersJobsJobUUIDUpdatePostRequestPayloadTypeEnumValueOf(name);

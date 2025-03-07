@@ -61,19 +61,15 @@ class VideoRedundancyRedundanciesBuilder
   _$VideoRedundancyRedundancies? _$v;
 
   ListBuilder<FileRedundancyInformation>? _files;
-
   ListBuilder<FileRedundancyInformation> get files =>
       _$this._files ??= new ListBuilder<FileRedundancyInformation>();
-
   set files(ListBuilder<FileRedundancyInformation>? files) =>
       _$this._files = files;
 
   ListBuilder<FileRedundancyInformation>? _streamingPlaylists;
-
   ListBuilder<FileRedundancyInformation> get streamingPlaylists =>
       _$this._streamingPlaylists ??=
           new ListBuilder<FileRedundancyInformation>();
-
   set streamingPlaylists(
           ListBuilder<FileRedundancyInformation>? streamingPlaylists) =>
       _$this._streamingPlaylists = streamingPlaylists;

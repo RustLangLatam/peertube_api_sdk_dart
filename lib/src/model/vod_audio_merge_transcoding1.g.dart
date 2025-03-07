@@ -59,18 +59,14 @@ class VODAudioMergeTranscoding1Builder
   _$VODAudioMergeTranscoding1? _$v;
 
   VODAudioMergeTranscoding1InputBuilder? _input;
-
   VODAudioMergeTranscoding1InputBuilder get input =>
       _$this._input ??= new VODAudioMergeTranscoding1InputBuilder();
-
   set input(VODAudioMergeTranscoding1InputBuilder? input) =>
       _$this._input = input;
 
   VODWebVideoTranscoding1OutputBuilder? _output;
-
   VODWebVideoTranscoding1OutputBuilder get output =>
       _$this._output ??= new VODWebVideoTranscoding1OutputBuilder();
-
   set output(VODWebVideoTranscoding1OutputBuilder? output) =>
       _$this._output = output;
 

@@ -54,9 +54,7 @@ class ApiV1AbusesPostRequestCommentBuilder
   _$ApiV1AbusesPostRequestComment? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(int? id) => _$this._id = id;
 
   ApiV1AbusesPostRequestCommentBuilder() {

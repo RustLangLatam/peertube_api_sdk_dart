@@ -61,15 +61,11 @@ class VideoStatsRetentionDataInnerBuilder
   _$VideoStatsRetentionDataInner? _$v;
 
   num? _second;
-
   num? get second => _$this._second;
-
   set second(num? second) => _$this._second = second;
 
   num? _retentionPercent;
-
   num? get retentionPercent => _$this._retentionPercent;
-
   set retentionPercent(num? retentionPercent) =>
       _$this._retentionPercent = retentionPercent;
 

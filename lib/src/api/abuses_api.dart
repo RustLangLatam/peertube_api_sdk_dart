@@ -4,9 +4,11 @@
 
 import 'dart:async';
 
-import 'package:built_collection/built_collection.dart';
+import 'package:built_value/json_object.dart';
 import 'package:built_value/serializer.dart';
 import 'package:dio/dio.dart';
+
+import 'package:built_collection/built_collection.dart';
 import 'package:peer_tube_api_sdk/src/api_util.dart';
 import 'package:peer_tube_api_sdk/src/model/abuse_state_set.dart';
 import 'package:peer_tube_api_sdk/src/model/api_v1_abuses_abuse_id_messages_get200_response.dart';
@@ -593,113 +595,6 @@ class AbusesApi {
       if (sort != null)
         r'sort':
             encodeQueryParameter(_serializers, sort, const FullType(String)),
-    };
-
-    final _response = await _dio.request<Object>(
-      _path,
-      options: _options,
-      queryParameters: _queryParameters,
-      cancelToken: cancelToken,
-      onSendProgress: onSendProgress,
-      onReceiveProgress: onReceiveProgress,
-    );
-
-    GetMyAbuses200Response? _responseData;
-
-    try {
-      final rawResponse = _response.data;
-      _responseData = rawResponse == null
-          ? null
-          : _serializers.deserialize(
-              rawResponse,
-              specifiedType: const FullType(GetMyAbuses200Response),
-            ) as GetMyAbuses200Response;
-    } catch (error, stackTrace) {
-      throw DioException(
-        requestOptions: _response.requestOptions,
-        response: _response,
-        type: DioExceptionType.unknown,
-        error: error,
-        stackTrace: stackTrace,
-      );
-    }
-
-    return Response<GetMyAbuses200Response>(
-      data: _responseData,
-      headers: _response.headers,
-      isRedirect: _response.isRedirect,
-      requestOptions: _response.requestOptions,
-      redirects: _response.redirects,
-      statusCode: _response.statusCode,
-      statusMessage: _response.statusMessage,
-      extra: _response.extra,
-    );
-  }
-
-  /// List my abuses
-  ///
-  ///
-  /// Parameters:
-  /// * [id] - only list the report with this id
-  /// * [state]
-  /// * [sort] - Sort abuses by criteria
-  /// * [start] - Offset used to paginate results
-  /// * [count] - Number of items to return
-  /// * [cancelToken] - A [CancelToken] that can be used to cancel the operation
-  /// * [headers] - Can be used to add additional headers to the request
-  /// * [extras] - Can be used to add flags to the request
-  /// * [validateStatus] - A [ValidateStatus] callback that can be used to determine request success based on the HTTP status of the response
-  /// * [onSendProgress] - A [ProgressCallback] that can be used to get the send progress
-  /// * [onReceiveProgress] - A [ProgressCallback] that can be used to get the receive progress
-  ///
-  /// Returns a [Future] containing a [Response] with a [GetMyAbuses200Response] as data
-  /// Throws [DioException] if API call or serialization fails
-  Future<Response<GetMyAbuses200Response>> getMyAbuses({
-    int? id,
-    AbuseStateSet? state,
-    String? sort,
-    int? start,
-    int? count = 15,
-    CancelToken? cancelToken,
-    Map<String, dynamic>? headers,
-    Map<String, dynamic>? extra,
-    ValidateStatus? validateStatus,
-    ProgressCallback? onSendProgress,
-    ProgressCallback? onReceiveProgress,
-  }) async {
-    final _path = r'/api/v1/users/me/abuses';
-    final _options = Options(
-      method: r'GET',
-      headers: <String, dynamic>{
-        ...?headers,
-      },
-      extra: <String, dynamic>{
-        'secure': <Map<String, String>>[
-          {
-            'type': 'oauth2',
-            'name': 'OAuth2',
-          },
-        ],
-        ...?extra,
-      },
-      validateStatus: validateStatus,
-    );
-
-    final _queryParameters = <String, dynamic>{
-      if (id != null)
-        r'id': encodeQueryParameter(_serializers, id, const FullType(int)),
-      if (state != null)
-        r'state': encodeQueryParameter(
-            _serializers, state, const FullType(AbuseStateSet)),
-      if (sort != null)
-        r'sort':
-            encodeQueryParameter(_serializers, sort, const FullType(String)),
-      if (start != null)
-        r'start':
-            encodeQueryParameter(_serializers, start, const FullType(int)),
-      if (count != null)
-        r'count':
-            encodeQueryParameter(_serializers, count, const FullType(int)),
     };
 
     final _response = await _dio.request<Object>(

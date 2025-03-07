@@ -70,21 +70,15 @@ class RequestTwoFactorResponseOtpRequestBuilder
   _$RequestTwoFactorResponseOtpRequest? _$v;
 
   String? _requestToken;
-
   String? get requestToken => _$this._requestToken;
-
   set requestToken(String? requestToken) => _$this._requestToken = requestToken;
 
   String? _secret;
-
   String? get secret => _$this._secret;
-
   set secret(String? secret) => _$this._secret = secret;
 
   String? _uri;
-
   String? get uri => _$this._uri;
-
   set uri(String? uri) => _$this._uri = uri;
 
   RequestTwoFactorResponseOtpRequestBuilder() {

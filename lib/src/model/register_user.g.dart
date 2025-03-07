@@ -8,27 +8,20 @@ part of 'register_user.dart';
 
 abstract mixin class RegisterUserBuilder {
   void replace(RegisterUser other);
-
   void update(void Function(RegisterUserBuilder) updates);
-
   String? get username;
-
   set username(String? username);
 
   String? get password;
-
   set password(String? password);
 
   String? get email;
-
   set email(String? email);
 
   String? get displayName;
-
   set displayName(String? displayName);
 
   RegisterUserChannelBuilder get channel;
-
   set channel(RegisterUserChannelBuilder? channel);
 }
 
@@ -110,35 +103,25 @@ class $RegisterUserBuilder
   _$$RegisterUser? _$v;
 
   String? _username;
-
   String? get username => _$this._username;
-
   set username(covariant String? username) => _$this._username = username;
 
   String? _password;
-
   String? get password => _$this._password;
-
   set password(covariant String? password) => _$this._password = password;
 
   String? _email;
-
   String? get email => _$this._email;
-
   set email(covariant String? email) => _$this._email = email;
 
   String? _displayName;
-
   String? get displayName => _$this._displayName;
-
   set displayName(covariant String? displayName) =>
       _$this._displayName = displayName;
 
   RegisterUserChannelBuilder? _channel;
-
   RegisterUserChannelBuilder get channel =>
       _$this._channel ??= new RegisterUserChannelBuilder();
-
   set channel(covariant RegisterUserChannelBuilder? channel) =>
       _$this._channel = channel;
 

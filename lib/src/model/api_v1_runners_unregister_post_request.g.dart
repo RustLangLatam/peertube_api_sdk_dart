@@ -61,9 +61,7 @@ class ApiV1RunnersUnregisterPostRequestBuilder
   _$ApiV1RunnersUnregisterPostRequest? _$v;
 
   String? _runnerToken;
-
   String? get runnerToken => _$this._runnerToken;
-
   set runnerToken(String? runnerToken) => _$this._runnerToken = runnerToken;
 
   ApiV1RunnersUnregisterPostRequestBuilder() {

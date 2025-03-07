@@ -59,15 +59,11 @@ class ApiV1RunnersGet200ResponseBuilder
   _$ApiV1RunnersGet200Response? _$v;
 
   int? _total;
-
   int? get total => _$this._total;
-
   set total(int? total) => _$this._total = total;
 
   ListBuilder<Runner>? _data;
-
   ListBuilder<Runner> get data => _$this._data ??= new ListBuilder<Runner>();
-
   set data(ListBuilder<Runner>? data) => _$this._data = data;
 
   ApiV1RunnersGet200ResponseBuilder() {

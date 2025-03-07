@@ -84,41 +84,29 @@ class VideoChannelSyncBuilder
   _$VideoChannelSync? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(int? id) => _$this._id = id;
 
   VideoChannelSyncStateBuilder? _state;
-
   VideoChannelSyncStateBuilder get state =>
       _$this._state ??= new VideoChannelSyncStateBuilder();
-
   set state(VideoChannelSyncStateBuilder? state) => _$this._state = state;
 
   String? _externalChannelUrl;
-
   String? get externalChannelUrl => _$this._externalChannelUrl;
-
   set externalChannelUrl(String? externalChannelUrl) =>
       _$this._externalChannelUrl = externalChannelUrl;
 
   DateTime? _createdAt;
-
   DateTime? get createdAt => _$this._createdAt;
-
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _lastSyncAt;
-
   DateTime? get lastSyncAt => _$this._lastSyncAt;
-
   set lastSyncAt(DateTime? lastSyncAt) => _$this._lastSyncAt = lastSyncAt;
 
   VideoChannel? _channel;
-
   VideoChannel? get channel => _$this._channel;
-
   set channel(VideoChannel? channel) => _$this._channel = channel;
 
   VideoChannelSyncBuilder() {

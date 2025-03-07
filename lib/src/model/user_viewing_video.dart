@@ -25,7 +25,6 @@ abstract class UserViewingVideo
   /// Event since last viewing call:  * `seek` - If the user seeked the video
   @BuiltValueField(wireName: r'viewEvent')
   UserViewingVideoViewEventEnum? get viewEvent;
-
   // enum viewEventEnum {  seek,  };
 
   /// Optional param to represent the current viewer session. Used by the backend to properly count one view per session per video. PeerTube admin can configure the server to not trust this `sessionId` parameter but use the request IP address instead to identify a viewer.
@@ -165,7 +164,6 @@ class UserViewingVideoViewEventEnum extends EnumClass {
 
   static BuiltSet<UserViewingVideoViewEventEnum> get values =>
       _$userViewingVideoViewEventEnumValues;
-
   static UserViewingVideoViewEventEnum valueOf(String name) =>
       _$userViewingVideoViewEventEnumValueOf(name);
 }

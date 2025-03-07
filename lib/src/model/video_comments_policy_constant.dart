@@ -20,7 +20,6 @@ abstract class VideoCommentsPolicyConstant
         Built<VideoCommentsPolicyConstant, VideoCommentsPolicyConstantBuilder> {
   @BuiltValueField(wireName: r'id')
   VideoCommentsPolicySet? get id;
-
   // enum idEnum {  1,  2,  3,  };
 
   @BuiltValueField(wireName: r'label')

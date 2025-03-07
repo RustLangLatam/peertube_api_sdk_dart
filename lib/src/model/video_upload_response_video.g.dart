@@ -65,21 +65,15 @@ class VideoUploadResponseVideoBuilder
   _$VideoUploadResponseVideo? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(int? id) => _$this._id = id;
 
   String? _uuid;
-
   String? get uuid => _$this._uuid;
-
   set uuid(String? uuid) => _$this._uuid = uuid;
 
   String? _shortUUID;
-
   String? get shortUUID => _$this._shortUUID;
-
   set shortUUID(String? shortUUID) => _$this._shortUUID = shortUUID;
 
   VideoUploadResponseVideoBuilder() {

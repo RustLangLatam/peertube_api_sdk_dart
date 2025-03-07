@@ -60,16 +60,12 @@ class GetVideoCaptions200ResponseBuilder
   _$GetVideoCaptions200Response? _$v;
 
   int? _total;
-
   int? get total => _$this._total;
-
   set total(int? total) => _$this._total = total;
 
   ListBuilder<VideoCaption>? _data;
-
   ListBuilder<VideoCaption> get data =>
       _$this._data ??= new ListBuilder<VideoCaption>();
-
   set data(ListBuilder<VideoCaption>? data) => _$this._data = data;
 
   GetVideoCaptions200ResponseBuilder() {

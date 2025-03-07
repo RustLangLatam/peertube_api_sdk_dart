@@ -2,13 +2,12 @@
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
 
-import 'package:built_value/built_value.dart';
-import 'package:built_value/serializer.dart';
-import 'package:peer_tube_api_sdk/src/model/actor_info.dart';
-import 'package:peer_tube_api_sdk/src/model/video_info.dart';
-
 // ignore_for_file: unused_element
 import 'package:peer_tube_api_sdk/src/model/video_state_constant.dart';
+import 'package:peer_tube_api_sdk/src/model/video_info.dart';
+import 'package:peer_tube_api_sdk/src/model/actor_info.dart';
+import 'package:built_value/built_value.dart';
+import 'package:built_value/serializer.dart';
 
 part 'notification_video.g.dart';
 

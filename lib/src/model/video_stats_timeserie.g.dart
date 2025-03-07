@@ -52,10 +52,8 @@ class VideoStatsTimeserieBuilder
   _$VideoStatsTimeserie? _$v;
 
   ListBuilder<VideoStatsTimeserieDataInner>? _data;
-
   ListBuilder<VideoStatsTimeserieDataInner> get data =>
       _$this._data ??= new ListBuilder<VideoStatsTimeserieDataInner>();
-
   set data(ListBuilder<VideoStatsTimeserieDataInner>? data) =>
       _$this._data = data;
 

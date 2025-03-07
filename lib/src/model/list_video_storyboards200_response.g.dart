@@ -56,10 +56,8 @@ class ListVideoStoryboards200ResponseBuilder
   _$ListVideoStoryboards200Response? _$v;
 
   ListBuilder<Storyboard>? _storyboards;
-
   ListBuilder<Storyboard> get storyboards =>
       _$this._storyboards ??= new ListBuilder<Storyboard>();
-
   set storyboards(ListBuilder<Storyboard>? storyboards) =>
       _$this._storyboards = storyboards;
 

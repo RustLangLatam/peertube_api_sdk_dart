@@ -67,9 +67,7 @@ class ApiV1RunnersJobsJobUUIDSuccessPostRequestPayloadBuilder
   _$ApiV1RunnersJobsJobUUIDSuccessPostRequestPayload? _$v;
 
   AnyOf? _anyOf;
-
   AnyOf? get anyOf => _$this._anyOf;
-
   set anyOf(AnyOf? anyOf) => _$this._anyOf = anyOf;
 
   ApiV1RunnersJobsJobUUIDSuccessPostRequestPayloadBuilder() {

@@ -3,6 +3,7 @@
 //
 
 // ignore_for_file: unused_element
+import 'dart:typed_data';
 import 'package:peer_tube_api_sdk/src/model/vodhls_transcoding.dart';
 import 'package:peer_tube_api_sdk/src/model/vod_web_video_transcoding.dart';
 import 'package:peer_tube_api_sdk/src/model/vod_audio_merge_transcoding.dart';

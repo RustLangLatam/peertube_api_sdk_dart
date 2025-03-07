@@ -54,9 +54,7 @@ class RequestTwoFactorRequestBuilder
   _$RequestTwoFactorRequest? _$v;
 
   String? _currentPassword;
-
   String? get currentPassword => _$this._currentPassword;
-
   set currentPassword(String? currentPassword) =>
       _$this._currentPassword = currentPassword;
 

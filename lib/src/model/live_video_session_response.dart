@@ -36,7 +36,6 @@ abstract class LiveVideoSessionResponse
   /// Error type if an error occurred during the live session:   - `1`: Bad socket health (transcoding is too slow)   - `2`: Max duration exceeded   - `3`: Quota exceeded   - `4`: Quota FFmpeg error   - `5`: Video has been blacklisted during the live
   @BuiltValueField(wireName: r'error')
   LiveVideoSessionResponseErrorEnum? get error;
-
   // enum errorEnum {  1,  2,  3,  4,  5,  };
 
   @BuiltValueField(wireName: r'replayVideo')
@@ -233,7 +232,6 @@ class LiveVideoSessionResponseErrorEnum extends EnumClass {
 
   static BuiltSet<LiveVideoSessionResponseErrorEnum> get values =>
       _$liveVideoSessionResponseErrorEnumValues;
-
   static LiveVideoSessionResponseErrorEnum valueOf(String name) =>
       _$liveVideoSessionResponseErrorEnumValueOf(name);
 }

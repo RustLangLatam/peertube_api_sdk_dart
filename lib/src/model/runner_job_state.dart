@@ -48,7 +48,6 @@ class RunnerJobState extends EnumClass {
   const RunnerJobState._(String name) : super(name);
 
   static BuiltSet<RunnerJobState> get values => _$values;
-
   static RunnerJobState valueOf(String name) => _$valueOf(name);
 }
 

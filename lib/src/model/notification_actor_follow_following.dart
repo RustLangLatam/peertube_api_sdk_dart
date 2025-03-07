@@ -23,7 +23,6 @@ abstract class NotificationActorFollowFollowing
             NotificationActorFollowFollowingBuilder> {
   @BuiltValueField(wireName: r'type')
   NotificationActorFollowFollowingTypeEnum? get type;
-
   // enum typeEnum {  account,  channel,  instance,  };
 
   @BuiltValueField(wireName: r'name')
@@ -194,7 +193,6 @@ class NotificationActorFollowFollowingTypeEnum extends EnumClass {
 
   static BuiltSet<NotificationActorFollowFollowingTypeEnum> get values =>
       _$notificationActorFollowFollowingTypeEnumValues;
-
   static NotificationActorFollowFollowingTypeEnum valueOf(String name) =>
       _$notificationActorFollowFollowingTypeEnumValueOf(name);
 }

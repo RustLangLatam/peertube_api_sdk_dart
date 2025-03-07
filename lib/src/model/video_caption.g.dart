@@ -55,17 +55,13 @@ class VideoCaptionBuilder
   _$VideoCaption? _$v;
 
   VideoConstantStringLanguageBuilder? _language;
-
   VideoConstantStringLanguageBuilder get language =>
       _$this._language ??= new VideoConstantStringLanguageBuilder();
-
   set language(VideoConstantStringLanguageBuilder? language) =>
       _$this._language = language;
 
   String? _captionPath;
-
   String? get captionPath => _$this._captionPath;
-
   set captionPath(String? captionPath) => _$this._captionPath = captionPath;
 
   VideoCaptionBuilder() {

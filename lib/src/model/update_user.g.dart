@@ -93,53 +93,37 @@ class UpdateUserBuilder implements Builder<UpdateUser, UpdateUserBuilder> {
   _$UpdateUser? _$v;
 
   String? _email;
-
   String? get email => _$this._email;
-
   set email(String? email) => _$this._email = email;
 
   bool? _emailVerified;
-
   bool? get emailVerified => _$this._emailVerified;
-
   set emailVerified(bool? emailVerified) =>
       _$this._emailVerified = emailVerified;
 
   int? _videoQuota;
-
   int? get videoQuota => _$this._videoQuota;
-
   set videoQuota(int? videoQuota) => _$this._videoQuota = videoQuota;
 
   int? _videoQuotaDaily;
-
   int? get videoQuotaDaily => _$this._videoQuotaDaily;
-
   set videoQuotaDaily(int? videoQuotaDaily) =>
       _$this._videoQuotaDaily = videoQuotaDaily;
 
   String? _pluginAuth;
-
   String? get pluginAuth => _$this._pluginAuth;
-
   set pluginAuth(String? pluginAuth) => _$this._pluginAuth = pluginAuth;
 
   UserRoleBuilder? _role;
-
   UserRoleBuilder get role => _$this._role ??= new UserRoleBuilder();
-
   set role(UserRoleBuilder? role) => _$this._role = role;
 
   UserAdminFlags? _adminFlags;
-
   UserAdminFlags? get adminFlags => _$this._adminFlags;
-
   set adminFlags(UserAdminFlags? adminFlags) => _$this._adminFlags = adminFlags;
 
   String? _password;
-
   String? get password => _$this._password;
-
   set password(String? password) => _$this._password = password;
 
   UpdateUserBuilder() {

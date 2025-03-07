@@ -4,9 +4,9 @@
 
 // ignore_for_file: unused_element
 import 'package:built_collection/built_collection.dart';
+import 'package:peer_tube_api_sdk/src/model/actor.dart';
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
-import 'package:peer_tube_api_sdk/src/model/actor.dart';
 
 part 'follow.g.dart';
 
@@ -37,7 +37,6 @@ abstract class Follow implements Built<Follow, FollowBuilder> {
 
   @BuiltValueField(wireName: r'state')
   FollowStateEnum? get state;
-
   // enum stateEnum {  pending,  accepted,  };
 
   @BuiltValueField(wireName: r'createdAt')
@@ -233,6 +232,5 @@ class FollowStateEnum extends EnumClass {
   const FollowStateEnum._(String name) : super(name);
 
   static BuiltSet<FollowStateEnum> get values => _$followStateEnumValues;
-
   static FollowStateEnum valueOf(String name) => _$followStateEnumValueOf(name);
 }

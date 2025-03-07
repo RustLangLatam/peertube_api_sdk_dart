@@ -90,48 +90,34 @@ class LiveVideoResponseBuilder
   _$LiveVideoResponse? _$v;
 
   String? _rtmpUrl;
-
   String? get rtmpUrl => _$this._rtmpUrl;
-
   set rtmpUrl(String? rtmpUrl) => _$this._rtmpUrl = rtmpUrl;
 
   String? _rtmpsUrl;
-
   String? get rtmpsUrl => _$this._rtmpsUrl;
-
   set rtmpsUrl(String? rtmpsUrl) => _$this._rtmpsUrl = rtmpsUrl;
 
   String? _streamKey;
-
   String? get streamKey => _$this._streamKey;
-
   set streamKey(String? streamKey) => _$this._streamKey = streamKey;
 
   bool? _saveReplay;
-
   bool? get saveReplay => _$this._saveReplay;
-
   set saveReplay(bool? saveReplay) => _$this._saveReplay = saveReplay;
 
   LiveVideoReplaySettingsBuilder? _replaySettings;
-
   LiveVideoReplaySettingsBuilder get replaySettings =>
       _$this._replaySettings ??= new LiveVideoReplaySettingsBuilder();
-
   set replaySettings(LiveVideoReplaySettingsBuilder? replaySettings) =>
       _$this._replaySettings = replaySettings;
 
   bool? _permanentLive;
-
   bool? get permanentLive => _$this._permanentLive;
-
   set permanentLive(bool? permanentLive) =>
       _$this._permanentLive = permanentLive;
 
   LiveVideoLatencyMode? _latencyMode;
-
   LiveVideoLatencyMode? get latencyMode => _$this._latencyMode;
-
   set latencyMode(LiveVideoLatencyMode? latencyMode) =>
       _$this._latencyMode = latencyMode;
 

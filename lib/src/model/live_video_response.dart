@@ -2,12 +2,11 @@
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
 
-import 'package:built_value/built_value.dart';
-import 'package:built_value/serializer.dart';
-import 'package:peer_tube_api_sdk/src/model/live_video_latency_mode.dart';
-
 // ignore_for_file: unused_element
 import 'package:peer_tube_api_sdk/src/model/live_video_replay_settings.dart';
+import 'package:peer_tube_api_sdk/src/model/live_video_latency_mode.dart';
+import 'package:built_value/built_value.dart';
+import 'package:built_value/serializer.dart';
 
 part 'live_video_response.g.dart';
 
@@ -48,7 +47,6 @@ abstract class LiveVideoResponse
 
   @BuiltValueField(wireName: r'latencyMode')
   LiveVideoLatencyMode? get latencyMode;
-
   // enum latencyModeEnum {  1,  2,  3,  };
 
   LiveVideoResponse._();

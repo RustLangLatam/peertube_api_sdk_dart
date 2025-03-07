@@ -58,15 +58,11 @@ class GetAccounts200ResponseBuilder
   _$GetAccounts200Response? _$v;
 
   int? _total;
-
   int? get total => _$this._total;
-
   set total(int? total) => _$this._total = total;
 
   ListBuilder<Account>? _data;
-
   ListBuilder<Account> get data => _$this._data ??= new ListBuilder<Account>();
-
   set data(ListBuilder<Account>? data) => _$this._data = data;
 
   GetAccounts200ResponseBuilder() {

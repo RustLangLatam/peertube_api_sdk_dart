@@ -65,27 +65,19 @@ class ActorImageBuilder implements Builder<ActorImage, ActorImageBuilder> {
   _$ActorImage? _$v;
 
   String? _path;
-
   String? get path => _$this._path;
-
   set path(String? path) => _$this._path = path;
 
   int? _width;
-
   int? get width => _$this._width;
-
   set width(int? width) => _$this._width = width;
 
   DateTime? _createdAt;
-
   DateTime? get createdAt => _$this._createdAt;
-
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _updatedAt;
-
   DateTime? get updatedAt => _$this._updatedAt;
-
   set updatedAt(DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   ActorImageBuilder() {

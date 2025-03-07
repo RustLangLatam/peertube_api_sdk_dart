@@ -18,12 +18,10 @@ part 'user_role.g.dart';
 abstract class UserRole implements Built<UserRole, UserRoleBuilder> {
   @BuiltValueField(wireName: r'id')
   UserRole? get id;
-
   // enum idEnum {  0,  1,  2,  };
 
   @BuiltValueField(wireName: r'label')
   UserRoleLabelEnum? get label;
-
   // enum labelEnum {  User,  Moderator,  Administrator,  };
 
   UserRole._();
@@ -146,7 +144,6 @@ class UserRoleLabelEnum extends EnumClass {
   const UserRoleLabelEnum._(String name) : super(name);
 
   static BuiltSet<UserRoleLabelEnum> get values => _$userRoleLabelEnumValues;
-
   static UserRoleLabelEnum valueOf(String name) =>
       _$userRoleLabelEnumValueOf(name);
 }

@@ -58,15 +58,11 @@ class NotificationVideoAbuseBuilder
   _$NotificationVideoAbuse? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(int? id) => _$this._id = id;
 
   VideoInfo? _video;
-
   VideoInfo? get video => _$this._video;
-
   set video(VideoInfo? video) => _$this._video = video;
 
   NotificationVideoAbuseBuilder() {

@@ -32,7 +32,6 @@ class UserExportState extends EnumClass {
   const UserExportState._(String name) : super(name);
 
   static BuiltSet<UserExportState> get values => _$values;
-
   static UserExportState valueOf(String name) => _$valueOf(name);
 }
 

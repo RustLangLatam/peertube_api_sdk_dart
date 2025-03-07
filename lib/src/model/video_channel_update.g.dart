@@ -75,30 +75,22 @@ class VideoChannelUpdateBuilder
   _$VideoChannelUpdate? _$v;
 
   bool? _bulkVideosSupportUpdate;
-
   bool? get bulkVideosSupportUpdate => _$this._bulkVideosSupportUpdate;
-
   set bulkVideosSupportUpdate(covariant bool? bulkVideosSupportUpdate) =>
       _$this._bulkVideosSupportUpdate = bulkVideosSupportUpdate;
 
   String? _displayName;
-
   String? get displayName => _$this._displayName;
-
   set displayName(covariant String? displayName) =>
       _$this._displayName = displayName;
 
   String? _description;
-
   String? get description => _$this._description;
-
   set description(covariant String? description) =>
       _$this._description = description;
 
   String? _support;
-
   String? get support => _$this._support;
-
   set support(covariant String? support) => _$this._support = support;
 
   VideoChannelUpdateBuilder() {

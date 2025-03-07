@@ -4,10 +4,10 @@
 
 // ignore_for_file: unused_element
 import 'package:built_collection/built_collection.dart';
+import 'package:peer_tube_api_sdk/src/model/block_status_hosts_value.dart';
+import 'package:peer_tube_api_sdk/src/model/block_status_accounts_value.dart';
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
-import 'package:peer_tube_api_sdk/src/model/block_status_accounts_value.dart';
-import 'package:peer_tube_api_sdk/src/model/block_status_hosts_value.dart';
 
 part 'block_status.g.dart';
 

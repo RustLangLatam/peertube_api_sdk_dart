@@ -119,9 +119,7 @@ class ApiV1VideosIdRatePutRequestBuilder
   _$ApiV1VideosIdRatePutRequest? _$v;
 
   ApiV1VideosIdRatePutRequestRatingEnum? _rating;
-
   ApiV1VideosIdRatePutRequestRatingEnum? get rating => _$this._rating;
-
   set rating(ApiV1VideosIdRatePutRequestRatingEnum? rating) =>
       _$this._rating = rating;
 

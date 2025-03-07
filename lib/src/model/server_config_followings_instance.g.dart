@@ -55,11 +55,9 @@ class ServerConfigFollowingsInstanceBuilder
   _$ServerConfigFollowingsInstance? _$v;
 
   ServerConfigFollowingsInstanceAutoFollowIndexBuilder? _autoFollowIndex;
-
   ServerConfigFollowingsInstanceAutoFollowIndexBuilder get autoFollowIndex =>
       _$this._autoFollowIndex ??=
           new ServerConfigFollowingsInstanceAutoFollowIndexBuilder();
-
   set autoFollowIndex(
           ServerConfigFollowingsInstanceAutoFollowIndexBuilder?
               autoFollowIndex) =>

@@ -64,15 +64,11 @@ class ServerConfigInstanceCustomizationsBuilder
   _$ServerConfigInstanceCustomizations? _$v;
 
   String? _javascript;
-
   String? get javascript => _$this._javascript;
-
   set javascript(String? javascript) => _$this._javascript = javascript;
 
   String? _css;
-
   String? get css => _$this._css;
-
   set css(String? css) => _$this._css = css;
 
   ServerConfigInstanceCustomizationsBuilder() {

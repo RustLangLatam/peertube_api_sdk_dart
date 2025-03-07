@@ -71,30 +71,22 @@ class LiveVideoUpdateBuilder
   _$LiveVideoUpdate? _$v;
 
   bool? _saveReplay;
-
   bool? get saveReplay => _$this._saveReplay;
-
   set saveReplay(bool? saveReplay) => _$this._saveReplay = saveReplay;
 
   LiveVideoReplaySettingsBuilder? _replaySettings;
-
   LiveVideoReplaySettingsBuilder get replaySettings =>
       _$this._replaySettings ??= new LiveVideoReplaySettingsBuilder();
-
   set replaySettings(LiveVideoReplaySettingsBuilder? replaySettings) =>
       _$this._replaySettings = replaySettings;
 
   bool? _permanentLive;
-
   bool? get permanentLive => _$this._permanentLive;
-
   set permanentLive(bool? permanentLive) =>
       _$this._permanentLive = permanentLive;
 
   LiveVideoLatencyMode? _latencyMode;
-
   LiveVideoLatencyMode? get latencyMode => _$this._latencyMode;
-
   set latencyMode(LiveVideoLatencyMode? latencyMode) =>
       _$this._latencyMode = latencyMode;
 

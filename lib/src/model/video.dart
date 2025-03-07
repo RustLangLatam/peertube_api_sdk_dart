@@ -2,18 +2,18 @@
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
 
-import 'package:built_value/built_value.dart';
-import 'package:built_value/serializer.dart';
-import 'package:peer_tube_api_sdk/src/model/account_summary.dart';
-import 'package:peer_tube_api_sdk/src/model/video_channel_summary.dart';
-import 'package:peer_tube_api_sdk/src/model/video_constant_number_category.dart';
-import 'package:peer_tube_api_sdk/src/model/video_constant_number_licence.dart';
-import 'package:peer_tube_api_sdk/src/model/video_constant_string_language.dart';
-import 'package:peer_tube_api_sdk/src/model/video_privacy_constant.dart';
-import 'package:peer_tube_api_sdk/src/model/video_scheduled_update.dart';
 // ignore_for_file: unused_element
 import 'package:peer_tube_api_sdk/src/model/video_state_constant.dart';
+import 'package:peer_tube_api_sdk/src/model/video_constant_string_language.dart';
+import 'package:peer_tube_api_sdk/src/model/video_channel_summary.dart';
+import 'package:peer_tube_api_sdk/src/model/video_privacy_constant.dart';
+import 'package:peer_tube_api_sdk/src/model/video_constant_number_licence.dart';
+import 'package:peer_tube_api_sdk/src/model/account_summary.dart';
+import 'package:peer_tube_api_sdk/src/model/video_constant_number_category.dart';
+import 'package:peer_tube_api_sdk/src/model/video_scheduled_update.dart';
 import 'package:peer_tube_api_sdk/src/model/video_user_history.dart';
+import 'package:built_value/built_value.dart';
+import 'package:built_value/serializer.dart';
 
 part 'video.g.dart';
 

@@ -61,15 +61,11 @@ class VideoScheduledUpdateBuilder
   _$VideoScheduledUpdate? _$v;
 
   DateTime? _updateAt;
-
   DateTime? get updateAt => _$this._updateAt;
-
   set updateAt(DateTime? updateAt) => _$this._updateAt = updateAt;
 
   VideoPrivacySet? _privacy;
-
   VideoPrivacySet? get privacy => _$this._privacy;
-
   set privacy(VideoPrivacySet? privacy) => _$this._privacy = privacy;
 
   VideoScheduledUpdateBuilder() {

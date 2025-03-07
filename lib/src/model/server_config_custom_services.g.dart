@@ -53,10 +53,8 @@ class ServerConfigCustomServicesBuilder
   _$ServerConfigCustomServices? _$v;
 
   ServerConfigCustomServicesTwitterBuilder? _twitter;
-
   ServerConfigCustomServicesTwitterBuilder get twitter =>
       _$this._twitter ??= new ServerConfigCustomServicesTwitterBuilder();
-
   set twitter(ServerConfigCustomServicesTwitterBuilder? twitter) =>
       _$this._twitter = twitter;
 

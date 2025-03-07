@@ -8,47 +8,35 @@ part of 'actor.dart';
 
 abstract mixin class ActorBuilder {
   void replace(Actor other);
-
   void update(void Function(ActorBuilder) updates);
-
   int? get id;
-
   set id(int? id);
 
   String? get url;
-
   set url(String? url);
 
   String? get name;
-
   set name(String? name);
 
   ListBuilder<ActorImage> get avatars;
-
   set avatars(ListBuilder<ActorImage>? avatars);
 
   String? get host;
-
   set host(String? host);
 
   bool? get hostRedundancyAllowed;
-
   set hostRedundancyAllowed(bool? hostRedundancyAllowed);
 
   int? get followingCount;
-
   set followingCount(int? followingCount);
 
   int? get followersCount;
-
   set followersCount(int? followersCount);
 
   DateTime? get createdAt;
-
   set createdAt(DateTime? createdAt);
 
   DateTime? get updatedAt;
-
   set updatedAt(DateTime? updatedAt);
 }
 
@@ -151,68 +139,48 @@ class $ActorBuilder implements Builder<$Actor, $ActorBuilder>, ActorBuilder {
   _$$Actor? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(covariant int? id) => _$this._id = id;
 
   String? _url;
-
   String? get url => _$this._url;
-
   set url(covariant String? url) => _$this._url = url;
 
   String? _name;
-
   String? get name => _$this._name;
-
   set name(covariant String? name) => _$this._name = name;
 
   ListBuilder<ActorImage>? _avatars;
-
   ListBuilder<ActorImage> get avatars =>
       _$this._avatars ??= new ListBuilder<ActorImage>();
-
   set avatars(covariant ListBuilder<ActorImage>? avatars) =>
       _$this._avatars = avatars;
 
   String? _host;
-
   String? get host => _$this._host;
-
   set host(covariant String? host) => _$this._host = host;
 
   bool? _hostRedundancyAllowed;
-
   bool? get hostRedundancyAllowed => _$this._hostRedundancyAllowed;
-
   set hostRedundancyAllowed(covariant bool? hostRedundancyAllowed) =>
       _$this._hostRedundancyAllowed = hostRedundancyAllowed;
 
   int? _followingCount;
-
   int? get followingCount => _$this._followingCount;
-
   set followingCount(covariant int? followingCount) =>
       _$this._followingCount = followingCount;
 
   int? _followersCount;
-
   int? get followersCount => _$this._followersCount;
-
   set followersCount(covariant int? followersCount) =>
       _$this._followersCount = followersCount;
 
   DateTime? _createdAt;
-
   DateTime? get createdAt => _$this._createdAt;
-
   set createdAt(covariant DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _updatedAt;
-
   DateTime? get updatedAt => _$this._updatedAt;
-
   set updatedAt(covariant DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   $ActorBuilder() {

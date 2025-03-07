@@ -48,7 +48,6 @@ abstract class VideoUploadRequestCommon {
 
   @BuiltValueField(wireName: r'privacy')
   VideoPrivacySet? get privacy;
-
   // enum privacyEnum {  1,  2,  3,  4,  5,  };
 
   /// category id of the video (see [/videos/categories](#operation/getCategories))
@@ -94,7 +93,6 @@ abstract class VideoUploadRequestCommon {
 
   @BuiltValueField(wireName: r'commentsPolicy')
   VideoCommentsPolicySet? get commentsPolicy;
-
   // enum commentsPolicyEnum {  1,  2,  3,  };
 
   /// Enable or disable downloading for this video

@@ -58,16 +58,12 @@ class VideoChannelSyncListBuilder
   _$VideoChannelSyncList? _$v;
 
   int? _total;
-
   int? get total => _$this._total;
-
   set total(int? total) => _$this._total = total;
 
   ListBuilder<VideoChannelSync>? _data;
-
   ListBuilder<VideoChannelSync> get data =>
       _$this._data ??= new ListBuilder<VideoChannelSync>();
-
   set data(ListBuilder<VideoChannelSync>? data) => _$this._data = data;
 
   VideoChannelSyncListBuilder() {

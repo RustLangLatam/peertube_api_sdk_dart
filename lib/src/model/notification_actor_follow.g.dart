@@ -131,28 +131,20 @@ class NotificationActorFollowBuilder
   _$NotificationActorFollow? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(int? id) => _$this._id = id;
 
   ActorInfoBuilder? _follower;
-
   ActorInfoBuilder get follower => _$this._follower ??= new ActorInfoBuilder();
-
   set follower(ActorInfoBuilder? follower) => _$this._follower = follower;
 
   NotificationActorFollowStateEnum? _state;
-
   NotificationActorFollowStateEnum? get state => _$this._state;
-
   set state(NotificationActorFollowStateEnum? state) => _$this._state = state;
 
   NotificationActorFollowFollowingBuilder? _following;
-
   NotificationActorFollowFollowingBuilder get following =>
       _$this._following ??= new NotificationActorFollowFollowingBuilder();
-
   set following(NotificationActorFollowFollowingBuilder? following) =>
       _$this._following = following;
 

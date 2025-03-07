@@ -119,75 +119,51 @@ class VideoBlacklistBuilder
   _$VideoBlacklist? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(int? id) => _$this._id = id;
 
   int? _videoId;
-
   int? get videoId => _$this._videoId;
-
   set videoId(int? videoId) => _$this._videoId = videoId;
 
   DateTime? _createdAt;
-
   DateTime? get createdAt => _$this._createdAt;
-
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _updatedAt;
-
   DateTime? get updatedAt => _$this._updatedAt;
-
   set updatedAt(DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   String? _name;
-
   String? get name => _$this._name;
-
   set name(String? name) => _$this._name = name;
 
   String? _uuid;
-
   String? get uuid => _$this._uuid;
-
   set uuid(String? uuid) => _$this._uuid = uuid;
 
   String? _description;
-
   String? get description => _$this._description;
-
   set description(String? description) => _$this._description = description;
 
   int? _duration;
-
   int? get duration => _$this._duration;
-
   set duration(int? duration) => _$this._duration = duration;
 
   int? _views;
-
   int? get views => _$this._views;
-
   set views(int? views) => _$this._views = views;
 
   int? _likes;
-
   int? get likes => _$this._likes;
-
   set likes(int? likes) => _$this._likes = likes;
 
   int? _dislikes;
-
   int? get dislikes => _$this._dislikes;
-
   set dislikes(int? dislikes) => _$this._dislikes = dislikes;
 
   bool? _nsfw;
-
   bool? get nsfw => _$this._nsfw;
-
   set nsfw(bool? nsfw) => _$this._nsfw = nsfw;
 
   VideoBlacklistBuilder() {

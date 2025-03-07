@@ -4,9 +4,11 @@
 
 import 'dart:async';
 
-import 'package:built_collection/built_collection.dart';
+import 'package:built_value/json_object.dart';
 import 'package:built_value/serializer.dart';
 import 'package:dio/dio.dart';
+
+import 'package:built_collection/built_collection.dart';
 import 'package:peer_tube_api_sdk/src/api_util.dart';
 import 'package:peer_tube_api_sdk/src/model/add_video_channel200_response.dart';
 import 'package:peer_tube_api_sdk/src/model/api_v1_users_me_avatar_pick_post200_response.dart';
@@ -96,8 +98,6 @@ class VideoChannelsApi {
       );
     }
 
-    print(
-        '🚀 ~ file: video_channels_api.dart ~ line 60 ~ addVideoChannel ~ _bodyData: $_bodyData');
     final _response = await _dio.request<Object>(
       _path,
       data: _bodyData,

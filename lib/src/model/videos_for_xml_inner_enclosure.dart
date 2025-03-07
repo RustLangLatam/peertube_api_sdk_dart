@@ -24,7 +24,6 @@ abstract class VideosForXMLInnerEnclosure
 
   @BuiltValueField(wireName: r'type')
   VideosForXMLInnerEnclosureTypeEnum? get type;
-
   // enum typeEnum {  application/x-bittorrent,  };
 
   @BuiltValueField(wireName: r'length')
@@ -168,7 +167,6 @@ class VideosForXMLInnerEnclosureTypeEnum extends EnumClass {
 
   static BuiltSet<VideosForXMLInnerEnclosureTypeEnum> get values =>
       _$videosForXMLInnerEnclosureTypeEnumValues;
-
   static VideosForXMLInnerEnclosureTypeEnum valueOf(String name) =>
       _$videosForXMLInnerEnclosureTypeEnumValueOf(name);
 }

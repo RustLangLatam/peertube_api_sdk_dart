@@ -190,180 +190,132 @@ class ServerConfigBuilder
   _$ServerConfig? _$v;
 
   ServerConfigInstanceBuilder? _instance;
-
   ServerConfigInstanceBuilder get instance =>
       _$this._instance ??= new ServerConfigInstanceBuilder();
-
   set instance(ServerConfigInstanceBuilder? instance) =>
       _$this._instance = instance;
 
   ServerConfigSearchBuilder? _search;
-
   ServerConfigSearchBuilder get search =>
       _$this._search ??= new ServerConfigSearchBuilder();
-
   set search(ServerConfigSearchBuilder? search) => _$this._search = search;
 
   ServerConfigPluginBuilder? _plugin;
-
   ServerConfigPluginBuilder get plugin =>
       _$this._plugin ??= new ServerConfigPluginBuilder();
-
   set plugin(ServerConfigPluginBuilder? plugin) => _$this._plugin = plugin;
 
   ServerConfigPluginBuilder? _theme;
-
   ServerConfigPluginBuilder get theme =>
       _$this._theme ??= new ServerConfigPluginBuilder();
-
   set theme(ServerConfigPluginBuilder? theme) => _$this._theme = theme;
 
   ServerConfigEmailBuilder? _email;
-
   ServerConfigEmailBuilder get email =>
       _$this._email ??= new ServerConfigEmailBuilder();
-
   set email(ServerConfigEmailBuilder? email) => _$this._email = email;
 
   ServerConfigEmailBuilder? _contactForm;
-
   ServerConfigEmailBuilder get contactForm =>
       _$this._contactForm ??= new ServerConfigEmailBuilder();
-
   set contactForm(ServerConfigEmailBuilder? contactForm) =>
       _$this._contactForm = contactForm;
 
   String? _serverVersion;
-
   String? get serverVersion => _$this._serverVersion;
-
   set serverVersion(String? serverVersion) =>
       _$this._serverVersion = serverVersion;
 
   String? _serverCommit;
-
   String? get serverCommit => _$this._serverCommit;
-
   set serverCommit(String? serverCommit) => _$this._serverCommit = serverCommit;
 
   ServerConfigSignupBuilder? _signup;
-
   ServerConfigSignupBuilder get signup =>
       _$this._signup ??= new ServerConfigSignupBuilder();
-
   set signup(ServerConfigSignupBuilder? signup) => _$this._signup = signup;
 
   ServerConfigTranscodingBuilder? _transcoding;
-
   ServerConfigTranscodingBuilder get transcoding =>
       _$this._transcoding ??= new ServerConfigTranscodingBuilder();
-
   set transcoding(ServerConfigTranscodingBuilder? transcoding) =>
       _$this._transcoding = transcoding;
 
   ServerConfigImportBuilder? _import_;
-
   ServerConfigImportBuilder get import_ =>
       _$this._import_ ??= new ServerConfigImportBuilder();
-
   set import_(ServerConfigImportBuilder? import_) => _$this._import_ = import_;
 
   ServerConfigExportBuilder? _export_;
-
   ServerConfigExportBuilder get export_ =>
       _$this._export_ ??= new ServerConfigExportBuilder();
-
   set export_(ServerConfigExportBuilder? export_) => _$this._export_ = export_;
 
   ServerConfigAutoBlacklistBuilder? _autoBlacklist;
-
   ServerConfigAutoBlacklistBuilder get autoBlacklist =>
       _$this._autoBlacklist ??= new ServerConfigAutoBlacklistBuilder();
-
   set autoBlacklist(ServerConfigAutoBlacklistBuilder? autoBlacklist) =>
       _$this._autoBlacklist = autoBlacklist;
 
   ServerConfigAvatarBuilder? _avatar;
-
   ServerConfigAvatarBuilder get avatar =>
       _$this._avatar ??= new ServerConfigAvatarBuilder();
-
   set avatar(ServerConfigAvatarBuilder? avatar) => _$this._avatar = avatar;
 
   ServerConfigVideoBuilder? _video;
-
   ServerConfigVideoBuilder get video =>
       _$this._video ??= new ServerConfigVideoBuilder();
-
   set video(ServerConfigVideoBuilder? video) => _$this._video = video;
 
   ServerConfigVideoCaptionBuilder? _videoCaption;
-
   ServerConfigVideoCaptionBuilder get videoCaption =>
       _$this._videoCaption ??= new ServerConfigVideoCaptionBuilder();
-
   set videoCaption(ServerConfigVideoCaptionBuilder? videoCaption) =>
       _$this._videoCaption = videoCaption;
 
   ServerConfigUserBuilder? _user;
-
   ServerConfigUserBuilder get user =>
       _$this._user ??= new ServerConfigUserBuilder();
-
   set user(ServerConfigUserBuilder? user) => _$this._user = user;
 
   ServerConfigTrendingBuilder? _trending;
-
   ServerConfigTrendingBuilder get trending =>
       _$this._trending ??= new ServerConfigTrendingBuilder();
-
   set trending(ServerConfigTrendingBuilder? trending) =>
       _$this._trending = trending;
 
   ServerConfigEmailBuilder? _tracker;
-
   ServerConfigEmailBuilder get tracker =>
       _$this._tracker ??= new ServerConfigEmailBuilder();
-
   set tracker(ServerConfigEmailBuilder? tracker) => _$this._tracker = tracker;
 
   ServerConfigFollowingsBuilder? _followings;
-
   ServerConfigFollowingsBuilder get followings =>
       _$this._followings ??= new ServerConfigFollowingsBuilder();
-
   set followings(ServerConfigFollowingsBuilder? followings) =>
       _$this._followings = followings;
 
   ServerConfigEmailBuilder? _federation;
-
   ServerConfigEmailBuilder get federation =>
       _$this._federation ??= new ServerConfigEmailBuilder();
-
   set federation(ServerConfigEmailBuilder? federation) =>
       _$this._federation = federation;
 
   ServerConfigEmailBuilder? _homepage;
-
   ServerConfigEmailBuilder get homepage =>
       _$this._homepage ??= new ServerConfigEmailBuilder();
-
   set homepage(ServerConfigEmailBuilder? homepage) =>
       _$this._homepage = homepage;
 
   ServerConfigOpenTelemetryBuilder? _openTelemetry;
-
   ServerConfigOpenTelemetryBuilder get openTelemetry =>
       _$this._openTelemetry ??= new ServerConfigOpenTelemetryBuilder();
-
   set openTelemetry(ServerConfigOpenTelemetryBuilder? openTelemetry) =>
       _$this._openTelemetry = openTelemetry;
 
   ServerConfigViewsBuilder? _views;
-
   ServerConfigViewsBuilder get views =>
       _$this._views ??= new ServerConfigViewsBuilder();
-
   set views(ServerConfigViewsBuilder? views) => _$this._views = views;
 
   ServerConfigBuilder() {

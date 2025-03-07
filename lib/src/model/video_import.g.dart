@@ -105,64 +105,44 @@ class VideoImportBuilder implements Builder<VideoImport, VideoImportBuilder> {
   _$VideoImport? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(int? id) => _$this._id = id;
 
   String? _targetUrl;
-
   String? get targetUrl => _$this._targetUrl;
-
   set targetUrl(String? targetUrl) => _$this._targetUrl = targetUrl;
 
   String? _magnetUri;
-
   String? get magnetUri => _$this._magnetUri;
-
   set magnetUri(String? magnetUri) => _$this._magnetUri = magnetUri;
 
   Uint8List? _torrentfile;
-
   Uint8List? get torrentfile => _$this._torrentfile;
-
   set torrentfile(Uint8List? torrentfile) => _$this._torrentfile = torrentfile;
 
   String? _torrentName;
-
   String? get torrentName => _$this._torrentName;
-
   set torrentName(String? torrentName) => _$this._torrentName = torrentName;
 
   VideoImportStateConstantBuilder? _state;
-
   VideoImportStateConstantBuilder get state =>
       _$this._state ??= new VideoImportStateConstantBuilder();
-
   set state(VideoImportStateConstantBuilder? state) => _$this._state = state;
 
   String? _error;
-
   String? get error => _$this._error;
-
   set error(String? error) => _$this._error = error;
 
   DateTime? _createdAt;
-
   DateTime? get createdAt => _$this._createdAt;
-
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _updatedAt;
-
   DateTime? get updatedAt => _$this._updatedAt;
-
   set updatedAt(DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   Video? _video;
-
   Video? get video => _$this._video;
-
   set video(Video? video) => _$this._video = video;
 
   VideoImportBuilder() {

@@ -55,9 +55,7 @@ class AddPluginRequestOneOf1Builder
   _$AddPluginRequestOneOf1? _$v;
 
   String? _path;
-
   String? get path => _$this._path;
-
   set path(String? path) => _$this._path = path;
 
   AddPluginRequestOneOf1Builder() {

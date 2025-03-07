@@ -53,9 +53,7 @@ class ServerConfigCustomThemeBuilder
   _$ServerConfigCustomTheme? _$v;
 
   String? _default_;
-
   String? get default_ => _$this._default_;
-
   set default_(String? default_) => _$this._default_ = default_;
 
   ServerConfigCustomThemeBuilder() {

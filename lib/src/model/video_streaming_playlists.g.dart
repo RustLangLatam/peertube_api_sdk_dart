@@ -139,45 +139,33 @@ class VideoStreamingPlaylistsBuilder
   _$VideoStreamingPlaylists? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(covariant int? id) => _$this._id = id;
 
   VideoStreamingPlaylistsTypeEnum? _type;
-
   VideoStreamingPlaylistsTypeEnum? get type => _$this._type;
-
   set type(covariant VideoStreamingPlaylistsTypeEnum? type) =>
       _$this._type = type;
 
   String? _playlistUrl;
-
   String? get playlistUrl => _$this._playlistUrl;
-
   set playlistUrl(covariant String? playlistUrl) =>
       _$this._playlistUrl = playlistUrl;
 
   String? _segmentsSha256Url;
-
   String? get segmentsSha256Url => _$this._segmentsSha256Url;
-
   set segmentsSha256Url(covariant String? segmentsSha256Url) =>
       _$this._segmentsSha256Url = segmentsSha256Url;
 
   ListBuilder<VideoFile>? _files;
-
   ListBuilder<VideoFile> get files =>
       _$this._files ??= new ListBuilder<VideoFile>();
-
   set files(covariant ListBuilder<VideoFile>? files) => _$this._files = files;
 
   ListBuilder<VideoStreamingPlaylistsHLSRedundanciesInner>? _redundancies;
-
   ListBuilder<VideoStreamingPlaylistsHLSRedundanciesInner> get redundancies =>
       _$this._redundancies ??=
           new ListBuilder<VideoStreamingPlaylistsHLSRedundanciesInner>();
-
   set redundancies(
           covariant ListBuilder<VideoStreamingPlaylistsHLSRedundanciesInner>?
               redundancies) =>

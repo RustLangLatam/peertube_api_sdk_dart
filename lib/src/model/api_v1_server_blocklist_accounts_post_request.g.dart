@@ -64,9 +64,7 @@ class ApiV1ServerBlocklistAccountsPostRequestBuilder
   _$ApiV1ServerBlocklistAccountsPostRequest? _$v;
 
   String? _accountName;
-
   String? get accountName => _$this._accountName;
-
   set accountName(String? accountName) => _$this._accountName = accountName;
 
   ApiV1ServerBlocklistAccountsPostRequestBuilder() {

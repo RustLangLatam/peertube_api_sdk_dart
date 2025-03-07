@@ -25,7 +25,6 @@ abstract class AutomaticTagAvailableAvailableInner
 
   @BuiltValueField(wireName: r'type')
   AutomaticTagAvailableAvailableInnerTypeEnum? get type;
-
   // enum typeEnum {  core,  watched-words-list,  };
 
   AutomaticTagAvailableAvailableInner._();
@@ -158,7 +157,6 @@ class AutomaticTagAvailableAvailableInnerTypeEnum extends EnumClass {
 
   static BuiltSet<AutomaticTagAvailableAvailableInnerTypeEnum> get values =>
       _$automaticTagAvailableAvailableInnerTypeEnumValues;
-
   static AutomaticTagAvailableAvailableInnerTypeEnum valueOf(String name) =>
       _$automaticTagAvailableAvailableInnerTypeEnumValueOf(name);
 }

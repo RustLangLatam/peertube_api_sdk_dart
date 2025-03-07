@@ -58,11 +58,9 @@ class AddVideoPlaylistVideo200ResponseBuilder
 
   AddVideoPlaylistVideo200ResponseVideoPlaylistElementBuilder?
       _videoPlaylistElement;
-
   AddVideoPlaylistVideo200ResponseVideoPlaylistElementBuilder
       get videoPlaylistElement => _$this._videoPlaylistElement ??=
           new AddVideoPlaylistVideo200ResponseVideoPlaylistElementBuilder();
-
   set videoPlaylistElement(
           AddVideoPlaylistVideo200ResponseVideoPlaylistElementBuilder?
               videoPlaylistElement) =>

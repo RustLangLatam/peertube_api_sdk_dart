@@ -2,11 +2,10 @@
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
 
-import 'package:built_value/built_value.dart';
-import 'package:built_value/serializer.dart';
-
 // ignore_for_file: unused_element
 import 'package:peer_tube_api_sdk/src/model/register_user_channel.dart';
+import 'package:built_value/built_value.dart';
+import 'package:built_value/serializer.dart';
 
 part 'register_user.g.dart';
 

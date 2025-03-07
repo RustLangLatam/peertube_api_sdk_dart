@@ -28,7 +28,6 @@ class VideoCommentsPolicySet extends EnumClass {
   const VideoCommentsPolicySet._(String name) : super(name);
 
   static BuiltSet<VideoCommentsPolicySet> get values => _$values;
-
   static VideoCommentsPolicySet valueOf(String name) => _$valueOf(name);
 }
 

@@ -59,17 +59,13 @@ class ServerConfigImportVideosBuilder
   _$ServerConfigImportVideos? _$v;
 
   ServerConfigEmailBuilder? _http;
-
   ServerConfigEmailBuilder get http =>
       _$this._http ??= new ServerConfigEmailBuilder();
-
   set http(ServerConfigEmailBuilder? http) => _$this._http = http;
 
   ServerConfigEmailBuilder? _torrent;
-
   ServerConfigEmailBuilder get torrent =>
       _$this._torrent ??= new ServerConfigEmailBuilder();
-
   set torrent(ServerConfigEmailBuilder? torrent) => _$this._torrent = torrent;
 
   ServerConfigImportVideosBuilder() {

@@ -46,7 +46,6 @@ abstract class UpdateMe implements Built<UpdateMe, UpdateMeBuilder> {
   /// new NSFW display policy
   @BuiltValueField(wireName: r'displayNSFW')
   UpdateMeDisplayNSFWEnum? get displayNSFW;
-
   // enum displayNSFWEnum {  true,  false,  both,  };
 
   /// whether to enable P2P in the player or not
@@ -393,7 +392,6 @@ class UpdateMeDisplayNSFWEnum extends EnumClass {
 
   static BuiltSet<UpdateMeDisplayNSFWEnum> get values =>
       _$updateMeDisplayNSFWEnumValues;
-
   static UpdateMeDisplayNSFWEnum valueOf(String name) =>
       _$updateMeDisplayNSFWEnumValueOf(name);
 }

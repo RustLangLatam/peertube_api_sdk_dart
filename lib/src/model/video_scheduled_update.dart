@@ -23,7 +23,6 @@ abstract class VideoScheduledUpdate
 
   @BuiltValueField(wireName: r'privacy')
   VideoPrivacySet? get privacy;
-
   // enum privacyEnum {  1,  2,  3,  4,  5,  };
 
   VideoScheduledUpdate._();

@@ -20,7 +20,6 @@ abstract class VideoPlaylistTypeConstant
         Built<VideoPlaylistTypeConstant, VideoPlaylistTypeConstantBuilder> {
   @BuiltValueField(wireName: r'id')
   VideoPlaylistTypeSet? get id;
-
   // enum idEnum {  1,  2,  };
 
   @BuiltValueField(wireName: r'label')

@@ -57,17 +57,13 @@ class ServerConfigVideoBuilder
   _$ServerConfigVideo? _$v;
 
   ServerConfigVideoImageBuilder? _image;
-
   ServerConfigVideoImageBuilder get image =>
       _$this._image ??= new ServerConfigVideoImageBuilder();
-
   set image(ServerConfigVideoImageBuilder? image) => _$this._image = image;
 
   ServerConfigVideoFileBuilder? _file;
-
   ServerConfigVideoFileBuilder get file =>
       _$this._file ??= new ServerConfigVideoFileBuilder();
-
   set file(ServerConfigVideoFileBuilder? file) => _$this._file = file;
 
   ServerConfigVideoBuilder() {

@@ -29,7 +29,6 @@ abstract class NotificationActorFollow
 
   @BuiltValueField(wireName: r'state')
   NotificationActorFollowStateEnum? get state;
-
   // enum stateEnum {  pending,  accepted,  };
 
   @BuiltValueField(wireName: r'following')
@@ -190,7 +189,6 @@ class NotificationActorFollowStateEnum extends EnumClass {
 
   static BuiltSet<NotificationActorFollowStateEnum> get values =>
       _$notificationActorFollowStateEnumValues;
-
   static NotificationActorFollowStateEnum valueOf(String name) =>
       _$notificationActorFollowStateEnumValueOf(name);
 }

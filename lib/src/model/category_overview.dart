@@ -4,10 +4,10 @@
 
 // ignore_for_file: unused_element
 import 'package:built_collection/built_collection.dart';
+import 'package:peer_tube_api_sdk/src/model/video.dart';
+import 'package:peer_tube_api_sdk/src/model/video_constant_number_category.dart';
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
-
-import '../../peer_tube_api_sdk.dart';
 
 part 'category_overview.g.dart';
 

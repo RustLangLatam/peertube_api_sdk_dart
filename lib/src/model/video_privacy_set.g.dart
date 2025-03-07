@@ -40,19 +40,12 @@ final BuiltSet<VideoPrivacySet> _$values =
 
 class _$VideoPrivacySetMeta {
   const _$VideoPrivacySetMeta();
-
   VideoPrivacySet get number1 => _$number1;
-
   VideoPrivacySet get number2 => _$number2;
-
   VideoPrivacySet get number3 => _$number3;
-
   VideoPrivacySet get number4 => _$number4;
-
   VideoPrivacySet get number5 => _$number5;
-
   VideoPrivacySet valueOf(String name) => _$valueOf(name);
-
   BuiltSet<VideoPrivacySet> get values => _$values;
 }
 

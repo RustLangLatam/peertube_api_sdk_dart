@@ -58,17 +58,13 @@ class ServerConfigAvatarBuilder
   _$ServerConfigAvatar? _$v;
 
   ServerConfigAvatarFileBuilder? _file;
-
   ServerConfigAvatarFileBuilder get file =>
       _$this._file ??= new ServerConfigAvatarFileBuilder();
-
   set file(ServerConfigAvatarFileBuilder? file) => _$this._file = file;
 
   ListBuilder<String>? _extensions;
-
   ListBuilder<String> get extensions =>
       _$this._extensions ??= new ListBuilder<String>();
-
   set extensions(ListBuilder<String>? extensions) =>
       _$this._extensions = extensions;
 

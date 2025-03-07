@@ -40,17 +40,11 @@ final BuiltSet<RunnerJobType> _$values =
 
 class _$RunnerJobTypeMeta {
   const _$RunnerJobTypeMeta();
-
   RunnerJobType get vodWebVideoTranscoding => _$vodWebVideoTranscoding;
-
   RunnerJobType get vodHlsTranscoding => _$vodHlsTranscoding;
-
   RunnerJobType get vodAudioMergeTranscoding => _$vodAudioMergeTranscoding;
-
   RunnerJobType get liveRtmpHlsTranscoding => _$liveRtmpHlsTranscoding;
-
   RunnerJobType valueOf(String name) => _$valueOf(name);
-
   BuiltSet<RunnerJobType> get values => _$values;
 }
 

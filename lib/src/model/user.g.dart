@@ -8,99 +8,74 @@ part of 'user.dart';
 
 abstract mixin class UserBuilder {
   void replace(User other);
-
   void update(void Function(UserBuilder) updates);
-
   AccountBuilder get account;
-
   set account(AccountBuilder? account);
 
   bool? get autoPlayNextVideo;
-
   set autoPlayNextVideo(bool? autoPlayNextVideo);
 
   bool? get autoPlayNextVideoPlaylist;
-
   set autoPlayNextVideoPlaylist(bool? autoPlayNextVideoPlaylist);
 
   bool? get autoPlayVideo;
-
   set autoPlayVideo(bool? autoPlayVideo);
 
   bool? get blocked;
-
   set blocked(bool? blocked);
 
   String? get blockedReason;
-
   set blockedReason(String? blockedReason);
 
   String? get createdAt;
-
   set createdAt(String? createdAt);
 
   String? get email;
-
   set email(String? email);
 
   bool? get emailVerified;
-
   set emailVerified(bool? emailVerified);
 
   int? get id;
-
   set id(int? id);
 
   String? get pluginAuth;
-
   set pluginAuth(String? pluginAuth);
 
   DateTime? get lastLoginDate;
-
   set lastLoginDate(DateTime? lastLoginDate);
 
   bool? get noInstanceConfigWarningModal;
-
   set noInstanceConfigWarningModal(bool? noInstanceConfigWarningModal);
 
   bool? get noAccountSetupWarningModal;
-
   set noAccountSetupWarningModal(bool? noAccountSetupWarningModal);
 
   bool? get noWelcomeModal;
-
   set noWelcomeModal(bool? noWelcomeModal);
 
   NSFWPolicy? get nsfwPolicy;
-
   set nsfwPolicy(NSFWPolicy? nsfwPolicy);
 
   UserRoleBuilder get role;
-
   set role(UserRoleBuilder? role);
 
   String? get theme;
-
   set theme(String? theme);
 
   String? get username;
-
   set username(String? username);
 
   ListBuilder<VideoChannel> get videoChannels;
-
   set videoChannels(ListBuilder<VideoChannel>? videoChannels);
 
   int? get videoQuota;
-
   set videoQuota(int? videoQuota);
 
   int? get videoQuotaDaily;
-
   set videoQuotaDaily(int? videoQuotaDaily);
 
   bool? get p2pEnabled;
-
   set p2pEnabled(bool? p2pEnabled);
 }
 
@@ -281,157 +256,111 @@ class $UserBuilder implements Builder<$User, $UserBuilder>, UserBuilder {
   _$$User? _$v;
 
   AccountBuilder? _account;
-
   AccountBuilder get account => _$this._account ??= new AccountBuilder();
-
   set account(covariant AccountBuilder? account) => _$this._account = account;
 
   bool? _autoPlayNextVideo;
-
   bool? get autoPlayNextVideo => _$this._autoPlayNextVideo;
-
   set autoPlayNextVideo(covariant bool? autoPlayNextVideo) =>
       _$this._autoPlayNextVideo = autoPlayNextVideo;
 
   bool? _autoPlayNextVideoPlaylist;
-
   bool? get autoPlayNextVideoPlaylist => _$this._autoPlayNextVideoPlaylist;
-
   set autoPlayNextVideoPlaylist(covariant bool? autoPlayNextVideoPlaylist) =>
       _$this._autoPlayNextVideoPlaylist = autoPlayNextVideoPlaylist;
 
   bool? _autoPlayVideo;
-
   bool? get autoPlayVideo => _$this._autoPlayVideo;
-
   set autoPlayVideo(covariant bool? autoPlayVideo) =>
       _$this._autoPlayVideo = autoPlayVideo;
 
   bool? _blocked;
-
   bool? get blocked => _$this._blocked;
-
   set blocked(covariant bool? blocked) => _$this._blocked = blocked;
 
   String? _blockedReason;
-
   String? get blockedReason => _$this._blockedReason;
-
   set blockedReason(covariant String? blockedReason) =>
       _$this._blockedReason = blockedReason;
 
   String? _createdAt;
-
   String? get createdAt => _$this._createdAt;
-
   set createdAt(covariant String? createdAt) => _$this._createdAt = createdAt;
 
   String? _email;
-
   String? get email => _$this._email;
-
   set email(covariant String? email) => _$this._email = email;
 
   bool? _emailVerified;
-
   bool? get emailVerified => _$this._emailVerified;
-
   set emailVerified(covariant bool? emailVerified) =>
       _$this._emailVerified = emailVerified;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(covariant int? id) => _$this._id = id;
 
   String? _pluginAuth;
-
   String? get pluginAuth => _$this._pluginAuth;
-
   set pluginAuth(covariant String? pluginAuth) =>
       _$this._pluginAuth = pluginAuth;
 
   DateTime? _lastLoginDate;
-
   DateTime? get lastLoginDate => _$this._lastLoginDate;
-
   set lastLoginDate(covariant DateTime? lastLoginDate) =>
       _$this._lastLoginDate = lastLoginDate;
 
   bool? _noInstanceConfigWarningModal;
-
   bool? get noInstanceConfigWarningModal =>
       _$this._noInstanceConfigWarningModal;
-
   set noInstanceConfigWarningModal(
           covariant bool? noInstanceConfigWarningModal) =>
       _$this._noInstanceConfigWarningModal = noInstanceConfigWarningModal;
 
   bool? _noAccountSetupWarningModal;
-
   bool? get noAccountSetupWarningModal => _$this._noAccountSetupWarningModal;
-
   set noAccountSetupWarningModal(covariant bool? noAccountSetupWarningModal) =>
       _$this._noAccountSetupWarningModal = noAccountSetupWarningModal;
 
   bool? _noWelcomeModal;
-
   bool? get noWelcomeModal => _$this._noWelcomeModal;
-
   set noWelcomeModal(covariant bool? noWelcomeModal) =>
       _$this._noWelcomeModal = noWelcomeModal;
 
   NSFWPolicy? _nsfwPolicy;
-
   NSFWPolicy? get nsfwPolicy => _$this._nsfwPolicy;
-
   set nsfwPolicy(covariant NSFWPolicy? nsfwPolicy) =>
       _$this._nsfwPolicy = nsfwPolicy;
 
   UserRoleBuilder? _role;
-
   UserRoleBuilder get role => _$this._role ??= new UserRoleBuilder();
-
   set role(covariant UserRoleBuilder? role) => _$this._role = role;
 
   String? _theme;
-
   String? get theme => _$this._theme;
-
   set theme(covariant String? theme) => _$this._theme = theme;
 
   String? _username;
-
   String? get username => _$this._username;
-
   set username(covariant String? username) => _$this._username = username;
 
   ListBuilder<VideoChannel>? _videoChannels;
-
   ListBuilder<VideoChannel> get videoChannels =>
       _$this._videoChannels ??= new ListBuilder<VideoChannel>();
-
   set videoChannels(covariant ListBuilder<VideoChannel>? videoChannels) =>
       _$this._videoChannels = videoChannels;
 
   int? _videoQuota;
-
   int? get videoQuota => _$this._videoQuota;
-
   set videoQuota(covariant int? videoQuota) => _$this._videoQuota = videoQuota;
 
   int? _videoQuotaDaily;
-
   int? get videoQuotaDaily => _$this._videoQuotaDaily;
-
   set videoQuotaDaily(covariant int? videoQuotaDaily) =>
       _$this._videoQuotaDaily = videoQuotaDaily;
 
   bool? _p2pEnabled;
-
   bool? get p2pEnabled => _$this._p2pEnabled;
-
   set p2pEnabled(covariant bool? p2pEnabled) => _$this._p2pEnabled = p2pEnabled;
 
   $UserBuilder() {

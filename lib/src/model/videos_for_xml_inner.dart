@@ -87,7 +87,6 @@ abstract class VideosForXMLInner
   /// see [media:rating](https://www.rssboard.org/media-rss#media-rating) (MRSS)
   @BuiltValueField(wireName: r'media:rating')
   VideosForXMLInnerMediaColonRatingEnum? get mediaColonRating;
-
   // enum mediaColonRatingEnum {  nonadult,  adult,  };
 
   @BuiltValueField(wireName: r'enclosure')
@@ -422,7 +421,6 @@ class VideosForXMLInnerMediaColonRatingEnum extends EnumClass {
 
   static BuiltSet<VideosForXMLInnerMediaColonRatingEnum> get values =>
       _$videosForXMLInnerMediaColonRatingEnumValues;
-
   static VideosForXMLInnerMediaColonRatingEnum valueOf(String name) =>
       _$videosForXMLInnerMediaColonRatingEnumValueOf(name);
 }

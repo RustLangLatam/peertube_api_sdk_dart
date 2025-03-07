@@ -67,11 +67,9 @@ class ApiV1UsersMeVideoPlaylistsVideosExistGet200ResponseBuilder
 
   ListBuilder<ApiV1UsersMeVideoPlaylistsVideosExistGet200ResponseVideoIdInner>?
       _videoId;
-
   ListBuilder<ApiV1UsersMeVideoPlaylistsVideosExistGet200ResponseVideoIdInner>
       get videoId => _$this._videoId ??= new ListBuilder<
           ApiV1UsersMeVideoPlaylistsVideosExistGet200ResponseVideoIdInner>();
-
   set videoId(
           ListBuilder<
                   ApiV1UsersMeVideoPlaylistsVideosExistGet200ResponseVideoIdInner>?

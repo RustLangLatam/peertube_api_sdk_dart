@@ -67,16 +67,12 @@ class ApiV1UsersMeVideoQuotaUsedGet200ResponseBuilder
   _$ApiV1UsersMeVideoQuotaUsedGet200Response? _$v;
 
   num? _videoQuotaUsed;
-
   num? get videoQuotaUsed => _$this._videoQuotaUsed;
-
   set videoQuotaUsed(num? videoQuotaUsed) =>
       _$this._videoQuotaUsed = videoQuotaUsed;
 
   num? _videoQuotaUsedDaily;
-
   num? get videoQuotaUsedDaily => _$this._videoQuotaUsedDaily;
-
   set videoQuotaUsedDaily(num? videoQuotaUsedDaily) =>
       _$this._videoQuotaUsedDaily = videoQuotaUsedDaily;
 

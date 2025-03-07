@@ -64,9 +64,7 @@ class ResendEmailToVerifyRegistrationRequestBuilder
   _$ResendEmailToVerifyRegistrationRequest? _$v;
 
   String? _email;
-
   String? get email => _$this._email;
-
   set email(String? email) => _$this._email = email;
 
   ResendEmailToVerifyRegistrationRequestBuilder() {

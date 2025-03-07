@@ -72,34 +72,24 @@ class AbuseMessageBuilder
   _$AbuseMessage? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(int? id) => _$this._id = id;
 
   String? _message;
-
   String? get message => _$this._message;
-
   set message(String? message) => _$this._message = message;
 
   bool? _byModerator;
-
   bool? get byModerator => _$this._byModerator;
-
   set byModerator(bool? byModerator) => _$this._byModerator = byModerator;
 
   DateTime? _createdAt;
-
   DateTime? get createdAt => _$this._createdAt;
-
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   AccountSummaryBuilder? _account;
-
   AccountSummaryBuilder get account =>
       _$this._account ??= new AccountSummaryBuilder();
-
   set account(AccountSummaryBuilder? account) => _$this._account = account;
 
   AbuseMessageBuilder() {

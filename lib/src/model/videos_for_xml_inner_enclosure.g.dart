@@ -117,21 +117,15 @@ class VideosForXMLInnerEnclosureBuilder
   _$VideosForXMLInnerEnclosure? _$v;
 
   String? _url;
-
   String? get url => _$this._url;
-
   set url(String? url) => _$this._url = url;
 
   VideosForXMLInnerEnclosureTypeEnum? _type;
-
   VideosForXMLInnerEnclosureTypeEnum? get type => _$this._type;
-
   set type(VideosForXMLInnerEnclosureTypeEnum? type) => _$this._type = type;
 
   int? _length;
-
   int? get length => _$this._length;
-
   set length(int? length) => _$this._length = length;
 
   VideosForXMLInnerEnclosureBuilder() {

@@ -57,15 +57,11 @@ class VideoListResponseBuilder
   _$VideoListResponse? _$v;
 
   int? _total;
-
   int? get total => _$this._total;
-
   set total(int? total) => _$this._total = total;
 
   ListBuilder<Video>? _data;
-
   ListBuilder<Video> get data => _$this._data ??= new ListBuilder<Video>();
-
   set data(ListBuilder<Video>? data) => _$this._data = data;
 
   VideoListResponseBuilder() {

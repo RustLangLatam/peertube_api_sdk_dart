@@ -24,7 +24,6 @@ class UserAdminFlags extends EnumClass {
   const UserAdminFlags._(String name) : super(name);
 
   static BuiltSet<UserAdminFlags> get values => _$values;
-
   static UserAdminFlags valueOf(String name) => _$valueOf(name);
 }
 

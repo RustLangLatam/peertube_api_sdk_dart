@@ -2,17 +2,16 @@
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
 
-import 'package:built_value/built_value.dart';
-import 'package:built_value/json_object.dart';
-import 'package:built_value/serializer.dart';
-import 'package:peer_tube_api_sdk/src/model/runner_job.dart';
-import 'package:peer_tube_api_sdk/src/model/runner_job_parent.dart';
-import 'package:peer_tube_api_sdk/src/model/runner_job_payload.dart';
-
 // ignore_for_file: unused_element
 import 'package:peer_tube_api_sdk/src/model/runner_job_runner.dart';
+import 'package:peer_tube_api_sdk/src/model/runner_job_parent.dart';
 import 'package:peer_tube_api_sdk/src/model/runner_job_state_constant.dart';
 import 'package:peer_tube_api_sdk/src/model/runner_job_type.dart';
+import 'package:peer_tube_api_sdk/src/model/runner_job_payload.dart';
+import 'package:peer_tube_api_sdk/src/model/runner_job.dart';
+import 'package:built_value/json_object.dart';
+import 'package:built_value/built_value.dart';
+import 'package:built_value/serializer.dart';
 
 part 'runner_job_admin.g.dart';
 

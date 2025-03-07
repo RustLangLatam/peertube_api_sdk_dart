@@ -60,21 +60,15 @@ class VideoPasswordBuilder
   _$VideoPassword? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(int? id) => _$this._id = id;
 
   String? _password;
-
   String? get password => _$this._password;
-
   set password(String? password) => _$this._password = password;
 
   int? _videoId;
-
   int? get videoId => _$this._videoId;
-
   set videoId(int? videoId) => _$this._videoId = videoId;
 
   VideoPasswordBuilder() {

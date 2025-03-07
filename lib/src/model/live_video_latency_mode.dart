@@ -28,7 +28,6 @@ class LiveVideoLatencyMode extends EnumClass {
   const LiveVideoLatencyMode._(String name) : super(name);
 
   static BuiltSet<LiveVideoLatencyMode> get values => _$values;
-
   static LiveVideoLatencyMode valueOf(String name) => _$valueOf(name);
 }
 

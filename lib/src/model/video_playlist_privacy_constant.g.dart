@@ -60,15 +60,11 @@ class VideoPlaylistPrivacyConstantBuilder
   _$VideoPlaylistPrivacyConstant? _$v;
 
   VideoPlaylistPrivacySet? _id;
-
   VideoPlaylistPrivacySet? get id => _$this._id;
-
   set id(VideoPlaylistPrivacySet? id) => _$this._id = id;
 
   String? _label;
-
   String? get label => _$this._label;
-
   set label(String? label) => _$this._label = label;
 
   VideoPlaylistPrivacyConstantBuilder() {

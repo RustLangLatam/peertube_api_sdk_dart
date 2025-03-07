@@ -54,9 +54,7 @@ class VideosForXMLInnerMediaEmbedBuilder
   _$VideosForXMLInnerMediaEmbed? _$v;
 
   String? _url;
-
   String? get url => _$this._url;
-
   set url(String? url) => _$this._url = url;
 
   VideosForXMLInnerMediaEmbedBuilder() {

@@ -32,7 +32,6 @@ class UserImportState extends EnumClass {
   const UserImportState._(String name) : super(name);
 
   static BuiltSet<UserImportState> get values => _$values;
-
   static UserImportState valueOf(String name) => _$valueOf(name);
 }
 

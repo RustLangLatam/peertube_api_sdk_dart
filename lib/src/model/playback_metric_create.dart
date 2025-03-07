@@ -30,7 +30,6 @@ abstract class PlaybackMetricCreate
     implements Built<PlaybackMetricCreate, PlaybackMetricCreateBuilder> {
   @BuiltValueField(wireName: r'playerMode')
   PlaybackMetricCreatePlayerModeEnum get playerMode;
-
   // enum playerModeEnum {  p2p-media-loader,  web-video,  };
 
   @BuiltValueField(wireName: r'p2pEnabled')
@@ -327,7 +326,6 @@ class PlaybackMetricCreatePlayerModeEnum extends EnumClass {
 
   static BuiltSet<PlaybackMetricCreatePlayerModeEnum> get values =>
       _$playbackMetricCreatePlayerModeEnumValues;
-
   static PlaybackMetricCreatePlayerModeEnum valueOf(String name) =>
       _$playbackMetricCreatePlayerModeEnumValueOf(name);
 }

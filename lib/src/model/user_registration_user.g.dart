@@ -51,9 +51,7 @@ class UserRegistrationUserBuilder
   _$UserRegistrationUser? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(int? id) => _$this._id = id;
 
   UserRegistrationUserBuilder() {

@@ -2,11 +2,11 @@
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
 
-import 'package:built_value/built_value.dart';
-import 'package:built_value/serializer.dart';
-import 'package:peer_tube_api_sdk/src/model/file_storage.dart';
 // ignore_for_file: unused_element
 import 'package:peer_tube_api_sdk/src/model/video_resolution_constant.dart';
+import 'package:peer_tube_api_sdk/src/model/file_storage.dart';
+import 'package:built_value/built_value.dart';
+import 'package:built_value/serializer.dart';
 
 part 'video_file.g.dart';
 
@@ -86,7 +86,6 @@ abstract class VideoFile implements Built<VideoFile, VideoFileBuilder> {
 
   @BuiltValueField(wireName: r'storage')
   FileStorage? get storage;
-
   // enum storageEnum {  0,  1,  };
 
   VideoFile._();

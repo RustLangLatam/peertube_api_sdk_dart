@@ -65,16 +65,12 @@ class UserRegistrationAcceptOrRejectBuilder
   _$UserRegistrationAcceptOrReject? _$v;
 
   String? _moderationResponse;
-
   String? get moderationResponse => _$this._moderationResponse;
-
   set moderationResponse(String? moderationResponse) =>
       _$this._moderationResponse = moderationResponse;
 
   bool? _preventEmailDelivery;
-
   bool? get preventEmailDelivery => _$this._preventEmailDelivery;
-
   set preventEmailDelivery(bool? preventEmailDelivery) =>
       _$this._preventEmailDelivery = preventEmailDelivery;
 

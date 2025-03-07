@@ -2,12 +2,12 @@
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
 
-import 'package:built_collection/built_collection.dart';
-import 'package:built_value/built_value.dart';
-import 'package:built_value/serializer.dart';
-import 'package:peer_tube_api_sdk/src/model/actor.dart';
 // ignore_for_file: unused_element
 import 'package:peer_tube_api_sdk/src/model/actor_image.dart';
+import 'package:built_collection/built_collection.dart';
+import 'package:peer_tube_api_sdk/src/model/actor.dart';
+import 'package:built_value/built_value.dart';
+import 'package:built_value/serializer.dart';
 
 part 'account.g.dart';
 

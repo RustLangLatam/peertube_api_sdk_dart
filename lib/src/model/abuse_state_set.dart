@@ -27,7 +27,6 @@ class AbuseStateSet extends EnumClass {
   const AbuseStateSet._(String name) : super(name);
 
   static BuiltSet<AbuseStateSet> get values => _$values;
-
   static AbuseStateSet valueOf(String name) => _$valueOf(name);
 }
 

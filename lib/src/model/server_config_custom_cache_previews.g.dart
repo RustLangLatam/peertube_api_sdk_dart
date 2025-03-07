@@ -55,9 +55,7 @@ class ServerConfigCustomCachePreviewsBuilder
   _$ServerConfigCustomCachePreviews? _$v;
 
   int? _size;
-
   int? get size => _$this._size;
-
   set size(int? size) => _$this._size = size;
 
   ServerConfigCustomCachePreviewsBuilder() {

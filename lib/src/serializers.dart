@@ -691,6 +691,10 @@ Serializers serializers = (_$serializers.toBuilder()
         () => ListBuilder<User>(),
       )
       ..addBuilderFactory(
+        const FullType(BuiltMap, [FullType(String), FullType(String)]),
+        () => MapBuilder<String, String>(),
+      )
+      ..addBuilderFactory(
         const FullType(BuiltSet, [FullType(String)]),
         () => SetBuilder<String>(),
       )

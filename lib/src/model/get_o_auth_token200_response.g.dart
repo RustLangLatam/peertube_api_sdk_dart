@@ -80,33 +80,23 @@ class GetOAuthToken200ResponseBuilder
   _$GetOAuthToken200Response? _$v;
 
   String? _tokenType;
-
   String? get tokenType => _$this._tokenType;
-
   set tokenType(String? tokenType) => _$this._tokenType = tokenType;
 
   String? _accessToken;
-
   String? get accessToken => _$this._accessToken;
-
   set accessToken(String? accessToken) => _$this._accessToken = accessToken;
 
   String? _refreshToken;
-
   String? get refreshToken => _$this._refreshToken;
-
   set refreshToken(String? refreshToken) => _$this._refreshToken = refreshToken;
 
   int? _expiresIn;
-
   int? get expiresIn => _$this._expiresIn;
-
   set expiresIn(int? expiresIn) => _$this._expiresIn = expiresIn;
 
   int? _refreshTokenExpiresIn;
-
   int? get refreshTokenExpiresIn => _$this._refreshTokenExpiresIn;
-
   set refreshTokenExpiresIn(int? refreshTokenExpiresIn) =>
       _$this._refreshTokenExpiresIn = refreshTokenExpiresIn;
 

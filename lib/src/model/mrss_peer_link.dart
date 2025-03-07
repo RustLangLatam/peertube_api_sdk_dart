@@ -22,7 +22,6 @@ abstract class MRSSPeerLink
 
   @BuiltValueField(wireName: r'type')
   MRSSPeerLinkTypeEnum? get type;
-
   // enum typeEnum {  application/x-bittorrent,  };
 
   MRSSPeerLink._();
@@ -142,7 +141,6 @@ class MRSSPeerLinkTypeEnum extends EnumClass {
 
   static BuiltSet<MRSSPeerLinkTypeEnum> get values =>
       _$mRSSPeerLinkTypeEnumValues;
-
   static MRSSPeerLinkTypeEnum valueOf(String name) =>
       _$mRSSPeerLinkTypeEnumValueOf(name);
 }

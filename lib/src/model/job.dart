@@ -4,8 +4,8 @@
 
 // ignore_for_file: unused_element
 import 'package:built_collection/built_collection.dart';
-import 'package:built_value/built_value.dart';
 import 'package:built_value/json_object.dart';
+import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
 
 part 'job.g.dart';
@@ -28,12 +28,10 @@ abstract class Job implements Built<Job, JobBuilder> {
 
   @BuiltValueField(wireName: r'state')
   JobStateEnum? get state;
-
   // enum stateEnum {  active,  completed,  failed,  waiting,  delayed,  };
 
   @BuiltValueField(wireName: r'type')
   JobTypeEnum? get type;
-
   // enum typeEnum {  activitypub-http-unicast,  activitypub-http-broadcast,  activitypub-http-fetcher,  activitypub-follow,  video-file-import,  video-transcoding,  email,  video-import,  videos-views-stats,  activitypub-refresher,  video-redundancy,  video-channel-import,  };
 
   @BuiltValueField(wireName: r'data')
@@ -261,7 +259,6 @@ class JobStateEnum extends EnumClass {
   const JobStateEnum._(String name) : super(name);
 
   static BuiltSet<JobStateEnum> get values => _$jobStateEnumValues;
-
   static JobStateEnum valueOf(String name) => _$jobStateEnumValueOf(name);
 }
 
@@ -301,6 +298,5 @@ class JobTypeEnum extends EnumClass {
   const JobTypeEnum._(String name) : super(name);
 
   static BuiltSet<JobTypeEnum> get values => _$jobTypeEnumValues;
-
   static JobTypeEnum valueOf(String name) => _$jobTypeEnumValueOf(name);
 }

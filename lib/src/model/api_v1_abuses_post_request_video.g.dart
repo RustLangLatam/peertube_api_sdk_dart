@@ -66,21 +66,15 @@ class ApiV1AbusesPostRequestVideoBuilder
   _$ApiV1AbusesPostRequestVideo? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(int? id) => _$this._id = id;
 
   int? _startAt;
-
   int? get startAt => _$this._startAt;
-
   set startAt(int? startAt) => _$this._startAt = startAt;
 
   int? _endAt;
-
   int? get endAt => _$this._endAt;
-
   set endAt(int? endAt) => _$this._endAt = endAt;
 
   ApiV1AbusesPostRequestVideoBuilder() {

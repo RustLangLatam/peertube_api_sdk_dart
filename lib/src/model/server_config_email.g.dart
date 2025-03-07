@@ -51,9 +51,7 @@ class ServerConfigEmailBuilder
   _$ServerConfigEmail? _$v;
 
   bool? _enabled;
-
   bool? get enabled => _$this._enabled;
-
   set enabled(bool? enabled) => _$this._enabled = enabled;
 
   ServerConfigEmailBuilder() {

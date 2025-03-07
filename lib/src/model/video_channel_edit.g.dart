@@ -6,21 +6,16 @@ part of 'video_channel_edit.dart';
 // BuiltValueGenerator
 // **************************************************************************
 
-abstract class VideoChannelEditBuilder {
+abstract mixin class VideoChannelEditBuilder {
   void replace(VideoChannelEdit other);
-
   void update(void Function(VideoChannelEditBuilder) updates);
-
   String? get displayName;
-
   set displayName(String? displayName);
 
   String? get description;
-
   set description(String? description);
 
   String? get support;
-
   set support(String? support);
 }
 
@@ -83,23 +78,17 @@ class $VideoChannelEditBuilder
   _$$VideoChannelEdit? _$v;
 
   String? _displayName;
-
   String? get displayName => _$this._displayName;
-
   set displayName(covariant String? displayName) =>
       _$this._displayName = displayName;
 
   String? _description;
-
   String? get description => _$this._description;
-
   set description(covariant String? description) =>
       _$this._description = description;
 
   String? _support;
-
   String? get support => _$this._support;
-
   set support(covariant String? support) => _$this._support = support;
 
   $VideoChannelEditBuilder() {

@@ -60,18 +60,14 @@ class ServerConfigCustomImportBuilder
   _$ServerConfigCustomImport? _$v;
 
   ServerConfigImportVideosBuilder? _videos;
-
   ServerConfigImportVideosBuilder get videos =>
       _$this._videos ??= new ServerConfigImportVideosBuilder();
-
   set videos(ServerConfigImportVideosBuilder? videos) =>
       _$this._videos = videos;
 
   ServerConfigEmailBuilder? _videoChannelSynchronization;
-
   ServerConfigEmailBuilder get videoChannelSynchronization =>
       _$this._videoChannelSynchronization ??= new ServerConfigEmailBuilder();
-
   set videoChannelSynchronization(
           ServerConfigEmailBuilder? videoChannelSynchronization) =>
       _$this._videoChannelSynchronization = videoChannelSynchronization;

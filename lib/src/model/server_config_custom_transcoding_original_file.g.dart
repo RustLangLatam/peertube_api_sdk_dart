@@ -60,9 +60,7 @@ class ServerConfigCustomTranscodingOriginalFileBuilder
   _$ServerConfigCustomTranscodingOriginalFile? _$v;
 
   bool? _keep;
-
   bool? get keep => _$this._keep;
-
   set keep(bool? keep) => _$this._keep = keep;
 
   ServerConfigCustomTranscodingOriginalFileBuilder() {

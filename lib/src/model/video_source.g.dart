@@ -99,61 +99,43 @@ class VideoSourceBuilder implements Builder<VideoSource, VideoSourceBuilder> {
   _$VideoSource? _$v;
 
   String? _filename;
-
   String? get filename => _$this._filename;
-
   set filename(String? filename) => _$this._filename = filename;
 
   String? _inputFilename;
-
   String? get inputFilename => _$this._inputFilename;
-
   set inputFilename(String? inputFilename) =>
       _$this._inputFilename = inputFilename;
 
   String? _fileDownloadUrl;
-
   String? get fileDownloadUrl => _$this._fileDownloadUrl;
-
   set fileDownloadUrl(String? fileDownloadUrl) =>
       _$this._fileDownloadUrl = fileDownloadUrl;
 
   VideoResolutionConstantBuilder? _resolution;
-
   VideoResolutionConstantBuilder get resolution =>
       _$this._resolution ??= new VideoResolutionConstantBuilder();
-
   set resolution(VideoResolutionConstantBuilder? resolution) =>
       _$this._resolution = resolution;
 
   int? _size;
-
   int? get size => _$this._size;
-
   set size(int? size) => _$this._size = size;
 
   num? _fps;
-
   num? get fps => _$this._fps;
-
   set fps(num? fps) => _$this._fps = fps;
 
   num? _width;
-
   num? get width => _$this._width;
-
   set width(num? width) => _$this._width = width;
 
   num? _height;
-
   num? get height => _$this._height;
-
   set height(num? height) => _$this._height = height;
 
   DateTime? _createdAt;
-
   DateTime? get createdAt => _$this._createdAt;
-
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   VideoSourceBuilder() {

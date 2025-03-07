@@ -39,7 +39,7 @@ Add the `peer_tube_api_sdk` package to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  peer_tube_api_sdk: ^1.0.9
+  peer_tube_api_sdk: ^1.0.10
 ```
 
 Then, run `flutter pub get` to install the package.

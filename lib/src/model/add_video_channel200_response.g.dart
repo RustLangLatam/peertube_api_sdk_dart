@@ -54,10 +54,8 @@ class AddVideoChannel200ResponseBuilder
   _$AddVideoChannel200Response? _$v;
 
   ApiV1AbusesPost200ResponseAbuseBuilder? _videoChannel;
-
   ApiV1AbusesPost200ResponseAbuseBuilder get videoChannel =>
       _$this._videoChannel ??= new ApiV1AbusesPost200ResponseAbuseBuilder();
-
   set videoChannel(ApiV1AbusesPost200ResponseAbuseBuilder? videoChannel) =>
       _$this._videoChannel = videoChannel;
 

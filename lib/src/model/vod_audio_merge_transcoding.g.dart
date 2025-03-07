@@ -53,9 +53,7 @@ class VODAudioMergeTranscodingBuilder
   _$VODAudioMergeTranscoding? _$v;
 
   Uint8List? _videoFile;
-
   Uint8List? get videoFile => _$this._videoFile;
-
   set videoFile(Uint8List? videoFile) => _$this._videoFile = videoFile;
 
   VODAudioMergeTranscodingBuilder() {

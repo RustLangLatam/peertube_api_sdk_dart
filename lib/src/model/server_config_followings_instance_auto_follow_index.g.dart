@@ -62,9 +62,7 @@ class ServerConfigFollowingsInstanceAutoFollowIndexBuilder
   _$ServerConfigFollowingsInstanceAutoFollowIndex? _$v;
 
   String? _indexUrl;
-
   String? get indexUrl => _$this._indexUrl;
-
   set indexUrl(String? indexUrl) => _$this._indexUrl = indexUrl;
 
   ServerConfigFollowingsInstanceAutoFollowIndexBuilder() {

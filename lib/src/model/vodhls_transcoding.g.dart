@@ -58,15 +58,11 @@ class VODHLSTranscodingBuilder
   _$VODHLSTranscoding? _$v;
 
   Uint8List? _videoFile;
-
   Uint8List? get videoFile => _$this._videoFile;
-
   set videoFile(Uint8List? videoFile) => _$this._videoFile = videoFile;
 
   Uint8List? _resolutionPlaylistFile;
-
   Uint8List? get resolutionPlaylistFile => _$this._resolutionPlaylistFile;
-
   set resolutionPlaylistFile(Uint8List? resolutionPlaylistFile) =>
       _$this._resolutionPlaylistFile = resolutionPlaylistFile;
 

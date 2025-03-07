@@ -21,7 +21,6 @@ abstract class VideoPlaylistPrivacyConstant
             VideoPlaylistPrivacyConstantBuilder> {
   @BuiltValueField(wireName: r'id')
   VideoPlaylistPrivacySet? get id;
-
   // enum idEnum {  1,  2,  3,  };
 
   @BuiltValueField(wireName: r'label')

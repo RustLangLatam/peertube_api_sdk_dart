@@ -61,11 +61,9 @@ class ApiV1RunnersJobsJobUUIDAcceptPost200ResponseBuilder
   _$ApiV1RunnersJobsJobUUIDAcceptPost200Response? _$v;
 
   ApiV1RunnersJobsJobUUIDAcceptPost200ResponseJobBuilder? _job;
-
   ApiV1RunnersJobsJobUUIDAcceptPost200ResponseJobBuilder get job =>
       _$this._job ??=
           new ApiV1RunnersJobsJobUUIDAcceptPost200ResponseJobBuilder();
-
   set job(ApiV1RunnersJobsJobUUIDAcceptPost200ResponseJobBuilder? job) =>
       _$this._job = job;
 

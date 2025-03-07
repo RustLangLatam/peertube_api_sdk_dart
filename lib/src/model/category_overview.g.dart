@@ -57,17 +57,13 @@ class CategoryOverviewBuilder
   _$CategoryOverview? _$v;
 
   VideoConstantNumberCategoryBuilder? _category;
-
   VideoConstantNumberCategoryBuilder get category =>
       _$this._category ??= new VideoConstantNumberCategoryBuilder();
-
   set category(VideoConstantNumberCategoryBuilder? category) =>
       _$this._category = category;
 
   ListBuilder<Video>? _videos;
-
   ListBuilder<Video> get videos => _$this._videos ??= new ListBuilder<Video>();
-
   set videos(ListBuilder<Video>? videos) => _$this._videos = videos;
 
   CategoryOverviewBuilder() {

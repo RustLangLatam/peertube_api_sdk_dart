@@ -56,9 +56,7 @@ class PutMirroredVideoRequestBuilder
   _$PutMirroredVideoRequest? _$v;
 
   int? _videoId;
-
   int? get videoId => _$this._videoId;
-
   set videoId(int? videoId) => _$this._videoId = videoId;
 
   PutMirroredVideoRequestBuilder() {

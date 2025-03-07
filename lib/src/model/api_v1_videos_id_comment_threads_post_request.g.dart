@@ -63,9 +63,7 @@ class ApiV1VideosIdCommentThreadsPostRequestBuilder
   _$ApiV1VideosIdCommentThreadsPostRequest? _$v;
 
   String? _text;
-
   String? get text => _$this._text;
-
   set text(String? text) => _$this._text = text;
 
   ApiV1VideosIdCommentThreadsPostRequestBuilder() {

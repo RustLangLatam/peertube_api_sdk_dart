@@ -60,9 +60,7 @@ class ApiV1UsersMeSubscriptionsPostRequestBuilder
   _$ApiV1UsersMeSubscriptionsPostRequest? _$v;
 
   String? _uri;
-
   String? get uri => _$this._uri;
-
   set uri(String? uri) => _$this._uri = uri;
 
   ApiV1UsersMeSubscriptionsPostRequestBuilder() {

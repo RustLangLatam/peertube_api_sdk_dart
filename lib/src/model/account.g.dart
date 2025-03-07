@@ -123,88 +123,62 @@ class AccountBuilder implements Builder<Account, AccountBuilder>, ActorBuilder {
   _$Account? _$v;
 
   String? _displayName;
-
   String? get displayName => _$this._displayName;
-
   set displayName(covariant String? displayName) =>
       _$this._displayName = displayName;
 
   String? _description;
-
   String? get description => _$this._description;
-
   set description(covariant String? description) =>
       _$this._description = description;
 
   int? _userId;
-
   int? get userId => _$this._userId;
-
   set userId(covariant int? userId) => _$this._userId = userId;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(covariant int? id) => _$this._id = id;
 
   String? _url;
-
   String? get url => _$this._url;
-
   set url(covariant String? url) => _$this._url = url;
 
   String? _name;
-
   String? get name => _$this._name;
-
   set name(covariant String? name) => _$this._name = name;
 
   ListBuilder<ActorImage>? _avatars;
-
   ListBuilder<ActorImage> get avatars =>
       _$this._avatars ??= new ListBuilder<ActorImage>();
-
   set avatars(covariant ListBuilder<ActorImage>? avatars) =>
       _$this._avatars = avatars;
 
   String? _host;
-
   String? get host => _$this._host;
-
   set host(covariant String? host) => _$this._host = host;
 
   bool? _hostRedundancyAllowed;
-
   bool? get hostRedundancyAllowed => _$this._hostRedundancyAllowed;
-
   set hostRedundancyAllowed(covariant bool? hostRedundancyAllowed) =>
       _$this._hostRedundancyAllowed = hostRedundancyAllowed;
 
   int? _followingCount;
-
   int? get followingCount => _$this._followingCount;
-
   set followingCount(covariant int? followingCount) =>
       _$this._followingCount = followingCount;
 
   int? _followersCount;
-
   int? get followersCount => _$this._followersCount;
-
   set followersCount(covariant int? followersCount) =>
       _$this._followersCount = followersCount;
 
   DateTime? _createdAt;
-
   DateTime? get createdAt => _$this._createdAt;
-
   set createdAt(covariant DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _updatedAt;
-
   DateTime? get updatedAt => _$this._updatedAt;
-
   set updatedAt(covariant DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   AccountBuilder() {

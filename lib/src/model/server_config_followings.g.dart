@@ -52,10 +52,8 @@ class ServerConfigFollowingsBuilder
   _$ServerConfigFollowings? _$v;
 
   ServerConfigFollowingsInstanceBuilder? _instance;
-
   ServerConfigFollowingsInstanceBuilder get instance =>
       _$this._instance ??= new ServerConfigFollowingsInstanceBuilder();
-
   set instance(ServerConfigFollowingsInstanceBuilder? instance) =>
       _$this._instance = instance;
 

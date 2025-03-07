@@ -79,21 +79,15 @@ class ApiV1RunnersJobsJobUUIDAbortPostRequestBuilder
   _$ApiV1RunnersJobsJobUUIDAbortPostRequest? _$v;
 
   String? _runnerToken;
-
   String? get runnerToken => _$this._runnerToken;
-
   set runnerToken(String? runnerToken) => _$this._runnerToken = runnerToken;
 
   String? _jobToken;
-
   String? get jobToken => _$this._jobToken;
-
   set jobToken(String? jobToken) => _$this._jobToken = jobToken;
 
   String? _reason;
-
   String? get reason => _$this._reason;
-
   set reason(String? reason) => _$this._reason = reason;
 
   ApiV1RunnersJobsJobUUIDAbortPostRequestBuilder() {

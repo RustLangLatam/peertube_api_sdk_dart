@@ -51,10 +51,8 @@ class ServerConfigAboutBuilder
   _$ServerConfigAbout? _$v;
 
   ServerConfigAboutInstanceBuilder? _instance;
-
   ServerConfigAboutInstanceBuilder get instance =>
       _$this._instance ??= new ServerConfigAboutInstanceBuilder();
-
   set instance(ServerConfigAboutInstanceBuilder? instance) =>
       _$this._instance = instance;
 

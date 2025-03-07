@@ -57,9 +57,7 @@ class RequestUserExport200ResponseExportBuilder
   _$RequestUserExport200ResponseExport? _$v;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(int? id) => _$this._id = id;
 
   RequestUserExport200ResponseExportBuilder() {

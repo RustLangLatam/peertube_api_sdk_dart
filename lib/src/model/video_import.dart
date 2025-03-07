@@ -4,11 +4,10 @@
 
 // ignore_for_file: unused_element
 import 'dart:typed_data';
-
-import 'package:built_value/built_value.dart';
-import 'package:built_value/serializer.dart';
 import 'package:peer_tube_api_sdk/src/model/video.dart';
 import 'package:peer_tube_api_sdk/src/model/video_import_state_constant.dart';
+import 'package:built_value/built_value.dart';
+import 'package:built_value/serializer.dart';
 
 part 'video_import.g.dart';
 

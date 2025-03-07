@@ -4,8 +4,10 @@
 
 import 'dart:async';
 
+import 'package:built_value/json_object.dart';
 import 'package:built_value/serializer.dart';
 import 'package:dio/dio.dart';
+
 import 'package:peer_tube_api_sdk/src/api_util.dart';
 import 'package:peer_tube_api_sdk/src/model/list_user_exports200_response.dart';
 import 'package:peer_tube_api_sdk/src/model/request_user_export200_response.dart';

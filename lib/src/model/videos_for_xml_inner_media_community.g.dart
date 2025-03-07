@@ -56,11 +56,9 @@ class VideosForXMLInnerMediaCommunityBuilder
   _$VideosForXMLInnerMediaCommunity? _$v;
 
   VideosForXMLInnerMediaCommunityMediaStatisticsBuilder? _mediaColonStatistics;
-
   VideosForXMLInnerMediaCommunityMediaStatisticsBuilder
       get mediaColonStatistics => _$this._mediaColonStatistics ??=
           new VideosForXMLInnerMediaCommunityMediaStatisticsBuilder();
-
   set mediaColonStatistics(
           VideosForXMLInnerMediaCommunityMediaStatisticsBuilder?
               mediaColonStatistics) =>

@@ -36,17 +36,11 @@ final BuiltSet<UserExportState> _$values =
 
 class _$UserExportStateMeta {
   const _$UserExportStateMeta();
-
   UserExportState get number1 => _$number1;
-
   UserExportState get number2 => _$number2;
-
   UserExportState get number3 => _$number3;
-
   UserExportState get number4 => _$number4;
-
   UserExportState valueOf(String name) => _$valueOf(name);
-
   BuiltSet<UserExportState> get values => _$values;
 }
 

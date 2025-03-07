@@ -22,7 +22,6 @@ class NSFWPolicy extends EnumClass {
   const NSFWPolicy._(String name) : super(name);
 
   static BuiltSet<NSFWPolicy> get values => _$values;
-
   static NSFWPolicy valueOf(String name) => _$valueOf(name);
 }
 

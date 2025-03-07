@@ -52,10 +52,8 @@ class VideoTokenResponseBuilder
   _$VideoTokenResponse? _$v;
 
   VideoTokenResponseFilesBuilder? _files;
-
   VideoTokenResponseFilesBuilder get files =>
       _$this._files ??= new VideoTokenResponseFilesBuilder();
-
   set files(VideoTokenResponseFilesBuilder? files) => _$this._files = files;
 
   VideoTokenResponseBuilder() {

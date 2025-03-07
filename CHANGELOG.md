@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.10
+
+- fix getCategories
+- fix VideoCommentsPolicySet
+
 ## 1.0.9
 
 - update examples

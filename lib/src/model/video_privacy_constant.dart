@@ -19,7 +19,6 @@ abstract class VideoPrivacyConstant
     implements Built<VideoPrivacyConstant, VideoPrivacyConstantBuilder> {
   @BuiltValueField(wireName: r'id')
   VideoPrivacySet? get id;
-
   // enum idEnum {  1,  2,  3,  4,  5,  };
 
   @BuiltValueField(wireName: r'label')

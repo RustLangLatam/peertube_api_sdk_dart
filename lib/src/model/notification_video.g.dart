@@ -76,34 +76,24 @@ class NotificationVideoBuilder
   _$NotificationVideo? _$v;
 
   ActorInfoBuilder? _channel;
-
   ActorInfoBuilder get channel => _$this._channel ??= new ActorInfoBuilder();
-
   set channel(covariant ActorInfoBuilder? channel) => _$this._channel = channel;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(covariant int? id) => _$this._id = id;
 
   String? _uuid;
-
   String? get uuid => _$this._uuid;
-
   set uuid(covariant String? uuid) => _$this._uuid = uuid;
 
   String? _name;
-
   String? get name => _$this._name;
-
   set name(covariant String? name) => _$this._name = name;
 
   VideoStateConstantBuilder? _state;
-
   VideoStateConstantBuilder get state =>
       _$this._state ??= new VideoStateConstantBuilder();
-
   set state(covariant VideoStateConstantBuilder? state) =>
       _$this._state = state;
 

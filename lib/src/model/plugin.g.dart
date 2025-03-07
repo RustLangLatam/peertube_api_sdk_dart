@@ -170,79 +170,55 @@ class PluginBuilder implements Builder<Plugin, PluginBuilder> {
   _$Plugin? _$v;
 
   String? _name;
-
   String? get name => _$this._name;
-
   set name(String? name) => _$this._name = name;
 
   PluginTypeEnum? _type;
-
   PluginTypeEnum? get type => _$this._type;
-
   set type(PluginTypeEnum? type) => _$this._type = type;
 
   String? _latestVersion;
-
   String? get latestVersion => _$this._latestVersion;
-
   set latestVersion(String? latestVersion) =>
       _$this._latestVersion = latestVersion;
 
   String? _version;
-
   String? get version => _$this._version;
-
   set version(String? version) => _$this._version = version;
 
   bool? _enabled;
-
   bool? get enabled => _$this._enabled;
-
   set enabled(bool? enabled) => _$this._enabled = enabled;
 
   bool? _uninstalled;
-
   bool? get uninstalled => _$this._uninstalled;
-
   set uninstalled(bool? uninstalled) => _$this._uninstalled = uninstalled;
 
   String? _peertubeEngine;
-
   String? get peertubeEngine => _$this._peertubeEngine;
-
   set peertubeEngine(String? peertubeEngine) =>
       _$this._peertubeEngine = peertubeEngine;
 
   String? _description;
-
   String? get description => _$this._description;
-
   set description(String? description) => _$this._description = description;
 
   String? _homepage;
-
   String? get homepage => _$this._homepage;
-
   set homepage(String? homepage) => _$this._homepage = homepage;
 
   MapBuilder<String, JsonObject?>? _settings;
-
   MapBuilder<String, JsonObject?> get settings =>
       _$this._settings ??= new MapBuilder<String, JsonObject?>();
-
   set settings(MapBuilder<String, JsonObject?>? settings) =>
       _$this._settings = settings;
 
   DateTime? _createdAt;
-
   DateTime? get createdAt => _$this._createdAt;
-
   set createdAt(DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _updatedAt;
-
   DateTime? get updatedAt => _$this._updatedAt;
-
   set updatedAt(DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   PluginBuilder() {

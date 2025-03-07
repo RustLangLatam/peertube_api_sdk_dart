@@ -62,11 +62,9 @@ class ApiV1RunnersJobsRequestPost200ResponseBuilder
 
   ListBuilder<ApiV1RunnersJobsRequestPost200ResponseAvailableJobsInner>?
       _availableJobs;
-
   ListBuilder<ApiV1RunnersJobsRequestPost200ResponseAvailableJobsInner>
       get availableJobs => _$this._availableJobs ??= new ListBuilder<
           ApiV1RunnersJobsRequestPost200ResponseAvailableJobsInner>();
-
   set availableJobs(
           ListBuilder<ApiV1RunnersJobsRequestPost200ResponseAvailableJobsInner>?
               availableJobs) =>

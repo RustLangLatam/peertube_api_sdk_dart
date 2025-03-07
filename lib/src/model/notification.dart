@@ -2,16 +2,15 @@
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
 
-import 'package:built_value/built_value.dart';
-import 'package:built_value/serializer.dart';
-import 'package:peer_tube_api_sdk/src/model/actor_info.dart';
-
 // ignore_for_file: unused_element
 import 'package:peer_tube_api_sdk/src/model/notification_actor_follow.dart';
-import 'package:peer_tube_api_sdk/src/model/notification_comment.dart';
 import 'package:peer_tube_api_sdk/src/model/notification_video.dart';
-import 'package:peer_tube_api_sdk/src/model/notification_video_abuse.dart';
+import 'package:peer_tube_api_sdk/src/model/actor_info.dart';
+import 'package:peer_tube_api_sdk/src/model/notification_comment.dart';
 import 'package:peer_tube_api_sdk/src/model/notification_video_import.dart';
+import 'package:peer_tube_api_sdk/src/model/notification_video_abuse.dart';
+import 'package:built_value/built_value.dart';
+import 'package:built_value/serializer.dart';
 
 part 'notification.g.dart';
 

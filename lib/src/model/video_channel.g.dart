@@ -8,71 +8,53 @@ part of 'video_channel.dart';
 
 abstract mixin class VideoChannelBuilder implements ActorBuilder {
   void replace(covariant VideoChannel other);
-
   void update(void Function(VideoChannelBuilder) updates);
-
   String? get displayName;
-
   set displayName(covariant String? displayName);
 
   String? get description;
-
   set description(covariant String? description);
 
   AccountBuilder get ownerAccount;
-
   set ownerAccount(covariant AccountBuilder? ownerAccount);
 
   String? get support;
-
   set support(covariant String? support);
 
   ListBuilder<ActorImage> get banners;
-
   set banners(covariant ListBuilder<ActorImage>? banners);
 
   bool? get isLocal;
-
   set isLocal(covariant bool? isLocal);
 
   int? get id;
-
   set id(covariant int? id);
 
   String? get url;
-
   set url(covariant String? url);
 
   String? get name;
-
   set name(covariant String? name);
 
   ListBuilder<ActorImage> get avatars;
-
   set avatars(covariant ListBuilder<ActorImage>? avatars);
 
   String? get host;
-
   set host(covariant String? host);
 
   bool? get hostRedundancyAllowed;
-
   set hostRedundancyAllowed(covariant bool? hostRedundancyAllowed);
 
   int? get followingCount;
-
   set followingCount(covariant int? followingCount);
 
   int? get followersCount;
-
   set followersCount(covariant int? followersCount);
 
   DateTime? get createdAt;
-
   set createdAt(covariant DateTime? createdAt);
 
   DateTime? get updatedAt;
-
   set updatedAt(covariant DateTime? updatedAt);
 }
 
@@ -214,110 +196,78 @@ class $VideoChannelBuilder
   _$$VideoChannel? _$v;
 
   String? _displayName;
-
   String? get displayName => _$this._displayName;
-
   set displayName(covariant String? displayName) =>
       _$this._displayName = displayName;
 
   String? _description;
-
   String? get description => _$this._description;
-
   set description(covariant String? description) =>
       _$this._description = description;
 
   AccountBuilder? _ownerAccount;
-
   AccountBuilder get ownerAccount =>
       _$this._ownerAccount ??= new AccountBuilder();
-
   set ownerAccount(covariant AccountBuilder? ownerAccount) =>
       _$this._ownerAccount = ownerAccount;
 
   String? _support;
-
   String? get support => _$this._support;
-
   set support(covariant String? support) => _$this._support = support;
 
   ListBuilder<ActorImage>? _banners;
-
   ListBuilder<ActorImage> get banners =>
       _$this._banners ??= new ListBuilder<ActorImage>();
-
   set banners(covariant ListBuilder<ActorImage>? banners) =>
       _$this._banners = banners;
 
   bool? _isLocal;
-
   bool? get isLocal => _$this._isLocal;
-
   set isLocal(covariant bool? isLocal) => _$this._isLocal = isLocal;
 
   int? _id;
-
   int? get id => _$this._id;
-
   set id(covariant int? id) => _$this._id = id;
 
   String? _url;
-
   String? get url => _$this._url;
-
   set url(covariant String? url) => _$this._url = url;
 
   String? _name;
-
   String? get name => _$this._name;
-
   set name(covariant String? name) => _$this._name = name;
 
   ListBuilder<ActorImage>? _avatars;
-
   ListBuilder<ActorImage> get avatars =>
       _$this._avatars ??= new ListBuilder<ActorImage>();
-
   set avatars(covariant ListBuilder<ActorImage>? avatars) =>
       _$this._avatars = avatars;
 
   String? _host;
-
   String? get host => _$this._host;
-
   set host(covariant String? host) => _$this._host = host;
 
   bool? _hostRedundancyAllowed;
-
   bool? get hostRedundancyAllowed => _$this._hostRedundancyAllowed;
-
   set hostRedundancyAllowed(covariant bool? hostRedundancyAllowed) =>
       _$this._hostRedundancyAllowed = hostRedundancyAllowed;
 
   int? _followingCount;
-
   int? get followingCount => _$this._followingCount;
-
   set followingCount(covariant int? followingCount) =>
       _$this._followingCount = followingCount;
 
   int? _followersCount;
-
   int? get followersCount => _$this._followersCount;
-
   set followersCount(covariant int? followersCount) =>
       _$this._followersCount = followersCount;
 
   DateTime? _createdAt;
-
   DateTime? get createdAt => _$this._createdAt;
-
   set createdAt(covariant DateTime? createdAt) => _$this._createdAt = createdAt;
 
   DateTime? _updatedAt;
-
   DateTime? get updatedAt => _$this._updatedAt;
-
   set updatedAt(covariant DateTime? updatedAt) => _$this._updatedAt = updatedAt;
 
   $VideoChannelBuilder() {

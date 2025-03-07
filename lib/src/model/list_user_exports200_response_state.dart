@@ -21,7 +21,6 @@ abstract class ListUserExports200ResponseState
             ListUserExports200ResponseStateBuilder> {
   @BuiltValueField(wireName: r'id')
   UserExportState? get id;
-
   // enum idEnum {  1,  2,  3,  4,  };
 
   @BuiltValueField(wireName: r'label')

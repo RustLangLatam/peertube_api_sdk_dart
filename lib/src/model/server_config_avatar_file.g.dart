@@ -52,10 +52,8 @@ class ServerConfigAvatarFileBuilder
   _$ServerConfigAvatarFile? _$v;
 
   ServerConfigAvatarFileSizeBuilder? _size;
-
   ServerConfigAvatarFileSizeBuilder get size =>
       _$this._size ??= new ServerConfigAvatarFileSizeBuilder();
-
   set size(ServerConfigAvatarFileSizeBuilder? size) => _$this._size = size;
 
   ServerConfigAvatarFileBuilder() {

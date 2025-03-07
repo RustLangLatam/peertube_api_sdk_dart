@@ -63,9 +63,7 @@ class ApiV1ServerBlocklistServersPostRequestBuilder
   _$ApiV1ServerBlocklistServersPostRequest? _$v;
 
   String? _host;
-
   String? get host => _$this._host;
-
   set host(String? host) => _$this._host = host;
 
   ApiV1ServerBlocklistServersPostRequestBuilder() {

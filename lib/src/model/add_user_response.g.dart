@@ -49,10 +49,8 @@ class AddUserResponseBuilder
   _$AddUserResponse? _$v;
 
   AddUserResponseUserBuilder? _user;
-
   AddUserResponseUserBuilder get user =>
       _$this._user ??= new AddUserResponseUserBuilder();
-
   set user(AddUserResponseUserBuilder? user) => _$this._user = user;
 
   AddUserResponseBuilder() {

@@ -60,15 +60,11 @@ class VODWebVideoTranscoding1OutputBuilder
   _$VODWebVideoTranscoding1Output? _$v;
 
   num? _resolution;
-
   num? get resolution => _$this._resolution;
-
   set resolution(num? resolution) => _$this._resolution = resolution;
 
   num? _fps;
-
   num? get fps => _$this._fps;
-
   set fps(num? fps) => _$this._fps = fps;
 
   VODWebVideoTranscoding1OutputBuilder() {

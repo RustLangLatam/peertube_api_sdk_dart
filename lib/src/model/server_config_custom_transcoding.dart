@@ -56,7 +56,6 @@ abstract class ServerConfigCustomTranscoding
   /// New profiles can be added by plugins ; available in core PeerTube: 'default'.
   @BuiltValueField(wireName: r'profile')
   ServerConfigCustomTranscodingProfileEnum? get profile;
-
   // enum profileEnum {  default,  };
 
   @BuiltValueField(wireName: r'resolutions')
@@ -310,7 +309,6 @@ class ServerConfigCustomTranscodingProfileEnum extends EnumClass {
 
   static BuiltSet<ServerConfigCustomTranscodingProfileEnum> get values =>
       _$serverConfigCustomTranscodingProfileEnumValues;
-
   static ServerConfigCustomTranscodingProfileEnum valueOf(String name) =>
       _$serverConfigCustomTranscodingProfileEnumValueOf(name);
 }

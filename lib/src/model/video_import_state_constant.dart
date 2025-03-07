@@ -21,7 +21,6 @@ abstract class VideoImportStateConstant
   /// The video import state (Pending = `1`, Success = `2`, Failed = `3`)
   @BuiltValueField(wireName: r'id')
   VideoImportStateConstantIdEnum? get id;
-
   // enum idEnum {  1,  2,  3,  };
 
   @BuiltValueField(wireName: r'label')
@@ -162,7 +161,6 @@ class VideoImportStateConstantIdEnum extends EnumClass {
 
   static BuiltSet<VideoImportStateConstantIdEnum> get values =>
       _$videoImportStateConstantIdEnumValues;
-
   static VideoImportStateConstantIdEnum valueOf(String name) =>
       _$videoImportStateConstantIdEnumValueOf(name);
 }

@@ -2,14 +2,14 @@
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
 
-import 'package:built_value/built_value.dart';
-import 'package:built_value/serializer.dart';
-import 'package:peer_tube_api_sdk/src/model/runner_job_parent.dart';
-import 'package:peer_tube_api_sdk/src/model/runner_job_payload.dart';
 // ignore_for_file: unused_element
 import 'package:peer_tube_api_sdk/src/model/runner_job_runner.dart';
+import 'package:peer_tube_api_sdk/src/model/runner_job_parent.dart';
 import 'package:peer_tube_api_sdk/src/model/runner_job_state_constant.dart';
 import 'package:peer_tube_api_sdk/src/model/runner_job_type.dart';
+import 'package:peer_tube_api_sdk/src/model/runner_job_payload.dart';
+import 'package:built_value/built_value.dart';
+import 'package:built_value/serializer.dart';
 
 part 'runner_job.g.dart';
 
@@ -37,7 +37,6 @@ abstract class RunnerJob {
 
   @BuiltValueField(wireName: r'type')
   RunnerJobType? get type;
-
   // enum typeEnum {  vod-web-video-transcoding,  vod-hls-transcoding,  vod-audio-merge-transcoding,  live-rtmp-hls-transcoding,  };
 
   @BuiltValueField(wireName: r'state')

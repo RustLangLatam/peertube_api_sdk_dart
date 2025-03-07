@@ -66,25 +66,19 @@ class ServerConfigTranscodingBuilder
   _$ServerConfigTranscoding? _$v;
 
   ServerConfigEmailBuilder? _hls;
-
   ServerConfigEmailBuilder get hls =>
       _$this._hls ??= new ServerConfigEmailBuilder();
-
   set hls(ServerConfigEmailBuilder? hls) => _$this._hls = hls;
 
   ServerConfigEmailBuilder? _webVideos;
-
   ServerConfigEmailBuilder get webVideos =>
       _$this._webVideos ??= new ServerConfigEmailBuilder();
-
   set webVideos(ServerConfigEmailBuilder? webVideos) =>
       _$this._webVideos = webVideos;
 
   ListBuilder<int>? _enabledResolutions;
-
   ListBuilder<int> get enabledResolutions =>
       _$this._enabledResolutions ??= new ListBuilder<int>();
-
   set enabledResolutions(ListBuilder<int>? enabledResolutions) =>
       _$this._enabledResolutions = enabledResolutions;
 

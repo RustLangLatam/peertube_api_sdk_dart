@@ -24,7 +24,6 @@ class VideoPlaylistTypeSet extends EnumClass {
   const VideoPlaylistTypeSet._(String name) : super(name);
 
   static BuiltSet<VideoPlaylistTypeSet> get values => _$values;
-
   static VideoPlaylistTypeSet valueOf(String name) => _$valueOf(name);
 }
 

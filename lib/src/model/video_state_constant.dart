@@ -20,7 +20,6 @@ abstract class VideoStateConstant
   /// The video state: - `1`: Published - `2`: To transcode - `3`: To import - `4`: Waiting for live stream - `5`: Live ended - `6`: To move to an external storage (object storage...) - `7`: Transcoding failed - `8`: Moving to an external storage failed - `9`: To edit using studio edition feature
   @BuiltValueField(wireName: r'id')
   VideoStateConstantIdEnum? get id;
-
   // enum idEnum {  1,  2,  3,  4,  5,  6,  7,  8,  9,  };
 
   @BuiltValueField(wireName: r'label')
@@ -187,7 +186,6 @@ class VideoStateConstantIdEnum extends EnumClass {
 
   static BuiltSet<VideoStateConstantIdEnum> get values =>
       _$videoStateConstantIdEnumValues;
-
   static VideoStateConstantIdEnum valueOf(String name) =>
       _$videoStateConstantIdEnumValueOf(name);
 }

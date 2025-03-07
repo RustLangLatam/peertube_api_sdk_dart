@@ -25,7 +25,6 @@ class RunnerJobType extends EnumClass {
   const RunnerJobType._(String name) : super(name);
 
   static BuiltSet<RunnerJobType> get values => _$values;
-
   static RunnerJobType valueOf(String name) => _$valueOf(name);
 }
 

@@ -2,11 +2,11 @@
 // AUTO-GENERATED FILE, DO NOT MODIFY!
 //
 
-import 'package:built_value/built_value.dart';
-import 'package:built_value/serializer.dart';
 // ignore_for_file: unused_element
 import 'package:peer_tube_api_sdk/src/model/user_admin_flags.dart';
 import 'package:peer_tube_api_sdk/src/model/user_role.dart';
+import 'package:built_value/built_value.dart';
+import 'package:built_value/serializer.dart';
 
 part 'add_user.g.dart';
 
@@ -36,7 +36,6 @@ abstract class AddUser implements Built<AddUser, AddUserBuilder> {
 
   @BuiltValueField(wireName: r'role')
   UserRole get role;
-
   // enum roleEnum {  0,  1,  2,  };
 
   /// The user video quota in bytes
@@ -53,7 +52,6 @@ abstract class AddUser implements Built<AddUser, AddUserBuilder> {
 
   @BuiltValueField(wireName: r'adminFlags')
   UserAdminFlags? get adminFlags;
-
   // enum adminFlagsEnum {  0,  1,  };
 
   AddUser._();

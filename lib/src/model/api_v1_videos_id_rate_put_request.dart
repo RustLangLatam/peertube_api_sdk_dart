@@ -19,7 +19,6 @@ abstract class ApiV1VideosIdRatePutRequest
         Built<ApiV1VideosIdRatePutRequest, ApiV1VideosIdRatePutRequestBuilder> {
   @BuiltValueField(wireName: r'rating')
   ApiV1VideosIdRatePutRequestRatingEnum get rating;
-
   // enum ratingEnum {  like,  dislike,  };
 
   ApiV1VideosIdRatePutRequest._();
@@ -134,7 +133,6 @@ class ApiV1VideosIdRatePutRequestRatingEnum extends EnumClass {
 
   static BuiltSet<ApiV1VideosIdRatePutRequestRatingEnum> get values =>
       _$apiV1VideosIdRatePutRequestRatingEnumValues;
-
   static ApiV1VideosIdRatePutRequestRatingEnum valueOf(String name) =>
       _$apiV1VideosIdRatePutRequestRatingEnumValueOf(name);
 }

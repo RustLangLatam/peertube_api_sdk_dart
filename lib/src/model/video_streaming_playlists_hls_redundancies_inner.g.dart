@@ -61,9 +61,7 @@ class VideoStreamingPlaylistsHLSRedundanciesInnerBuilder
   _$VideoStreamingPlaylistsHLSRedundanciesInner? _$v;
 
   String? _baseUrl;
-
   String? get baseUrl => _$this._baseUrl;
-
   set baseUrl(String? baseUrl) => _$this._baseUrl = baseUrl;
 
   VideoStreamingPlaylistsHLSRedundanciesInnerBuilder() {

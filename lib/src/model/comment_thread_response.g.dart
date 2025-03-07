@@ -65,23 +65,17 @@ class CommentThreadResponseBuilder
   _$CommentThreadResponse? _$v;
 
   int? _total;
-
   int? get total => _$this._total;
-
   set total(int? total) => _$this._total = total;
 
   int? _totalNotDeletedComments;
-
   int? get totalNotDeletedComments => _$this._totalNotDeletedComments;
-
   set totalNotDeletedComments(int? totalNotDeletedComments) =>
       _$this._totalNotDeletedComments = totalNotDeletedComments;
 
   ListBuilder<VideoComment>? _data;
-
   ListBuilder<VideoComment> get data =>
       _$this._data ??= new ListBuilder<VideoComment>();
-
   set data(ListBuilder<VideoComment>? data) => _$this._data = data;
 
   CommentThreadResponseBuilder() {

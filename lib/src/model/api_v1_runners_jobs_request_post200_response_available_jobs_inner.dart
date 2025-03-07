@@ -26,7 +26,6 @@ abstract class ApiV1RunnersJobsRequestPost200ResponseAvailableJobsInner
 
   @BuiltValueField(wireName: r'type')
   RunnerJobType? get type;
-
   // enum typeEnum {  vod-web-video-transcoding,  vod-hls-transcoding,  vod-audio-merge-transcoding,  live-rtmp-hls-transcoding,  };
 
   @BuiltValueField(wireName: r'payload')

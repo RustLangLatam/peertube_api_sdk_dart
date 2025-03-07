@@ -52,10 +52,8 @@ class ServerConfigPluginBuilder
   _$ServerConfigPlugin? _$v;
 
   ListBuilder<String>? _registered;
-
   ListBuilder<String> get registered =>
       _$this._registered ??= new ListBuilder<String>();
-
   set registered(ListBuilder<String>? registered) =>
       _$this._registered = registered;
 

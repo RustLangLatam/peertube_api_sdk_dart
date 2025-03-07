@@ -21,7 +21,6 @@ abstract class ApiV1AbusesAbuseIdPutRequest
             ApiV1AbusesAbuseIdPutRequestBuilder> {
   @BuiltValueField(wireName: r'state')
   AbuseStateSet? get state;
-
   // enum stateEnum {  1,  2,  3,  };
 
   /// Update the report comment visible only to the moderation team

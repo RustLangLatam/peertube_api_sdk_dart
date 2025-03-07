@@ -51,9 +51,7 @@ class VideoUserHistoryBuilder
   _$VideoUserHistory? _$v;
 
   int? _currentTime;
-
   int? get currentTime => _$this._currentTime;
-
   set currentTime(int? currentTime) => _$this._currentTime = currentTime;
 
   VideoUserHistoryBuilder() {

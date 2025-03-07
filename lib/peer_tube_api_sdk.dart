@@ -93,7 +93,6 @@ export 'package:peer_tube_api_sdk/src/model/api_v1_abuses_abuse_id_messages_post
 export 'package:peer_tube_api_sdk/src/model/api_v1_abuses_abuse_id_put_request.dart';
 export 'package:peer_tube_api_sdk/src/model/api_v1_abuses_post200_response.dart';
 export 'package:peer_tube_api_sdk/src/model/api_v1_abuses_post200_response_abuse.dart';
-export 'package:peer_tube_api_sdk/src/model/api_v1_abuses_post_request.dart';
 export 'package:peer_tube_api_sdk/src/model/api_v1_abuses_post_request_account.dart';
 export 'package:peer_tube_api_sdk/src/model/api_v1_abuses_post_request_comment.dart';
 export 'package:peer_tube_api_sdk/src/model/api_v1_abuses_post_request_video.dart';
