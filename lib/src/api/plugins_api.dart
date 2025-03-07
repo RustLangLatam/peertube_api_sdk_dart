@@ -9,7 +9,6 @@ import 'package:built_value/serializer.dart';
 import 'package:dio/dio.dart';
 
 import 'package:built_collection/built_collection.dart';
-import 'package:built_value/json_object.dart';
 import 'package:peer_tube_api_sdk/src/api_util.dart';
 import 'package:peer_tube_api_sdk/src/model/add_plugin_request.dart';
 import 'package:peer_tube_api_sdk/src/model/api_v1_plugins_npm_name_settings_put_request.dart';

@@ -4,6 +4,8 @@
 
 - fix getCategories
 - fix VideoCommentsPolicySet
+- update models
+- add get_licences example
 
 ## 1.0.9
 
